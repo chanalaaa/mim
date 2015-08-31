@@ -11,10 +11,10 @@
     -->
     
     <main>
-        <section id="slide-1" class="initp" data-center="background-position: 50% 0px;opacity:1;" data-top-bottom="background-position: 50% -100px;" data-200p="opacity:0;">
+        <section id="slide-1" class="initp" data-center="background-position: 50% 0px;opacity:1;" data-top-bottom="background-position: 50% -100px;">
             <div class="bcg" data-anchor-target="#slide-1">
                 <div class="hsContainer">
-                    <div class="hsContent" data-center="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-1 h2">
+                    <div class="hsContent" data-0="opacity: 1" data--250-top="opacity: 0" data-anchor-target="#slide-1 h2">
                         <h2>Lorem ipsum <br />dolor sit amet</h2>
                         <p>consectetur adipiscing elit. Ut et est at justo hendrerit tristique non sit amet est Ut non malesuada eros. Donec ut egestas quam. In imperdiet consequat ex non congue</p>
                     </div>
@@ -24,12 +24,12 @@
         <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px;" data-0="transform:translate(0,100%);" data-100p="transform:translate(0,0%)" data-_box-100p="" data-_box-300p="transform:translate(0,-100%)">
             <div class="bcg" data-anchor-target="#slide-2">
                 <div class="hsContainer">
-                <div class="hsContent">
+               
                     <div data-100p="opacity:1;">
                         <div class="box1" data-100p="transform:translate(0%,0);" data-200p="transform:translate(100%,0);">1111111111</div>
                         <div class="box1" data-100p="transform:translate(0%,0%);left:20%;" data-110p="transform:translate(10%,40%);" data-130p="transform:translate(50%,20%);">2222222222</div>
                         <div class="box1" data-100p="transform:translate(0%,0%);left:20%;margin-top:-3%;" data-110p="transform:translate(10%,53%);" data-120p="transform:translate(60%,-5%);">3333333333</div>
-                    </div>
+                   
                     </div>
                 </div>
             </div>

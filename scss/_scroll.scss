@@ -1,7 +1,7 @@
     /*
      * A better looking default horizontal rule
      */
-
+    
     hr {
         display: block;
         height: 1px;
@@ -10,53 +10,43 @@
         margin: 1em 0;
         padding: 0;
     }
-
-
     /*
      * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
      */
-
+    
     img {
         vertical-align: middle;
     }
-
-
     /*
      * Remove default fieldset styles.
      */
-
+    
     fieldset {
         border: 0;
         margin: 0;
         padding: 0;
     }
-
-
     /*
      * Allow only vertical resizing of textareas.
      */
-
+    
     textarea {
         resize: vertical;
     }
-
-
     /* ==========================================================================
        Chrome Frame prompt
        ========================================================================== */
-
+    
     .chromeframe {
         margin: 0.2em 0;
         background: #ccc;
         color: #000;
         padding: 0.2em 0;
     }
-
-
     /* ==========================================================================
        Parallax Scroll
        ========================================================================== */
-
+    
     .initp {
         position: fixed;
         top: 0;
@@ -66,7 +56,7 @@
         background: transparent center no-repeat;
         background-size: cover;
     }
-
+    
     @mixin bcg_init {
         background-position: center center;
         background-repeat: no-repeat;
@@ -75,33 +65,33 @@
         height: 100%;
         width: 100%;
     }
-
+    
     body,
     html {
         height: 100%;
         min-height: 100%;
         background-color: #000;
     }
-
+    
     body {}
-
+    
     .no-js {
         padding-top: 106px;
     }
-
+    
     h2 {
         margin-top: 0;
     }
-
+    
     .loading {
         background: url('../images/ico_loading.gif') no-repeat center center;
     }
-
+    
     section {
         min-width: 960px;
         opacity: 0;
     }
-
+    
     .loaded section,
     .no-js section {
         opacity: 1;
@@ -109,15 +99,15 @@
         -moz-transition: opacity 300ms ease-out;
         transition: opacity 300ms ease-out;
     }
-
+    
     main {
         overflow-x: hidden;
     }
-
+    
     .bcg {
         @include bcg_init;
     }
-
+    
     #preload {
         width: 1px;
         height: 1px;
@@ -126,17 +116,13 @@
         top: 0;
         left: 0;
     }
-
-
     /* ==========================================================================
        Helper classes
        ========================================================================== */
-
-
     /*
      * Image replacement
      */
-
+    
     .ir {
         background-color: transparent;
         border: 0;
@@ -144,29 +130,25 @@
         /* IE 6/7 fallback */
         *text-indent: -9999px;
     }
-
+    
     .ir:before {
         content: "";
         display: block;
         width: 0;
         height: 150%;
     }
-
-
     /*
      * Hide from both screenreaders and browsers: h5bp.com/u
      */
-
+    
     .hidden {
         display: none !important;
         visibility: hidden;
     }
-
-
     /*
      * Hide only visually, but have it available for screenreaders: h5bp.com/v
      */
-
+    
     .visuallyhidden {
         border: 0;
         clip: rect(0 0 0 0);
@@ -177,13 +159,11 @@
         position: absolute;
         width: 1px;
     }
-
-
     /*
      * Extends the .visuallyhidden class to allow the element to be focusable
      * when navigated to via the keyboard: h5bp.com/p
      */
-
+    
     .visuallyhidden.focusable:active,
     .visuallyhidden.focusable:focus {
         clip: auto;
@@ -193,17 +173,13 @@
         position: static;
         width: auto;
     }
-
-
     /*
      * Hide visually and from screenreaders, but maintain layout
      */
-
+    
     .invisible {
         visibility: hidden;
     }
-
-
     /*
      * Clearfix: contain floats
      *
@@ -215,7 +191,7 @@
      * 2. The use of `table` rather than `block` is only necessary if using
      *    `:before` to contain the top-margins of child elements.
      */
-
+    
     .clearfix:before,
     .clearfix:after {
         content: " ";
@@ -223,45 +199,39 @@
         display: table;
         /* 2 */
     }
-
+    
     .clearfix:after {
         clear: both;
     }
-
-
     /*
      * For IE 6/7 only
      * Include this rule to trigger hasLayout and contain floats.
      */
-
+    
     .clearfix {
         *zoom: 1;
     }
-
-
     /* ==========================================================================
        EXAMPLE Media Queries for Responsive Design.
        These examples override the primary ('mobile first') styles.
        Modify as content requires.
        ========================================================================== */
-
+    
     @media only screen and (min-width: 35em) {
         /* Style adjustments for viewports that meet the condition */
     }
-
+    
     @media print,
     (-o-min-device-pixel-ratio: 5/4),
     (-webkit-min-device-pixel-ratio: 1.25),
     (min-resolution: 120dpi) {
         /* Style adjustments for high resolution devices */
     }
-
-
     /* ==========================================================================
        Print styles.
        Inlined to avoid required HTTP connection: h5bp.com/r
        ========================================================================== */
-
+    
     @media print {
         * {
             background: transparent !important;
@@ -318,28 +288,24 @@
             page-break-after: avoid;
         }
     }
-
+    
     .back-link a {
         color: #4ca340;
         text-decoration: none;
         border-bottom: 1px #4ca340 solid;
     }
-
+    
     .back-link a:hover,
     .back-link a:focus {
         color: #408536;
         text-decoration: none;
         border-bottom: 1px #408536 solid;
     }
-
-
     /* ==========================================================================
        Slide
        ========================================================================== */
-
-
     /* Slide 1 */
-
+    
     #slide-1 {
         background-image: url('../images/content/bg2.jpg');
         //@include bcg_init;
@@ -347,42 +313,32 @@
             color: #fff;
         }
     }
-
-
     /* Slide 2 */
-
+    
     #slide-2 {
         background-image: url('../images/content/bg4.jpg');
         //background-color: #f99;
         //@include bcg_init;
     }
-
-
     /* Slide 3 */
-
+    
     #slide-3 {
         background-image: url('../images/content/bg3.jpg');
         //@include bcg_init;
     }
-
-
     /* Slide 4 */
-
+    
     #slide-4 {
         background-image: url('../images/content/bg1.jpg');
         //@include bcg_init;
     }
-
-
     /* Slide 5 */
-
+    
     #slide-5 {
         //position: relative;
         background-color: #fff;
         color: #000;
     }
-
-
     /*
     #slide-5 .bcg {
         color: white;
@@ -413,7 +369,7 @@
         padding: 3px 10px;
     }
     */
-
+    
     h1 {
         height: 100%;
         /* The html and body elements cannot have any padding or margin. */
@@ -424,13 +380,13 @@
         font-size: 32px;
         margin-bottom: 3px;
     }
-
+    
     h2 {
         //color: #1c1d1e;
         font-family: 'Open Sans', sans-serif;
         font-weight: normal;
     }
-
+    /*
     .hsContainer {
         display: table;
         table-layout: fixed;
@@ -468,7 +424,45 @@
         color: #b2b2b2;
         text-decoration: underline;
     }
-
+    
+    //-------------------------------------------------------------
+    
+    .hsContainer {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .hsContent {
+        max-width: 700px;
+        position: absolute;
+        left: 0%;
+        top: 50%;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .hsContent h2 {
+        color: #fff8de;
+        padding: 10px 5px;
+        font-size: 35px;
+        line-height: 38px;
+        margin-bottom: 12px;
+    }
+    
+    .hsContent p {
+        width: 400px;
+        color: #b2b2b2;
+    }
+    
+    .hsContent a {
+        color: #b2b2b2;
+        text-decoration: underline;
+    }
+    
     .box1 {
         position: absolute;
         width: 50%;
@@ -476,3 +470,5 @@
         top: 50%;
         color: blue;
     }
+
+*/

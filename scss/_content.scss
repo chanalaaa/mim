@@ -1,9 +1,51 @@
  // Content //////////////////////////////////
 
- ///////////////////test//////////////////////////
+
+ // Content area ////////////////////////////////////
+ .hsContainer {
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+     position: relative;
+ }
  
-	///////////////////test//////////////////
+ .hsContent {
+     max-width: 700px;
+     position: absolute;
+     top: 30%;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: rgba(0, 0, 0, 0.5);
+
+ }
+ 
+ .hsContent h2 {
+     //color: #fff8de;
+     padding: 10px 5px;
+     font-size: 35px;
+     line-height: 38px;
+     margin-bottom: 12px;
+ }
+ 
+ .hsContent p {
+     width: 400px;
+     
+ }
+ 
+ .hsContent a {
+     color: #b2b2b2;
+     text-decoration: underline;
+ }
+
+ // End Content area ////////////////////////////////////
+ .box1 {
+     position: absolute;
+     width: 50%;
+     height: 50%;
+     top: 50%;
+     color: blue;
+ }
  
  // End Content //////////////////////////////////
-
-
