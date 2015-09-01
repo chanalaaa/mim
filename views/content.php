@@ -1,7 +1,7 @@
 <!-- CONTENT ************************** -->
 
 <body class="loading">
-<!--
+    <!--
     <div id="preload">
         <img src="images/content/bg1.jpg">
         <img src="images/content/bg1.jpg">
@@ -9,9 +9,8 @@
         <img src="images/content/bg3.jpg">
     </div>
     -->
-    
     <main>
-        <section id="slide-1" class="initp" data-center="background-position: 50% 0px;opacity:1;" data-top-bottom="background-position: 50% -100px;">
+        <section id="slide-1" class="initp1" data-center="background-position: 50% 0px;opacity:1;" data-top-bottom="background-position: 50% -100px;">
             <div class="bcg" data-anchor-target="#slide-1">
                 <div class="hsContainer">
                     <div class="hsContent" data-0="opacity: 1" data--250-top="opacity: 0" data-anchor-target="#slide-1 h2">
@@ -21,15 +20,14 @@
                 </div>
             </div>
         </section>
-        <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px;" data-0="transform:translate(0,100%);" data-100p="transform:translate(0,0%)" data-_box-100p="" data-_box-300p="transform:translate(0,-100%)">
+        <section id="slide-2" class="initp1" data-100p-center="background-position: 50% 0px;" 
+        data-0="transform:translate(0,75%);" data-100p="transform:translate(0,0%);" data-_box-100p="" data-_box-300p="transform:translate(0,-100%)">
             <div class="bcg" data-anchor-target="#slide-2">
                 <div class="hsContainer">
-               
                     <div data-100p="opacity:1;">
                         <div class="box1" data-100p="transform:translate(0%,0);" data-200p="transform:translate(100%,0);">1111111111</div>
                         <div class="box1" data-100p="transform:translate(0%,0%);left:20%;" data-110p="transform:translate(10%,40%);" data-130p="transform:translate(50%,20%);">2222222222</div>
                         <div class="box1" data-100p="transform:translate(0%,0%);left:20%;margin-top:-3%;" data-110p="transform:translate(10%,53%);" data-120p="transform:translate(60%,-5%);">3333333333</div>
-                   
                     </div>
                 </div>
             </div>
@@ -56,7 +54,7 @@
                 </div>
             </div>
         </section>
-        <section id="slide-5" class="initp" data-top-bottom="background-position: 50% -100px;" data-600p="transform:translate(0,100%);" data-700p="transform:translate(0,0%)">
+        <section id="slide-5" class="initp1" data-top-bottom="background-position: 50% -100px;" data-600p="transform:translate(0,100%);" data-700p="transform:translate(0,0%)">
             <div class="bcg" data-anchor-target="#slide-5">
                 <div class="hsContainer">
                     <div class="hsContent" data-center="opacity: 1" data-anchor-target="#slide-1 h2">

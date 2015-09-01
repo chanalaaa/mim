@@ -2,8 +2,8 @@ $(document).ready(function() {
 
     // Setup variables
     $window = $(window);
-    $slide = $('.initp');
-    $slideTall = $('.homeSlideTall');
+    $slide = $('.initp1');
+    $slideTall = $('.initp');
     $slideTall2 = $('.homeSlideTall2');
     $body = $('body');
 
@@ -53,7 +53,7 @@ $(document).ready(function() {
 
         // Resize our slides
         $slide.height(winH);
-        $slideTall.height(winH * 2);
+        $slideTall.height(winH * 1.5);
         $slideTall2.height(winH * 3);
 
         // Refresh Skrollr after resizing our sections
@@ -61,6 +61,7 @@ $(document).ready(function() {
 
 
         s.refresh($('.initp'));
+
 
 
     }
