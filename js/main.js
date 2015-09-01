@@ -53,7 +53,7 @@ $(document).ready(function() {
 
         // Resize our slides
         $slide.height(winH);
-        $slideTall.height(winH * 1.5);
+        $slideTall.height(winH);
         $slideTall2.height(winH * 3);
 
         // Refresh Skrollr after resizing our sections

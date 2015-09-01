@@ -542,9 +542,16 @@ h2 {
   background: transparent center no-repeat;
   background-size: cover; }
 
+main section:nth-child(2) {
+  width: 100%;
+  border-bottom: 0% solid transparent;
+  border-left: 100vw solid rgba(0, 0, 255, 0.5);
+  border-top: 2.3em solid transparent;
+  overflow: hidden; }
+
 /* ==========================================================================
-   Slide
-   ========================================================================== */
+      Slide
+      ========================================================================== */
 /* Slide 1 */
 #slide-1 {
   background-image: url("../images/content/bg2.jpg"); }
@@ -568,7 +575,7 @@ h2 {
   background-color: #fff;
   color: #000; }
 
-    /*
+ /*
     #slide-5 .bcg {
         color: white;
     }
@@ -633,3 +640,10 @@ h2 {
   height: 50%;
   top: 50%;
   color: blue; }
+
+#triangle-bottomleft {
+  width: 0;
+  height: 30px;
+  border-bottom: 0px solid transparent;
+  border-left: 100px solid blue;
+  border-top: 20px solid transparent; }
