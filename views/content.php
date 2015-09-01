@@ -14,15 +14,16 @@
             <div class="bcg" data-anchor-target="#slide-1">
                 <div class="hsContainer">
                     <div class="hsContent" data-0="opacity: 1" data--250-top="opacity: 0" data-anchor-target="#slide-1 h2">
-                    <div id="triangle-bottomleft"></div>
+                        <div id="triangle-bottomleft">
+                            <div class="a">sasas</div>
+                        </div>
                         <h2>Lorem ipsum <br />dolor sit amet</h2>
                         <p>consectetur adipiscing elit. Ut et est at justo hendrerit tristique non sit amet est Ut non malesuada eros. Donec ut egestas quam. In imperdiet consequat ex non congue</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px;" 
-        data-0="transform:translate(0,75%);" data-100p="transform:translate(0,0%);" data-_box-100p="" data-_box-300p="transform:translate(0,-100%)">
+        <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px;" data-0="transform:translate(0,75%);" data-100p="transform:translate(0,0%);" data-_box-100p="" data-_box-300p="transform:translate(0,-100%)">
             <div class="bcg" data-anchor-target="#slide-2">
                 <div class="hsContainer">
                     <div data-100p="opacity:1;">
