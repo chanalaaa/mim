@@ -28,7 +28,11 @@
             <div class="bcg" data-anchor-target="#slide-2">
                 <div class="hsContainer">
                     <div data-100p="opacity:1;">
-                        <div class="box1 s2_1" data-120p="transform:translate(0%,0);" data-200p="transform:translate(30%,0);">READY</div>
+                        <div class="box1 s2_1" data-120p="transform:translate(0,0%);" data-200p="transform:translate(0,-20%);">
+                            <div class="s21-tab">
+                                <p>READY</p>
+                            </div>
+                        </div>
                         <div class="box1 s2_2" data-100p="transform:translate(0%,0%);" data-110p="transform:translate(10%,40%);" data-130p="transform:translate(50%,20%);">2222222222</div>
                         <div class="box1 s2_3" data-100p="transform:translate(0%,0%);" data-110p="transform:translate(10%,53%);" data-120p="transform:translate(60%,-5%);">3333333333</div>
                         <div class="box1 s2_4" data-100p="transform:translate(0%,0%);" data-110p="transform:translate(10%,53%);" data-120p="transform:translate(60%,-5%);">4444444444</div>

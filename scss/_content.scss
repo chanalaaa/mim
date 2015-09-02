@@ -197,9 +197,23 @@
  }
  
  .s2_1 {
-     font-family: helv_b;
-font-size: 75;
-     color: #fff;
+     max-width: 37%;
+     height: 52%;
+     top: 0;
+     margin-top: 175px;
+ }
+ 
+ .s21-tab {
+     @include bg_img('../images/content/s2/0.png');
+     @include background-size(100% 100%);
+     p {
+         font-family: helv_b;
+         font-size: 6vmax;
+         color: #fff;
+         float: right;
+         padding-top: 135px;
+         padding-right: 22px;
+     }
  }
  
  .s2_2 {}
