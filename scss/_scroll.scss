@@ -87,9 +87,9 @@
     .loaded section,
     .no-js section {
         opacity: 1;
-        -webkit-transition: opacity 300ms ease-out;
-        -moz-transition: opacity 300ms ease-out;
-        transition: opacity 300ms ease-out;
+        -webkit-transition: opacity .4s ease-out;
+        -moz-transition: opacity .4s ease-out;
+        transition: opacity .4s ease-out;
     }
     
     main {

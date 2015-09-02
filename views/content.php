@@ -1,14 +1,14 @@
 <!-- CONTENT ************************** -->
 
 <body class="loading">
-    <!--
+    
     <div id="preload">
         <img src="images/content/bg1.jpg">
         <img src="images/content/bg1.jpg">
         <img src="images/content/bg2.jpg">
         <img src="images/content/bg3.jpg">
     </div>
-    -->
+    
     <main>
         <section id="slide-1" class="initp1" data-center="background-position: 50% 0px;opacity:1;" data-top-bottom="background-position: 50% -100px;">
             <div class="bcg" data-anchor-target="#slide-1">
@@ -26,7 +26,8 @@
                 </div>
             </div>
         </section>
-        <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px;" data-0="transform:translate(0,75%);" data-100p="transform:translate(0,0%);" data-_box-100p="" data-_box-300p="transform:translate(0,-100%)">
+        <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px; " data-0="transform:translate(0,75%);" data-100p="transform:translate(0,0%);background-image: !url('images/content/bg4.jpg');" data-_box-100p="" 
+        data-130p="background-image: !url('images/content/bg1.jpg');" data-_box-300p="transform:translate(0,-100%)">
             <div class="bcg" data-anchor-target="#slide-2">
                 <div class="hsContainer">
                     <div data-100p="opacity:1;">

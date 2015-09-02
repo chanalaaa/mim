@@ -206,9 +206,9 @@ section {
 .loaded section,
 .no-js section {
   opacity: 1;
-  -webkit-transition: opacity 300ms ease-out;
-  -moz-transition: opacity 300ms ease-out;
-  transition: opacity 300ms ease-out; }
+  -webkit-transition: opacity .4s ease-out;
+  -moz-transition: opacity .4s ease-out;
+  transition: opacity .4s ease-out; }
 
 main {
   overflow-x: hidden; }
@@ -548,6 +548,9 @@ section:nth-child(2) {
   -webkit-clip-path: url(../#clip_poly);
   -o-clip-path: url(../#clip_poly);
   clip-path: url(../#clip_poly);
+  -webkit-transition: background-image 200ms;
+  -moz-transition: background-image 200ms;
+  transition: background-image 200ms;
   /*
   -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
   -ms-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
@@ -592,7 +595,7 @@ section:nth-child(5) {
       ========================================================================== */
 /* Slide 1 */
 #slide-1 {
-  background-image: url("../images/content/bg2.jpg"); }
+  background-color: #fff; }
   #slide-1 .hsContent {
     color: #fff; }
 
