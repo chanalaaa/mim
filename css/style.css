@@ -46,10 +46,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block; }
 
 @font-face {
-  font-family: 'helv_b';
-  src: url("fonts/HelveticaNeue-Bold.eot");
-  src: url("fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeue-Bold.woff") format("woff"), url("fonts/HelveticaNeue-Bold.ttf") format("truetype");
-  font-weight: bold;
+  font-family: 'helv_h';
+  src: url("fonts/HelveticaNeue-HeavyCond.eot");
+  src: url("fonts/HelveticaNeue-HeavyCond.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeue-HeavyCond.woff") format("woff"), url("fonts/HelveticaNeue-HeavyCond.ttf") format("truetype");
+  font-weight: 900;
   font-style: normal; }
 @font-face {
   font-family: 'helv_c';
@@ -58,28 +58,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: 'helv_l';
-  src: url("fonts/HelveticaNeue-Light.eot");
-  src: url("fonts/HelveticaNeue-Light.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeue-Light.woff") format("woff"), url("fonts/HelveticaNeue-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal; }
-@font-face {
-  font-family: 'helv_h';
-  src: url("fonts/HelveticaNeue-Heavy.eot");
-  src: url("fonts/HelveticaNeue-Heavy.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeue-Heavy.woff") format("woff"), url("fonts/HelveticaNeue-Heavy.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal; }
-@font-face {
-  font-family: 'helv_i';
-  src: url("fonts/HelveticaNeue-Italic.eot");
-  src: url("fonts/HelveticaNeue-Italic.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeue-Italic.woff") format("woff"), url("fonts/HelveticaNeue-Italic.ttf") format("truetype");
+  font-family: 'helv_co';
+  src: url("fonts/HelveticaNeue-CondensedObl.eot");
+  src: url("fonts/HelveticaNeue-CondensedObl.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeue-CondensedObl.woff") format("woff"), url("fonts/HelveticaNeue-CondensedObl.ttf") format("truetype");
   font-weight: normal;
   font-style: italic; }
 @font-face {
-  font-family: 'helv_m';
-  src: url("fonts/HelveticaNeue-Medium.eot");
-  src: url("fonts/HelveticaNeue-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeue-Medium.woff") format("woff"), url("fonts/HelveticaNeue-Medium.ttf") format("truetype");
-  font-weight: 500;
+  font-family: 'helv_l';
+  src: url("fonts/HelveticaNeue-LightCond.eot");
+  src: url("fonts/HelveticaNeue-LightCond.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeue-LightCond.woff") format("woff"), url("fonts/HelveticaNeue-LightCond.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'helv_b';
+  src: url("fonts/HelveticaNeue-BoldCond.eot");
+  src: url("fonts/HelveticaNeue-BoldCond.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeue-BoldCond.woff") format("woff"), url("fonts/HelveticaNeue-BoldCond.ttf") format("truetype");
+  font-weight: bold;
   font-style: normal; }
 /*
 $sm: "screen and (min-width: 375px)";
@@ -593,7 +587,7 @@ section:nth-child(5) {
     }
     */
 .hsContainer {
-  width: 86%;
+  width: 90%;
   height: 100%;
   overflow: hidden;
   position: relative; }
@@ -623,20 +617,26 @@ section:nth-child(5) {
 
 .box1 {
   position: absolute;
-  width: 50%;
+  width: 100%;
   height: 50%;
-  top: 50%;
-  color: blue; }
+  left: 29%;
+  margin-top: 205px;
+  margin-right: 10%; }
 
 .s2_2,
 .s2_3,
 .s2_4 {
-  left: 0;
+  font-family: 'helv_b';
+  color: #fff;
+  text-transform: uppercase;
   right: 0;
-  margin-left: auto;
-  margin-right: 10%; }
+  font-size: 3vmax; }
 
 .s2_1 {
+  position: absolute;
+  width: 100%;
+  /* top: 294px; */
+  margin-right: 10%;
   max-width: 37%;
   height: 52%;
   top: 0;
@@ -658,10 +658,10 @@ section:nth-child(5) {
   background-size: 100% 100%; }
   .s21-tab p {
     font-family: helv_b;
-    font-size: 6vmax;
+    font-size: 7vmax;
     color: #fff;
     float: right;
-    padding-top: 135px;
+    padding-top: 130px;
     padding-right: 22px; }
 
 .s2_3 {
