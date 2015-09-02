@@ -144,7 +144,7 @@
  
  // Content area ////////////////////////////////////
  .hsContainer {
-     width: 100%;
+     width: 86%;
      height: 100%;
      overflow: hidden;
      position: relative;
@@ -187,6 +187,32 @@
      color: blue;
  }
  
+ .s2_2,
+ .s2_3,
+ .s2_4 {
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: 10%;
+ }
+ 
+ .s2_1 {
+     font-family: helv_b;
+font-size: 75;
+     color: #fff;
+ }
+ 
+ .s2_2 {}
+ 
+ .s2_3 {
+     margin-top: -3%;
+ }
+ 
+ .s2_4 {
+     margin-top: -5%;
+ }
+ 
+ // End Content //////////////////////////////////
  // Test /////////////////////////////////////////////
  #triangle-bottomleft {
      height: 200px;
@@ -254,4 +280,3 @@
  }
  
  // End Test /////////////////////////////////////////////
- // End Content //////////////////////////////////
