@@ -619,7 +619,7 @@ section:nth-child(5) {
   position: absolute;
   width: 100%;
   height: 50%;
-  left: 29%;
+  left: 30%;
   margin-top: 205px;
   margin-right: 10%; }
 
@@ -643,19 +643,12 @@ section:nth-child(5) {
   margin-top: 175px; }
 
 .s21-tab {
-  background: url('/images/../images/content/s2/0.png?1441200066');
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
+  background-image: url("../images/content/s2/0.png");
+  background-size: 100% 100%;
   background-position: center center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  -webkit-background-size: 100% 100%;
-  background-size: 100% 100%; }
+  height: 100%; }
   .s21-tab p {
     font-family: helv_b;
     font-size: 7vmax;
@@ -699,7 +692,7 @@ section:nth-child(5) {
   /*-half buffer -left border*/
   height: 188px;
   width: 400px;
-  background: url('/images/../images/content/bg3.jpg?1415196784');
+  background-image: url("../images/content/bg3.jpg");
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -724,7 +717,7 @@ section:nth-child(5) {
 .b {
   -webkit-clip-path: polygon(100% 6%, 100% 100%, 50% 100%, 0 100%, 0 0);
   clip-path: polygon(100% 6%, 100% 100%, 50% 100%, 0 100%, 0 0);
-  background: url('/images/../images/content/bg3.jpg?1415196784');
+  background-image: url("../images/content/bg3.jpg");
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;

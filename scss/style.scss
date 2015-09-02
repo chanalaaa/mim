@@ -18,7 +18,7 @@ $lg: "screen and (min-width: 960px)";
 }
 
 @mixin bg_img($uri) {
-    background: image-url($uri);
+    background-image: url($uri);
     @include background-size(cover);
     background-position: center center;
     background-repeat: no-repeat;
