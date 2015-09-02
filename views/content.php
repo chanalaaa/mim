@@ -26,7 +26,7 @@
                 </div>
             </div>
         </section>
-        <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px; " data-0="transform:translate(0,75%);background-image: !url('images/content/bg4.jpg');" data-100p="transform:translate(0,0%);" data-_box-100p="" data-130p="background-image: !url('images/content/bg1.jpg');" data-_box-300p="transform:translate(0,-100%)">
+        <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px; " data-0="transform:translate(0,75%);background-image: !url('images/content/bg4.jpg');" data-100p="transform:translate(0,0%);" data-_box-100p="" data-130p="background-image: !url('images/content/bg1.jpg');" data-150p="background-image: !url('images/content/bg3.jpg');" data-180p="background-image: !url('images/content/bg2.jpg');" data-_box-300p="transform:translate(0,-100%)">
             <div class="bcg" data-anchor-target="#slide-2">
                 <div class="hsContainer">
                     <div data-100p="opacity:1;">
@@ -35,10 +35,10 @@
                                 <p>READY</p>
                             </div>
                         </div>
-                        <div class="box1 s2_2" data-120p="transform:translate(0,0%);opacity:1;" data-128p="transform:translate(0,-20%);opacity:0;">TO BECOME A BUSINESS MASTER?</div>
+                        <div class="box1 s2_2" data-120p="transform:translate(0,-1%);opacity:1;" data-128p="transform:translate(0,-20%);opacity:0;">TO BECOME A BUSINESS MASTER?</div>
                         <div class="box1 s2_3" data-128p="transform:translate(0%,18%);opacity:0;" data-140p="transform:translate(0%,-6%);opacity:1;" data-153p="transform:translate(0,-23%);opacity:0;">TO ACHIEVE YOUR CAREER GOAL?</div>
-                        <div class="box1 s2_4" data-153p="transform:translate(0%,8%);opacity:0;" data-170p="transform:translate(0%,-13%);opacity:1;" data-190p="transform:translate(0%,-50%);opacity:0;">TO SUCCEED IN YOUR LIFE'S MISSION?</div>
-                         <div class="box1 s2_5"data-180p="transform:translate(0%,8%);opacity:0;" data-200p="transform:translate(0%,-20%);opacity:1;" data-223p="transform:translate(0%,-50%);opacity:0;">TO START YOUR LEGEND?</div>
+                        <div class="box1 s2_4" data-153p="transform:translate(0%,8%);opacity:0;" data-170p="transform:translate(0%,-12%);opacity:1;" data-190p="transform:translate(0%,-35%);opacity:0;">TO SUCCEED IN YOUR LIFE'S MISSION?</div>
+                         <div class="box1 s2_5"data-190p="transform:translate(0%,8%);opacity:0;" data-200p="transform:translate(0%,-18%);opacity:1;" data-223p="transform:translate(0%,-60%);opacity:0;">TO START YOUR LEGEND?</div>
                     </div>
                 </div>
             </div>
