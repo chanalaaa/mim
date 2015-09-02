@@ -22,8 +22,16 @@
  section:nth-child(2) {
      width: 100%;
      overflow: hidden;
+     -webkit-clip-path: url(../#clip_poly);
+     -o-clip-path: url(../#clip_poly);
+     clip-path: url(../#clip_poly);
+     /*
      -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+     -ms-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+     -moz-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
      clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+     -webkit-clip-path: url("#clip_poly");
+     */
      /*
      border-bottom: 0em solid transparent;
      border-left: 100vw solid rgba(0, 0, 255, 0.5);
@@ -34,21 +42,30 @@
  section:nth-child(3) {
      width: 100%;
      overflow: hidden;
+     -webkit-clip-path: url(../#clip_poly2);
+     -o-clip-path: url(../#clip_poly2);
+     clip-path: url(../#clip_poly2);
+     /*
      -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
+     -ms-clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
      clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
+     */
  }
  
  section:nth-child(4) {
      width: 100%;
      overflow: hidden;
-     -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
-     clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+     -webkit-clip-path: url(../#clip_poly);
+     -o-clip-path: url(../#clip_poly);
+     clip-path: url(../#clip_poly);
  }
-  section:nth-child(5) {
+ 
+ section:nth-child(5) {
      width: 100%;
      overflow: hidden;
-     -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
-     clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
+     -webkit-clip-path: url(../#clip_poly2);
+     -o-clip-path: url(../#clip_poly2);
+     clip-path: url(../#clip_poly2);
  }
  /* ==========================================================================
        Slide

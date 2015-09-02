@@ -82,6 +82,16 @@
             </section>
             -->
     </main>
+    <svg height="0" width="0">
+        <clipPath id="clip_poly" clipPathUnits="objectBoundingBox">
+            <polygon points="1 0.1,1 1,0.5 1,0 1,0 0"> </polygon>
+        </clipPath>
+    </svg>
+    <svg height="0" width="0">
+        <clipPath id="clip_poly2" clipPathUnits="objectBoundingBox">
+            <polygon points="1 0,1 1,0.5 1,0 1,0 0.1"> </polygon>
+        </clipPath>
+    </svg>
 </body>
 <!-- END CONTENT ************************** -->
 <!-- SCRIPT ************************** -->
