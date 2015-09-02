@@ -26,8 +26,8 @@ $(document).ready(function() {
 
 
             //forceHeight: false,
-            //smoothScrolling: true,
-            //smoothScrollingDuration: 200,
+            smoothScrolling: true,
+            smoothScrollingDuration: 300,
             render: function(data) {},
             constants: {
 
