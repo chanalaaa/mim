@@ -35,10 +35,11 @@
                                 <p>READY</p>
                             </div>
                         </div>
-                        <div class="box1 s2_2" data-120p="transform:translate(0,-1%);opacity:1;" data-128p="transform:translate(0,-20%);opacity:0;">TO BECOME A BUSINESS MASTER?</div>
-                        <div class="box1 s2_3" data-128p="transform:translate(0%,18%);opacity:0;" data-140p="transform:translate(0%,-6%);opacity:1;" data-153p="transform:translate(0,-23%);opacity:0;">TO ACHIEVE YOUR CAREER GOAL?</div>
-                        <div class="box1 s2_4" data-153p="transform:translate(0%,8%);opacity:0;" data-170p="transform:translate(0%,-12%);opacity:1;" data-190p="transform:translate(0%,-35%);opacity:0;">TO SUCCEED IN YOUR LIFE'S MISSION?</div>
-                         <div class="box1 s2_5"data-190p="transform:translate(0%,8%);opacity:0;" data-200p="transform:translate(0%,-18%);opacity:1;" data-223p="transform:translate(0%,-60%);opacity:0;">TO START YOUR LEGEND?</div>
+                        <div class="box1 s2_2" data-120p="transform:translate(0,0%);opacity:1;" data-128p="transform:translate(0,-20%);opacity:0;">TO BECOME A BUSINESS MASTER?
+                        </div>
+                        <div class="box1 s2_3" data-128p="transform:translate(0%,18%);opacity:0;" data-135p="transform:translate(0%,-6%);opacity:1;" data-145p="transform:translate(0%,-6%);opacity:1;" data-153p="transform:translate(0,-23%);opacity:0;">TO ACHIEVE YOUR CAREER GOAL?</div>
+                        <div class="box1 s2_4" data-153p="transform:translate(0%,8%);opacity:0;" data-160p="transform:translate(0%,-12%);opacity:1;" data-170p="transform:translate(0%,-12%);opacity:1;" data-190p="transform:translate(0%,-35%);opacity:0;">TO SUCCEED IN YOUR LIFE'S MISSION?</div>
+                         <div class="box1 s2_5"data-190p="transform:translate(0%,8%);opacity:0;" data-200p="transform:translate(0%,-18%);opacity:1;" data-218p="transform:translate(0%,-18%);opacity:1;" data-250p="transform:translate(0%,-60%);opacity:0;">TO START YOUR LEGEND?</div>
                     </div>
                 </div>
             </div>
