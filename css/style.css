@@ -78,7 +78,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /*
 $sm: "screen and (min-width: 375px)";
 $md-600: "screen and (min-width: 600px)";
-$md: "screen and (min-width: 780px)";
+
 $lg: "screen and (min-width: 960px)";
 */
 /*
@@ -542,6 +542,9 @@ section:nth-child(5) {
 /* Slide 2 */
 #slide-2 {
   background-image: url("../images/content/bg4.jpg"); }
+  @media screen and (max-width: 760px) {
+    #slide-2 {
+      background-image: url("../images/content/bg4.jpg") !important; } }
 
 /* Slide 3 */
 #slide-3 {
@@ -619,13 +622,14 @@ section:nth-child(5) {
   position: absolute;
   width: 100%;
   height: 50%;
-  left: 30%;
-  margin-top: 205px;
+  left: 40%;
+  margin-top: 330px;
   margin-right: 10%; }
 
 .s2_2,
 .s2_3,
-.s2_4 {
+.s2_4,
+.s2_5 {
   font-family: 'helv_b';
   color: #fff;
   text-transform: uppercase;
@@ -644,11 +648,15 @@ section:nth-child(5) {
 
 .s21-tab {
   background-image: url("../images/content/s2/0.png");
-  background-size: 100% 100%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  background-size: 100% 100%; }
   .s21-tab p {
     font-family: helv_b;
     font-size: 7vmax;
@@ -656,12 +664,6 @@ section:nth-child(5) {
     float: right;
     padding-top: 130px;
     padding-right: 22px; }
-
-.s2_3 {
-  margin-top: -3%; }
-
-.s2_4 {
-  margin-top: -5%; }
 
 #triangle-bottomleft {
   height: 200px;
