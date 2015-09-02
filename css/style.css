@@ -545,18 +545,31 @@ h2 {
 section:nth-child(2) {
   width: 100%;
   overflow: hidden;
+  -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+  /*
   border-bottom: 0em solid transparent;
   border-left: 100vw solid rgba(0, 0, 255, 0.5);
   border-top: 2.3em solid transparent;
-     /*
- 	
-  &:before{
+*/ }
 
-     border-bottom: 0em solid transparent;
-     border-left: 100vw solid rgba(0,0,255,0.5);
-     border-top: 2.3em solid transparent;
-   }
-   */ }
+section:nth-child(3) {
+  width: 100%;
+  overflow: hidden;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
+  clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%); }
+
+section:nth-child(4) {
+  width: 100%;
+  overflow: hidden;
+  -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0); }
+
+section:nth-child(5) {
+  width: 100%;
+  overflow: hidden;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
+  clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%); }
 
 /* ==========================================================================
       Slide
@@ -569,7 +582,7 @@ section:nth-child(2) {
 
 /* Slide 2 */
 #slide-2 {
-  background-color: rgba(247, 7, 0, 0.4); }
+  background-image: url("../images/content/bg4.jpg"); }
 
 /* Slide 3 */
 #slide-3 {
@@ -700,3 +713,18 @@ section:nth-child(2) {
   left: 0;
   height: 157px;
   width: 6px; }
+
+.b {
+  -webkit-clip-path: polygon(100% 6%, 100% 100%, 50% 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 6%, 100% 100%, 50% 100%, 0 100%, 0 0);
+  background: url('/images/../images/content/bg3.jpg?1415196784');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  width: 200px;
+  height: 400px; }
