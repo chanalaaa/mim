@@ -46,18 +46,15 @@
             <div class="bcg" data-anchor-target="#slide-3">
                 <div class="hsContainer">
                     <div data-300p="opacity:1;">
-                    <div class="s3_1" data-300p="transform:translate(0,0%);" data-400p="transform:translate(0,-20%);">
+                        <div class="s3_1" data-320p="transform:translate(0,0%);" data-400p="transform:translate(0,-20%);">
                             <div class="s31-tab">
                                 <p>SET</p>
                             </div>
                         </div>
-
-                        
-
-
-                        <div class="box1" data-300p="transform:translate(0%,0%);left:20%;" data-310p="transform:translate(10%,40%);" data-330p="transform:translate(50%,20%);"><img src="http://placehold.it/60x45/f77"></div>
-                        <div class="box1" data-300p="transform:translate(0%,0%);left:20%;margin-top:-3%;" data-310p="transform:translate(10%,53%);" data-320p="transform:translate(60%,-5%);"><img src="http://placehold.it/40x30/f77"></div>
-                        <div class="box1" data-300p="transform:translate(0%,0%);left:20%;margin-top:-3%;" data-310p="transform:translate(10%,53%);" data-320p="transform:translate(60%,-5%);"><img src="http://placehold.it/40x30/f77"></div>
+                        <div class="box1 s2_2" data-320p="transform:translate(0,0%);opacity:1;" data-348p="transform:translate(0,-20%);opacity:0;">1111111111111
+                        </div>
+                        <div class="box1 s2_3" data-190p="opacity:0;" data-338p="transform:translate(0%,18%);" data-355p="transform:translate(0%,-12%);opacity:1;" data-375p="transform:translate(0%,-12%);opacity:1;" data-390p="transform:translate(0,-28%);opacity:0;">222222222222222222</div>
+                        <div class="box1 s2_5" data-387p="transform:translate(0%,8%);opacity:0;" data-400p="transform:translate(0%,-20%);opacity:1;" data-400p="transform:translate(0%,-20%);opacity:1;" data-475p="transform:translate(0%,-60%);opacity:0;">3333333333333333333</div>
                     </div>
                 </div>
             </div>
