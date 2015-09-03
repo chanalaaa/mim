@@ -24,7 +24,7 @@
                 </div>
             </div>
         </section>
-        <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px; " data-0="transform:translate(0,75%);background-image: !url('images/content/bg4.jpg');" data-100p="transform:translate(0,0%);" data-_box-100p="" data-130p="background-image: !url('images/content/bg1.jpg');" data-150p="background-image: !url('images/content/bg3.jpg');" data-180p="background-image: !url('images/content/bg2.jpg');" data-_box-300p="transform:translate(0,-100%)">
+        <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px; " data-0="transform:translate(0,75%);background-image: !url('images/content/s2/bg/bg4.jpg');" data-100p="transform:translate(0,0%);" data-_box-100p="" data-130p="background-image: !url('images/content/s2/bg/bg1.jpg');" data-150p="background-image: !url('images/content/s2/bg/bg3.jpg');" data-180p="background-image: !url('images/content/s2/bg/bg2.jpg');" data-_box-300p="transform:translate(0,-100%)">
             <div class="bcg" data-anchor-target="#slide-2">
                 <div class="hsContainer">
                     <div data-100p="opacity:1;">
