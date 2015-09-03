@@ -8,22 +8,18 @@
         <img src="images/content/bg3.jpg">
     </div>
     <main>
+    <!-- SLIDE 1 ***************************** -->
         <section id="slide-1" class="initp1" data-center="background-position: 50% 0px;opacity:1;" data-top-bottom="background-position: 50% -100px;">
             <div class="bcg" data-anchor-target="#slide-1">
                 <div class="hsContainer">
                     <div class="hsContent" data-0="opacity: 1" data--250-top="opacity: 0" data-anchor-target="#slide-1 h2">
-                        <!-- <div class="b"></div>
-                    
-                        <div id="triangle-bottomleft">
-                            <div class="a">sasas</div>
-                        </div>
-                        -->
                         <h2>Lorem ipsum <br />dolor sit amet</h2>
                         <p>consectetur adipiscing elit. Ut et est at justo hendrerit tristique non sit amet est Ut non malesuada eros. Donec ut egestas quam. In imperdiet consequat ex non congue</p>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- SLIDE 2 ***************************** -->
         <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px; " data-0="transform:translate(0,75%);background-image: !url('images/content/s2/bg/bg4.jpg');" data-100p="transform:translate(0,0%);" data-_box-100p="" data-130p="background-image: !url('images/content/s2/bg/bg1.jpg');" data-150p="background-image: !url('images/content/s2/bg/bg3.jpg');" data-180p="background-image: !url('images/content/s2/bg/bg2.jpg');" data-_box-300p="transform:translate(0,-100%)">
             <div class="bcg" data-anchor-target="#slide-2">
                 <div class="hsContainer">
@@ -42,6 +38,7 @@
                 </div>
             </div>
         </section>
+        <!-- SLIDE 3 ***************************** -->
         <section id="slide-3" class="initp" data-center="background-position: 50% 0px;" data-190p="transform:translate(0,100%);" data-300p="transform:translate(0,0%)" data-_box2-100p="" data-_box2-300p="transform:translate(0,-100%);">
             <div class="bcg" data-anchor-target="#slide-3">
                 <div class="hsContainer">
@@ -59,6 +56,7 @@
                 </div>
             </div>
         </section>
+        <!-- SLIDE 4 ***************************** -->
         <section id="slide-4" class="initp" data-center="background-position: 50% 0px;" data-400p="transform:translate(0,100%);" data-500p="transform:translate(0,0%)" data-_box3-100p="" data-_box3-300p="transform:translate(0,-100%)">
             <div class="bcg" data-anchor-target="#slide-4">
                 <div class="hsContainer">
@@ -70,6 +68,7 @@
                 </div>
             </div>
         </section>
+        <!-- SLIDE 5 ***************************** -->
         <section id="slide-5" class="initp" data-top-bottom="background-position: 50% -100px;" data-600p="transform:translate(0,100%);" data-700p="transform:translate(0,0%)">
             <div class="bcg" data-anchor-target="#slide-5">
                 <div class="hsContainer">
@@ -93,6 +92,7 @@
             </section>
             -->
     </main>
+    <!--/ SVG /***************************** -->
     <svg height="0" width="0">
         <clipPath id="clip_poly" clipPathUnits="objectBoundingBox">
             <polygon points="1 0.1,1 1,0.5 1,0 1,0 0"> </polygon>
