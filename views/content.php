@@ -57,7 +57,7 @@
             </div>
         </section>
         <!-- SLIDE 4 ***************************** -->
-        <section id="slide-4" class="initp" data-center="background-position: 50% 0px;" data-400p="transform:translate(0,100%);" data-500p="transform:translate(0,0%)" data-_box3-100p="" data-_box3-300p="transform:translate(0,-100%)">
+        <section id="slide-4" class="initp" data-center="background-position: 50% 0px;" data-400p="transform:translate(0,100%);" data-500p="transform:translate(0,0%)" data-_box3-100p="" data-_box3-300p="transform:translate(0,-100%)" data-0="background-image: !url('images/content/s2/bg/bg1.jpg');" data-555p="background-image: !url('images/content/s2/bg/bg2.jpg');" data-600p="background-image: !url('images/content/s2/bg/bg4.jpg');">
             <div class="bcg" data-anchor-target="#slide-4">
                 <div class="hsContainer">
                     <div data-500p="opacity:1;">
@@ -69,7 +69,7 @@
                         <div class="box1 s2_2" data-520p="transform:translate(0,0%);opacity:1;" data-548p="transform:translate(0,-20%);opacity:0;">S4 1111111111111
                         </div>
                         <div class="box1 s2_3" data-290p="opacity:0;" data-538p="transform:translate(0%,18%);" data-555p="transform:translate(0%,-12%);opacity:1;" data-575p="transform:translate(0%,-12%);opacity:1;" data-590p="transform:translate(0,-28%);opacity:0;">S4 222222222222222222</div>
-                        <div class="box1 s2_5" data-587p="transform:translate(0%,8%);opacity:0;" data-600p="transform:translate(0%,-20%);opacity:1;" data-600p="transform:translate(0%,-20%);opacity:1;" data-675p="transform:translate(0%,-60%);opacity:0;">S4 3333333333333333333</div>
+                        <div class="box1 s2_5" data-587p="transform:translate(0%,8%);opacity:0;" data-600p="transform:translate(0%,-17%);opacity:1;" data-600p="transform:translate(0%,-17%);opacity:1;" data-675p="transform:translate(0%,-60%);opacity:0;">S4 3333333333333333333</div>
                     </div>
                 </div>
             </div>

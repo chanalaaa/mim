@@ -521,7 +521,10 @@ section:nth-child(4) {
   overflow: hidden;
   -webkit-clip-path: url(../#clip_poly);
   -o-clip-path: url(../#clip_poly);
-  clip-path: url(../#clip_poly); }
+  clip-path: url(../#clip_poly);
+  -webkit-transition: background-image 200ms;
+  -moz-transition: background-image 200ms;
+  transition: background-image 200ms; }
 
 section:nth-child(5) {
   width: 100%;
