@@ -220,7 +220,8 @@
  }
  
  .s2_1,
- .s3_1 {
+ .s3_1,
+ .s4_1 {
      position: absolute;
      width: 100%;
      /* top: 294px; */
@@ -231,14 +232,15 @@
      margin-top: 175px;
  }
  
- .s21-tab {
+ .s21-tab,
+ .s41-tab {
      @include s_tab('../images/content/s2/0.png');
  }
  
  .s31-tab {
      @include s_tab('../images/content/s3/0.png');
-     p{
-     	color: #000;
+     p {
+         color: #000;
      }
  }
  
@@ -251,4 +253,3 @@
  .s2_5 {}
  
  // End Content //////////////////////////////////
- 

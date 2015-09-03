@@ -8,7 +8,7 @@
         <img src="images/content/bg3.jpg">
     </div>
     <main>
-    <!-- SLIDE 1 ***************************** -->
+        <!-- SLIDE 1 ***************************** -->
         <section id="slide-1" class="initp1" data-center="background-position: 50% 0px;opacity:1;" data-top-bottom="background-position: 50% -100px;">
             <div class="bcg" data-anchor-target="#slide-1">
                 <div class="hsContainer">
@@ -48,10 +48,10 @@
                                 <p>SET</p>
                             </div>
                         </div>
-                        <div class="box1 s2_2" data-320p="transform:translate(0,0%);opacity:1;" data-348p="transform:translate(0,-20%);opacity:0;">1111111111111
+                        <div class="box1 s2_2" data-320p="transform:translate(0,0%);opacity:1;" data-348p="transform:translate(0,-20%);opacity:0;">S3 1111111111111
                         </div>
-                        <div class="box1 s2_3" data-190p="opacity:0;" data-338p="transform:translate(0%,18%);" data-355p="transform:translate(0%,-12%);opacity:1;" data-375p="transform:translate(0%,-12%);opacity:1;" data-390p="transform:translate(0,-28%);opacity:0;">222222222222222222</div>
-                        <div class="box1 s2_5" data-387p="transform:translate(0%,8%);opacity:0;" data-400p="transform:translate(0%,-20%);opacity:1;" data-400p="transform:translate(0%,-20%);opacity:1;" data-475p="transform:translate(0%,-60%);opacity:0;">3333333333333333333</div>
+                        <div class="box1 s2_3" data-190p="opacity:0;" data-338p="transform:translate(0%,18%);" data-355p="transform:translate(0%,-12%);opacity:1;" data-375p="transform:translate(0%,-12%);opacity:1;" data-390p="transform:translate(0,-28%);opacity:0;">S3 222222222222222222</div>
+                        <div class="box1 s2_5" data-387p="transform:translate(0%,8%);opacity:0;" data-400p="transform:translate(0%,-20%);opacity:1;" data-400p="transform:translate(0%,-20%);opacity:1;" data-475p="transform:translate(0%,-60%);opacity:0;">S3 3333333333333333333</div>
                     </div>
                 </div>
             </div>
@@ -61,9 +61,15 @@
             <div class="bcg" data-anchor-target="#slide-4">
                 <div class="hsContainer">
                     <div data-500p="opacity:1;">
-                        <div class="box1" data-500p="transform:translate(0%,0);" data-600p="transform:translate(100%,0);"><img src="http://placehold.it/50x30/f77"></div>
-                        <div class="box1" data-500p="transform:translate(0%,0%);left:20%;" data-510p="transform:translate(10%,40%);" data-530p="transform:translate(50%,20%);"><img src="http://placehold.it/60x45/f77"></div>
-                        <div class="box1" data-500p="transform:translate(0%,0%);left:20%;margin-top:-3%;" data-510p="transform:translate(10%,53%);" data-520p="transform:translate(60%,-5%);"><img src="http://placehold.it/40x30/f77"></div>
+                        <div class="s4_1" data-520p="transform:translate(0,0%);" data-600p="transform:translate(0,-20%);">
+                            <div class="s41-tab">
+                                <p>GO</p>
+                            </div>
+                        </div>
+                        <div class="box1 s2_2" data-520p="transform:translate(0,0%);opacity:1;" data-548p="transform:translate(0,-20%);opacity:0;">S4 1111111111111
+                        </div>
+                        <div class="box1 s2_3" data-290p="opacity:0;" data-538p="transform:translate(0%,18%);" data-555p="transform:translate(0%,-12%);opacity:1;" data-575p="transform:translate(0%,-12%);opacity:1;" data-590p="transform:translate(0,-28%);opacity:0;">S4 222222222222222222</div>
+                        <div class="box1 s2_5" data-587p="transform:translate(0%,8%);opacity:0;" data-600p="transform:translate(0%,-20%);opacity:1;" data-600p="transform:translate(0%,-20%);opacity:1;" data-675p="transform:translate(0%,-60%);opacity:0;">S4 3333333333333333333</div>
                     </div>
                 </div>
             </div>
