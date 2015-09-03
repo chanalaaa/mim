@@ -152,6 +152,7 @@
      height: 100%;
      overflow: hidden;
      position: relative;
+     background-color: rgba(0, 9, 5, 0.5);
  }
  
  .hsContent {
@@ -190,6 +191,21 @@
      left: 40%;
      margin-top: 330px;
      margin-right: 10%;
+     background-color: rgba(4, 15, 5, 0.5);
+ }
+ 
+ @mixin s-tab($uri) {
+     @include bg_img($uri);
+     background-size: (100% 100%);
+     p {
+         font-family: helv_b;
+         font-size: 7vmax;
+         color: #fff;
+         float: right;
+         padding-top: 130px;
+         padding-right: 22px;
+         // letter-spacing: 0px;
+     }
  }
  
  .s2_2,
@@ -203,7 +219,8 @@
      font-size: 3vmax;
  }
  
- .s2_1 {
+ .s2_1,
+ .s3_1 {
      position: absolute;
      width: 100%;
      /* top: 294px; */
@@ -215,16 +232,13 @@
  }
  
  .s21-tab {
-     @include bg_img('../images/content/s2/0.png');
-     background-size: (100% 100%);
-     p {
-         font-family: helv_b;
-         font-size: 7vmax;
-         color: #fff;
-         float: right;
-         padding-top: 130px;
-         padding-right: 22px;
-         // letter-spacing: 0px;
+     @include s_tab('../images/content/s2/0.png');
+ }
+ 
+ .s31-tab {
+     @include s_tab('../images/content/s3/0.png');
+     p{
+     	color: #000;
      }
  }
  

@@ -1,14 +1,12 @@
 <!-- CONTENT ************************** -->
 
 <body class="loading">
-
-<div id="preload">
-    <img src="images/content/bg1.jpg">
-    <img src="images/content/bg1.jpg">
-    <img src="images/content/bg2.jpg">
-    <img src="images/content/bg3.jpg">
-</div>
-
+    <div id="preload">
+        <img src="images/content/bg1.jpg">
+        <img src="images/content/bg1.jpg">
+        <img src="images/content/bg2.jpg">
+        <img src="images/content/bg3.jpg">
+    </div>
     <main>
         <section id="slide-1" class="initp1" data-center="background-position: 50% 0px;opacity:1;" data-top-bottom="background-position: 50% -100px;">
             <div class="bcg" data-anchor-target="#slide-1">
@@ -39,17 +37,26 @@
                         </div>
                         <div class="box1 s2_3" data-128p="transform:translate(0%,18%);opacity:0;" data-135p="transform:translate(0%,-6%);opacity:1;" data-145p="transform:translate(0%,-6%);opacity:1;" data-153p="transform:translate(0,-23%);opacity:0;">TO ACHIEVE YOUR CAREER GOAL?</div>
                         <div class="box1 s2_4" data-153p="transform:translate(0%,8%);opacity:0;" data-160p="transform:translate(0%,-12%);opacity:1;" data-170p="transform:translate(0%,-12%);opacity:1;" data-190p="transform:translate(0%,-35%);opacity:0;">TO SUCCEED IN YOUR LIFE'S MISSION?</div>
-                         <div class="box1 s2_5"data-190p="transform:translate(0%,8%);opacity:0;" data-200p="transform:translate(0%,-18%);opacity:1;" data-218p="transform:translate(0%,-18%);opacity:1;" data-250p="transform:translate(0%,-60%);opacity:0;">TO START YOUR LEGEND?</div>
+                        <div class="box1 s2_5" data-187p="transform:translate(0%,8%);opacity:0;" data-200p="transform:translate(0%,-18%);opacity:1;" data-218p="transform:translate(0%,-23%);opacity:1;" data-250p="transform:translate(0%,-60%);opacity:0;">TO START YOUR LEGEND?</div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="slide-3" class="initp" data-center="background-position: 50% 0px;" data-200p="transform:translate(0,100%);" data-300p="transform:translate(0,0%)" data-_box2-100p="" data-_box2-300p="transform:translate(0,-100%);">
+        <section id="slide-3" class="initp" data-center="background-position: 50% 0px;" data-190p="transform:translate(0,100%);" data-300p="transform:translate(0,0%)" data-_box2-100p="" data-_box2-300p="transform:translate(0,-100%);">
             <div class="bcg" data-anchor-target="#slide-3">
                 <div class="hsContainer">
                     <div data-300p="opacity:1;">
-                        <div class="box1" data-300p="transform:translate(0%,0);" data-400p="transform:translate(100%,0);"><img src="http://placehold.it/50x30/f77"></div>
+                    <div class="s3_1" data-300p="transform:translate(0,0%);" data-400p="transform:translate(0,-20%);">
+                            <div class="s31-tab">
+                                <p>SET</p>
+                            </div>
+                        </div>
+
+                        
+
+
                         <div class="box1" data-300p="transform:translate(0%,0%);left:20%;" data-310p="transform:translate(10%,40%);" data-330p="transform:translate(50%,20%);"><img src="http://placehold.it/60x45/f77"></div>
+                        <div class="box1" data-300p="transform:translate(0%,0%);left:20%;margin-top:-3%;" data-310p="transform:translate(10%,53%);" data-320p="transform:translate(60%,-5%);"><img src="http://placehold.it/40x30/f77"></div>
                         <div class="box1" data-300p="transform:translate(0%,0%);left:20%;margin-top:-3%;" data-310p="transform:translate(10%,53%);" data-320p="transform:translate(60%,-5%);"><img src="http://placehold.it/40x30/f77"></div>
                     </div>
                 </div>
