@@ -166,27 +166,56 @@
         <section id="slide-5" class="initp" data-top-bottom="background-position: 50% -100px;" data-600p="transform:translate(0,100%);" data-700p="transform:translate(0,0%)">
             <div class="bcg" data-anchor-target="#slide-5">
                 <div class="hsContainer">
-                    <div class="s5-left" data-center="opacity: 1" data-anchor-target="#slide-1">
-                        <img src="images/content/s5/s5-left_img.jpg" alt="" class="s5-left_img">
-                    </div>
-                    <div class="s5-right" data-center="opacity: 1" data-anchor-target="#slide-1">
-                        
-                        <p>YOUR<br><font style="color:#FF6400;font-size: 5vmax;">LEGEND STARTS</font><br>WITHIN YOU<br><font style="font-family:'helv_l'";>JOIN NOW!</font></p><br>
-                        <ul>
-                            <li class="s5-btn1" ><a href="#">
+                    <div class="s5-content">
+                        <div class="s5-left" data-center="opacity: 1" data-anchor-target="#slide-1">
+                            <img src="images/content/s5/s5-left_img.jpg" alt="" class="s5-left_img">
+                        </div>
+                        <div class="s5-right" data-center="opacity: 1" data-anchor-target="#slide-1">
+                            <p>YOUR
+                                <br>
+                                <font style="color:#FF6400;font-size: 5vmax;">LEGEND STARTS</font>
+                                <br>WITHIN YOU
+                                <br>
+                                <font style="font-family:'helv_l'" ;>JOIN NOW!</font>
+                            </p>
+                            <br>
+                            <ul>
+                                <li class="s5-btn1">
+                                    <a href="#">
                                         <p class="s51-btn1">JOIN OPEN HOUSE</p>
-                                    </a></li>
-                            <li class="s5-btn2"><a href="#">
+                                    </a>
+                                </li>
+                                <li class="s5-btn2">
+                                    <a href="#">
                                         <p class="s52-btn2">APPLY</p>
-                                    </a></li>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="s5-pre_footer">
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
                         </ul>
                     </div>
-
-
-
                     <div class="s5-footer" data-center="opacity: 1" data-anchor-target="#slide-1">
-                        
-                       
+                        <div class="s5-foot_info">
+                            <ul class="s5-foot_ul">
+                                <li class="s5-li1">MASTER'S DEGREE PROGRAM IN
+                                    <br>MARKETING,
+                                    <font style="font-family:'helv_c'">FACULTY OF COMMERCE AND
+                                        <br>ACCOUNTANCY</font>
+                                </li>
+                                <li>Thammasat University, Room 114, 2 Prachan Rd.,
+                                    <br>Pranakorn, Bangkok 10200, Thailand</li>
+                                <li>tel: +66 2222 1331, +66 2223 9983 2240
+                                    <br>E-mail: mim@tbs.tu.ac.th
+                                    <br><a href="http://mim.tbs.tu.ac.th/">http://mim.tbs.tu.ac.th/</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

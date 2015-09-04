@@ -377,25 +377,32 @@
  
  // End S4 /////////////////////////////////////
  // S5 /////////////////////////////////////
+ .s5-content{
+ 	position: relative;
+ }
  .s5-left {
-     width: 50%;
-     position: absolute;
-     top: 13%;
-     background-color: rgba(234, 0, 0, 0.5);
-     left: 10%;
+     width: 40%;
+     // position: absolute;
+     //top: 13%;
+     float: left;
+     //background-color: rgba(234, 0, 0, 0.5);
+     margin-left: 10%;
+     margin-top: 6%;
  }
  
  .s5-left_img {
-     width: 28vmax;
-     height: 30vmax;
+     width: 24vmax;
+     height: 26vmax;
  }
  
  .s5-right {
-     position: absolute;
-     width: 50%;
-     top: 22%;
-     right: 10%;
-     background-color: rgba(34, 200, 23, 0.5);
+     // position: absolute;
+     width: 40%;
+     float: right;
+     //top: 22%;
+     margin-right: 10%;
+     margin-top: 6%;
+     //background-color: rgba(34, 200, 23, 0.5);
      p {
          font-family: 'helv_b';
          //font-size: 4em;
@@ -419,9 +426,7 @@
      margin-right: .5em;
  }
  
- .s5-btn2 {
-     
- }
+ .s5-btn2 {}
  
  p.s51-btn1 {
      width: 8em;
@@ -461,13 +466,59 @@
      }
  }
  
+ .s5-pre_footer {
+     // position: absolute;
+     width: 100%;
+     height: 77px;
+     margin: 0 auto;
+     float: left;
+ }
+ 
  .s5-footer {
      position: absolute;
      width: 100%;
      height: 130px;
      bottom: 0;
-     background-color: rgba(34, 2, 230, 0.5);
+     background-color: #323232;
+     float: left;
+ }
+ 
+ .s5-foot_info {
+     // background-color: rgba(54, 211, 23, 0.5);
+     width: 80%;
+     height: 100%;
+     margin: 0 auto;
+ }
+ 
+ .s5-foot_ul {
+     width: 100%;
+     display: inline-block;
+     margin-top: 50px;
+     color: #fff;
+     li {
+         display: inline-block;
+         width: 32%;
+         // background-color: rgba(54, 121, 123, 0.5);
+     }
+ }
+ 
+ li {
+     font-family: 'helv_c';
+     font-size: .9em;
+     vertical-align: text-top;
+     a {
+         color: #fff;
+     }
+ }
+ 
+ .s5-li1 {
+     font-family: 'helv_b';
+     font-size: 1em;
  }
  
  // End S5 /////////////////////////////////////
  // End Content //////////////////////////////////
+ /* 
+by Chanala Wilangka
+update-05-09-2015
+*/

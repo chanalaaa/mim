@@ -788,23 +788,24 @@ p.s3-btn {
   font-size: 0.6em;
   line-height: 1.2em; }
 
+.s5-content {
+  position: relative; }
+
 .s5-left {
-  width: 50%;
-  position: absolute;
-  top: 13%;
-  background-color: rgba(234, 0, 0, 0.5);
-  left: 10%; }
+  width: 40%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 6%; }
 
 .s5-left_img {
-  width: 28vmax;
-  height: 30vmax; }
+  width: 24vmax;
+  height: 26vmax; }
 
 .s5-right {
-  position: absolute;
-  width: 50%;
-  top: 22%;
-  right: 10%;
-  background-color: rgba(34, 200, 23, 0.5); }
+  width: 40%;
+  float: right;
+  margin-right: 10%;
+  margin-top: 6%; }
   .s5-right p {
     font-family: 'helv_b';
     font-size: 4vmax;
@@ -855,9 +856,46 @@ p.s52-btn2 {
     background: #DB8928;
     text-decoration: none; }
 
+.s5-pre_footer {
+  width: 100%;
+  height: 77px;
+  margin: 0 auto;
+  float: left; }
+
 .s5-footer {
   position: absolute;
   width: 100%;
   height: 130px;
   bottom: 0;
-  background-color: rgba(34, 2, 230, 0.5); }
+  background-color: #323232;
+  float: left; }
+
+.s5-foot_info {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto; }
+
+.s5-foot_ul {
+  width: 100%;
+  display: inline-block;
+  margin-top: 50px;
+  color: #fff; }
+  .s5-foot_ul li {
+    display: inline-block;
+    width: 32%; }
+
+li {
+  font-family: 'helv_c';
+  font-size: .9em;
+  vertical-align: text-top; }
+  li a {
+    color: #fff; }
+
+.s5-li1 {
+  font-family: 'helv_b';
+  font-size: 1em; }
+
+ /* 
+by Chanala Wilangka
+update-05-09-2015
+*/
