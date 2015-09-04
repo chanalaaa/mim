@@ -36,7 +36,7 @@
                         </div>
                         <div class="box1 s2_3" data-128p="transform:translate(0%,18%);opacity:0;" data-135p="transform:translate(0%,-6%);opacity:1;" data-145p="transform:translate(0%,-6%);opacity:1;" data-153p="transform:translate(0,-23%);opacity:0;">TO ACHIEVE YOUR CAREER GOAL?</div>
                         <div class="box1 s2_4" data-153p="transform:translate(0%,8%);opacity:0;" data-160p="transform:translate(0%,-12%);opacity:1;" data-170p="transform:translate(0%,-12%);opacity:1;" data-190p="transform:translate(0%,-35%);opacity:0;">TO SUCCEED IN YOUR LIFE'S MISSION?</div>
-                        <div class="box1 s2_5" data-187p="transform:translate(0%,8%);opacity:0;" data-200p="transform:translate(0%,-18%);opacity:1;" data-218p="transform:translate(0%,-23%);opacity:1;" data-250p="transform:translate(0%,-60%);opacity:0;">TO START YOUR LEGEND?</div>
+                        <div class="box1 s2_5" data-187p="transform:translate(0%,15%);opacity:0;" data-200p="transform:translate(0%,-30%);opacity:1;" data-218p="transform:translate(0%,-30%);opacity:1;" data-250p="transform:translate(0%,-60%);opacity:0;">TO START YOUR LEGEND?</div>
                     </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@
             <div class="bcg" data-anchor-target="#slide-4">
                 <div class="hsContainer">
                     <div data-500p="opacity:1;">
-                        <div class="s4_1" data-520p="transform:translate(0,0%);" data-600p="transform:translate(0,-20%);">
+                        <div class="s4_1" data-520p="transform:translate(0,0%);" data-600p="transform:translate(0,-10%);">
                             <div class="s41-tab">
                                 <p>GO</p>
                             </div>

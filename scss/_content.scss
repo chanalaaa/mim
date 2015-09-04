@@ -157,7 +157,7 @@
      height: 100%;
      overflow: hidden;
      position: relative;
-     margin-top: 5%;
+     //margin-top: 5%;
      //background-color: rgba(0, 9, 5, 0.5);
  }
  
@@ -171,7 +171,7 @@
      margin-right: auto;
      background-color: rgba(0, 0, 0, 0.5);
  }
- 
+ /*
  .hsContent h2 {
      //color: #fff8de;
      padding: 10px 5px;
@@ -188,31 +188,32 @@
      color: #b2b2b2;
      text-decoration: underline;
  }
+ */
  
  // End Content area ////////////////////////////////////
  @mixin box {
      position: absolute;
-     width: 100%;
-     height: 50%;
-     left: 37%;
-     margin-right: 10%;
+     //width: 100%;
+     //height: 50%;
+     left: 9em;
+     // margin-right: 10%;
  }
  
  .box1 {
      @include box;
-     margin-top: 330px;
+     margin-top: 26%;
      // background-color: rgba(4, 15, 5, 0.5);
  }
  
  .box2 {
      @include box;
-     margin-top: 140px;
+     margin-top: 11%;
      // background-color: rgba(4, 15, 5, 0.5);
  }
  
  .box3 {
      @include box;
-     margin-top: 305px;
+     margin-top: 25%;
      // background-color: rgba(4, 15, 5, 0.5);
  }
  
@@ -243,7 +244,9 @@
      color: #fff;
      //text-transform: uppercase;
      right: 0;
-     font-size: 3vmax;
+     //font-size: 3vmax;
+     //font-size: 2.8em;
+     font-size: 3.7vmax;
  }
  
  .s2_3,
@@ -263,11 +266,11 @@
      position: absolute;
      width: 450px;
      height: 300px;
-     /* top: 294px; */
-     margin-right: 10%;
-     max-width: 37%;
-     top: 0;
-     margin-top: 15%;
+     //top: 294px;
+     //margin-right: 10%;
+     //max-width: 37%;
+     //top: 0;
+     top: 27%;
  }
  
  .s21-tab,
@@ -314,7 +317,7 @@
      font-style: italic;
      font-size: .45em;
      color: #fff;
-     line-height: 20px;
+     line-height: 1.2em;
      margin-bottom: 30px;
  }
  
@@ -324,7 +327,8 @@
      font-family: 'helv_c';
      font-size: .45em;
      color: #fff;
-     padding: 5px 7px;
+     //padding: 5px 7px;
+     padding: .51% 1%;
      -webkit-border-radius: 10;
      -moz-border-radius: 10;
      border-radius: 10px;
@@ -339,14 +343,16 @@
  // S4 /////////////////////////////////////
  .s4-title {
      font-family: 'helv_b';
-     font-size: 2em;
+    // font-size: 2em;
+    font-size: 6vmax;
      color: #fff
  }
  
  .s4-info {
      font-family: 'helv_c';
      font-size: 0.6em;
-     line-height: 35px;
+    // line-height: 35px;
+    line-height: 1.2em;
  }
  
  // End S4 /////////////////////////////////////
