@@ -16,8 +16,12 @@
             <div class="bcg" data-anchor-target="#slide-1">
                 <div class="hsContainer">
                     <div class="hsContent" data-0="opacity: 1" data--250-top="opacity: 0" data-anchor-target="#slide-1">
-                        <p class="s1-title">Thailand's first graduate degree program in Marketing</p><br>
-                        <p class="s1-info">WHERE A <font style="color:#FF6400">DIVERSE ASSEMBLY OF FUTURE <br>LEADERS</font> ARE TAUGHT BY WORLD-CLASS FACULTY.</p><br>
+                        <p class="s1-title">Thailand's first graduate degree program in Marketing</p>
+                        <br>
+                        <p class="s1-info">WHERE A
+                            <font style="color:#FF6400">DIVERSE ASSEMBLY OF FUTURE
+                                <br>LEADERS</font> ARE TAUGHT BY WORLD-CLASS FACULTY.</p>
+                        <br>
                         <a href="#slide-2"><img class="s1-arrow" src="images/content/s1/arrow_grey.png" alt="READY"></a>
                     </div>
                 </div>
@@ -162,9 +166,27 @@
         <section id="slide-5" class="initp" data-top-bottom="background-position: 50% -100px;" data-600p="transform:translate(0,100%);" data-700p="transform:translate(0,0%)">
             <div class="bcg" data-anchor-target="#slide-5">
                 <div class="hsContainer">
-                    <div class="hsContent" data-center="opacity: 1" data-anchor-target="#slide-1">
-                        <h2>silde 5</h2>
-                        <p>5 consectetur adipiscing elit. Ut et est at justo hendrerit tristique non sit amet est Ut non malesuada eros. Donec ut egestas quam. In imperdiet consequat ex non congue</p>
+                    <div class="s5-left" data-center="opacity: 1" data-anchor-target="#slide-1">
+                        <img src="images/content/s5/s5-left_img.jpg" alt="" class="s5-left_img">
+                    </div>
+                    <div class="s5-right" data-center="opacity: 1" data-anchor-target="#slide-1">
+                        
+                        <p>YOUR<br><font style="color:#FF6400;font-size: 5vmax;">LEGEND STARTS</font><br>WITHIN YOU<br><font style="font-family:'helv_l'";>JOIN NOW!</font></p><br>
+                        <ul>
+                            <li><a href="#">
+                                        <p class="s5-btn">JOIN OPEN HOUSE</p>
+                                    </a></li>
+                            <li><a href="#">
+                                        <p class="s5-btn">APPLY</p>
+                                    </a></li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="s5-footer" data-center="opacity: 1" data-anchor-target="#slide-1">
+                        
+                       
                     </div>
                 </div>
             </div>
