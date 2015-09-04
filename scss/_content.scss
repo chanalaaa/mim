@@ -189,23 +189,29 @@
  }
  
  // End Content area ////////////////////////////////////
- .box1 {
+ @mixin box {
      position: absolute;
      width: 100%;
      height: 50%;
      left: 37%;
-     margin-top: 330px;
      margin-right: 10%;
+ }
+ 
+ .box1 {
+     @include box;
+     margin-top: 330px;
      // background-color: rgba(4, 15, 5, 0.5);
  }
  
  .box2 {
-     position: absolute;
-     width: 100%;
-     height: 50%;
-     left: 37%;
+     @include box;
      margin-top: 140px;
-     margin-right: 10%;
+     // background-color: rgba(4, 15, 5, 0.5);
+ }
+ 
+ .box3 {
+     @include box;
+     margin-top: 305px;
      // background-color: rgba(4, 15, 5, 0.5);
  }
  
@@ -275,7 +281,6 @@
      }
  }
  
- 
  // S3 /////////////////////////////////////
  .s31-tab {
      @include s-tab('../images/content/s3/tab-white.png');
@@ -331,8 +336,17 @@
  
  // End S3 /////////////////////////////////////
  // S4 /////////////////////////////////////
- .s4-title{
-
+ .s4-title {
+     font-family: 'helv_b';
+     font-size: 2em;
+     color: #fff
  }
-  // End S4 /////////////////////////////////////
+ 
+ .s4-info {
+     font-family: 'helv_c';
+     font-size: 0.6em;
+     line-height: 35px;
+ }
+ 
+ // End S4 /////////////////////////////////////
  // End Content //////////////////////////////////

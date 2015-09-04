@@ -113,13 +113,43 @@
                                 <p>GO</p>
                             </div>
                         </div>
-                        <div class="box1 s2_2" data-520p="transform:translate(0,0%);opacity:1;" data-548p="transform:translate(0,-20%);opacity:0;"><ul>
-                            <li><p class="s4-title">SUCCESS!</p></li>
-                            <li><p class="s4-info">Over 3,000 graduates working in key roles in Thailand and globally</p></li>
-                        </ul>
+                        <div class="box3 s2_2" data-520p="transform:translate(0,0%);opacity:1;" data-548p="transform:translate(0,-20%);opacity:0;">
+                            <ul>
+                                <li>
+                                    <p class="s4-title">SUCCESS!</p>
+                                </li>
+                                <li>
+                                    <p class="s4-info">
+                                        <font style="color:#FF6400">Over 3,000 graduates working in key roles </font>
+                                        <br>in Thailand and globally</p>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="box1 s2_3" data-290p="opacity:0;" data-538p="transform:translate(0%,18%);" data-555p="transform:translate(0%,-12%);opacity:1;" data-575p="transform:translate(0%,-12%);opacity:1;" data-590p="transform:translate(0,-28%);opacity:0;">S4 222222222222222222</div>
-                        <div class="box1 s2_5" data-587p="transform:translate(0%,8%);opacity:0;" data-600p="transform:translate(0%,-17%);opacity:1;" data-600p="transform:translate(0%,-17%);opacity:1;" data-675p="transform:translate(0%,-60%);opacity:0;">S4 3333333333333333333</div>
+                        <div class="box3 s2_3" data-290p="opacity:0;" data-538p="transform:translate(0%,18%);" data-555p="transform:translate(0%,-12%);opacity:1;" data-575p="transform:translate(0%,-12%);opacity:1;" data-590p="transform:translate(0,-28%);opacity:0;">
+                            <ul>
+                                <li>
+                                    <p class="s4-title">SUCCESS!</p>
+                                </li>
+                                <li>
+                                    <p class="s4-info">
+                                        <font style="color:#FF6400">Engaging with top firms </font>spanning diverse
+                                        <br>industries or starting up their own
+                                        <br>businesses.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box3 s2_5" data-587p="transform:translate(0%,8%);opacity:0;" data-600p="transform:translate(0%,-17%);opacity:1;" data-600p="transform:translate(0%,-17%);opacity:1;" data-675p="transform:translate(0%,-60%);opacity:0;">
+                            <ul>
+                                <li>
+                                    <p class="s4-title">SUCCESS!</p>
+                                </li>
+                                <li>
+                                    <p class="s4-info">
+                                        <font style="color:#FF6400">Champions </font>of international entrepreneurial
+                                        <br>investment competitions</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
