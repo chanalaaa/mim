@@ -242,8 +242,8 @@
  .s2_3,
  .s2_4,
  .s2_5 {
- 	@include s2-content;
-    pointer-events: none;
+     @include s2-content;
+     pointer-events: none;
  }
  
  .s2_2 {
@@ -265,7 +265,7 @@
  
  .s21-tab,
  .s41-tab {
-     @include s-tab('../images/content/s2/0.png');
+     @include s-tab('../images/content/s2/tab-orange.png');
  }
  
  .s2_2 {
@@ -275,15 +275,10 @@
      }
  }
  
- .s2_3 {}
- 
- .s2_4 {}
- 
- .s2_5 {}
  
  // S3 /////////////////////////////////////
  .s31-tab {
-     @include s-tab('../images/content/s3/0.png');
+     @include s-tab('../images/content/s3/tab-white.png');
      p {
          color: #000;
      }
@@ -291,6 +286,12 @@
  
  .s3-ico {
      width: 198px;
+     height: 177px;
+     clear: both;
+ }
+ 
+ .s3-ico3 {
+     width: 260px;
      height: 177px;
      clear: both;
  }
@@ -329,4 +330,9 @@
  }
  
  // End S3 /////////////////////////////////////
+ // S4 /////////////////////////////////////
+ .s4-title{
+
+ }
+  // End S4 /////////////////////////////////////
  // End Content //////////////////////////////////

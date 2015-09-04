@@ -667,7 +667,7 @@ section:nth-child(5) {
 
 .s21-tab,
 .s41-tab {
-  background-image: url("../images/content/s2/0.png");
+  background-image: url("../images/content/s2/tab-orange.png");
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -700,7 +700,7 @@ section:nth-child(5) {
   list-style: none; }
 
 .s31-tab {
-  background-image: url("../images/content/s3/0.png");
+  background-image: url("../images/content/s3/tab-white.png");
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -731,6 +731,11 @@ section:nth-child(5) {
 
 .s3-ico {
   width: 198px;
+  height: 177px;
+  clear: both; }
+
+.s3-ico3 {
+  width: 260px;
   height: 177px;
   clear: both; }
 
