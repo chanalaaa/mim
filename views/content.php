@@ -15,9 +15,10 @@
         <section id="slide-1" class="initp1" data-center="background-position: 50% 0px;opacity:1;" data-top-bottom="background-position: 50% -100px;">
             <div class="bcg" data-anchor-target="#slide-1">
                 <div class="hsContainer">
-                    <div class="hsContent" data-0="opacity: 1" data--250-top="opacity: 0" data-anchor-target="#slide-1 h2">
-                        <h2>Lorem ipsum <br />dolor sit amet</h2>
-                        <p>consectetur adipiscing elit. Ut et est at justo hendrerit tristique non sit amet est Ut non malesuada eros. Donec ut egestas quam. In imperdiet consequat ex non congue</p>
+                    <div class="hsContent" data-0="opacity: 1" data--250-top="opacity: 0" data-anchor-target="#slide-1">
+                        <p class="s1-title">Thailand's first graduate degree program in Marketing</p><br>
+                        <p class="s1-info">WHERE A <font style="color:#FF6400">DIVERSE ASSEMBLY OF FUTURE <br>LEADERS</font> ARE TAUGHT BY WORLD-CLASS FACULTY.</p><br>
+                        <a href="#slide-2"><img class="s1-arrow" src="images/content/s1/arrow_grey.png" alt="READY"></a>
                     </div>
                 </div>
             </div>
@@ -35,8 +36,8 @@
                         <div class="box1 s2_2" data-120p="transform:translate(0,0%);opacity:1;" data-128p="transform:translate(0,-20%);opacity:0;">TO BECOME A BUSINESS MASTER?
                         </div>
                         <div class="box1 s2_3" data-128p="transform:translate(0%,18%);opacity:0;" data-135p="transform:translate(0%,-6%);opacity:1;" data-145p="transform:translate(0%,-6%);opacity:1;" data-153p="transform:translate(0,-23%);opacity:0;">TO ACHIEVE YOUR CAREER GOAL?</div>
-                        <div class="box1 s2_4" data-153p="transform:translate(0%,8%);opacity:0;" data-160p="transform:translate(0%,-12%);opacity:1;" data-170p="transform:translate(0%,-12%);opacity:1;" data-190p="transform:translate(0%,-35%);opacity:0;">TO SUCCEED IN YOUR LIFE'S MISSION?</div>
-                        <div class="box1 s2_5" data-187p="transform:translate(0%,15%);opacity:0;" data-200p="transform:translate(0%,-30%);opacity:1;" data-218p="transform:translate(0%,-30%);opacity:1;" data-250p="transform:translate(0%,-60%);opacity:0;">TO START YOUR LEGEND?</div>
+                        <div class="box1 s2_4" data-153p="transform:translate(0%,8%);opacity:0;" data-160p="transform:translate(0%,-50%);opacity:1;" data-170p="transform:translate(0%,-50%);opacity:1;" data-190p="transform:translate(0%,-85%);opacity:0;">TO SUCCEED IN YOUR LIFE'S MISSION?</div>
+                        <div class="box1 s2_5" data-187p="transform:translate(0%,15%);opacity:0;" data-200p="transform:translate(0%,-80%);opacity:1;" data-218p="transform:translate(0%,-80%);opacity:1;" data-250p="transform:translate(0%,-120%);opacity:0;">TO START YOUR LEGEND?</div>
                     </div>
                 </div>
             </div>
@@ -161,7 +162,7 @@
         <section id="slide-5" class="initp" data-top-bottom="background-position: 50% -100px;" data-600p="transform:translate(0,100%);" data-700p="transform:translate(0,0%)">
             <div class="bcg" data-anchor-target="#slide-5">
                 <div class="hsContainer">
-                    <div class="hsContent" data-center="opacity: 1" data-anchor-target="#slide-1 h2">
+                    <div class="hsContent" data-center="opacity: 1" data-anchor-target="#slide-1">
                         <h2>silde 5</h2>
                         <p>5 consectetur adipiscing elit. Ut et est at justo hendrerit tristique non sit amet est Ut non malesuada eros. Donec ut egestas quam. In imperdiet consequat ex non congue</p>
                     </div>
