@@ -195,9 +195,9 @@
                     </div>
                     <div class="s5-pre_footer">
                         <ul>
-                            <li>1</li>
-                            <li>2</li>
-                            <li>3</li>
+                            <li>LEARN</li>
+                            <li><img src="images/content/s5/s5-ico_dome.png" alt="dome"> </li>
+                            <li>MORE</li>
                         </ul>
                     </div>
                     <div class="s5-footer" data-center="opacity: 1" data-anchor-target="#slide-1">

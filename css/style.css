@@ -623,17 +623,17 @@ section:nth-child(5) {
 .box1 {
   position: absolute;
   left: 9em;
-  margin-top: 24%; }
+  margin-top: 300px; }
 
 .box2 {
   position: absolute;
   left: 9em;
-  margin-top: 11%; }
+  margin-top: 150px; }
 
 .box3 {
   position: absolute;
   left: 9em;
-  margin-top: 23%; }
+  margin-top: 285px; }
 
 .s1-title {
   font-family: 'helv_c';
@@ -672,7 +672,7 @@ section:nth-child(5) {
 .s3_1,
 .s4_1 {
   position: absolute;
-  width: 450px;
+  width: 35vmax;
   height: 300px;
   top: 27%; }
 
@@ -857,10 +857,34 @@ p.s52-btn2 {
     text-decoration: none; }
 
 .s5-pre_footer {
-  width: 100%;
+  position: absolute;
+  width: 300px;
   height: 77px;
-  margin: 0 auto;
-  float: left; }
+  /* margin: 0 auto; */
+  /* float: left; */
+  bottom: 130px;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+  .s5-pre_footer li {
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'helv_c';
+    font-size: .9em;
+    text-align: center; }
+    .s5-pre_footer li img {
+      width: 100px;
+      height: 100px; }
+  .s5-pre_footer li:nth-child(1) {
+    text-align: right; }
+  .s5-pre_footer li:nth-child(2) {
+    width: 100px; }
+  .s5-pre_footer li:nth-child(3) {
+    width: 80px;
+    text-align: left; }
 
 .s5-footer {
   position: absolute;
@@ -879,6 +903,7 @@ p.s52-btn2 {
   width: 100%;
   display: inline-block;
   margin-top: 50px;
+  margin-left: 50px;
   color: #fff; }
   .s5-foot_ul li {
     display: inline-block;
