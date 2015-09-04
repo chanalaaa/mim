@@ -3,6 +3,7 @@ $(document).ready(function() {
     // Setup variables
     $window = $(window);
     $slide = $('.initp1');
+
     $slideTall = $('.initp');
     $slideTall2 = $('.homeSlideTall2');
     $body = $('body');
@@ -26,45 +27,53 @@ $(document).ready(function() {
 
     function adjustWindow() {
 
-        var s = skrollr.init({
 
-
-            //forceHeight: false,
-            smoothScrolling: true,
-            smoothScrollingDuration: 250,
-            render: function(data) {},
-            constants: {
-
-                //fill the box for a "duration" of 150% of the viewport (pause for 150%)
-                //adjust for shorter/longer pause
-                box: '100p',
-                box2: '350p',
-                box3: '550p',
-
-
-
-            }
-
-        });
-
-        // Get window size
         winH = $window.height();
+        winW = $window.width();
 
         // Keep minimum height 550
         if (winH <= 550) {
             winH = 550;
         }
-
-        // Resize our slides
-        $slide.height(winH);
-        $slideTall.height(winH);
-        $slideTall2.height(winH * 3);
-
-        // Refresh Skrollr after resizing our sections
-        // Init Skrollr
+        if (winW >= 768) {
+            var s = skrollr.init({
 
 
-        s.refresh($('.initp'));
+                //forceHeight: false,
+                smoothScrolling: true,
+                smoothScrollingDuration: 250,
+                render: function(data) {},
+                constants: {
+
+                    //fill the box for a "duration" of 150% of the viewport (pause for 150%)
+                    //adjust for shorter/longer pause
+                    box: '100p',
+                    box2: '350p',
+                    box3: '550p',
+
+
+
+                }
+
+
+            });
+
+            // Get window size
+
+            // Resize our slides
+            $slide.height(winH);
+            $slideTall.height(winH);
+            $slideTall2.height(winH * 3);
+
+            // Refresh Skrollr after resizing our sections
+            // Init Skrollr
+
+
+            s.refresh($('.initp'));
+        } else { // Init Skrollr
+            var s = skrollr.init();
+            s.destroy();
+        }
 
 
 

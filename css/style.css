@@ -142,6 +142,9 @@ h2 {
 section {
   min-width: 960px;
   opacity: 0; }
+  @media screen and (max-width: 760px) {
+    section {
+      opacity: 1; } }
 
 .loaded section,
 .no-js section {

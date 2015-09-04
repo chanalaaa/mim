@@ -82,6 +82,9 @@
     section {
         min-width: 960px;
         opacity: 0;
+        @media #{$md} {
+         opacity: 1;
+     }
     }
     
     .loaded section,
