@@ -544,10 +544,7 @@ section:nth-child(5) {
 
 /* Slide 2 */
 #slide-2 {
-  background-image: url("../images/content/bg4.jpg"); }
-  @media screen and (max-width: 760px) {
-    #slide-2 {
-      background-image: url("../images/content/bg4.jpg") !important; } }
+  background-color: rgba(247, 7, 0, 0.4); }
 
 /* Slide 3 */
 #slide-3 {

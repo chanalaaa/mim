@@ -2,10 +2,13 @@
 
 <body class="loading">
     <div id="preload">
-        <img src="images/content/bg1.jpg">
-        <img src="images/content/bg1.jpg">
-        <img src="images/content/bg2.jpg">
-        <img src="images/content/bg3.jpg">
+        <img src="images/content/s2/bg/bg1.jpg">
+        <img src="images/content/s2/bg/bg2.jpg">
+        <img src="images/content/s2/bg/bg3.jpg">
+        <img src="images/content/s2/bg/bg4.jpg">
+        <img src="images/content/s4/bg/bg1.jpg">
+        <img src="images/content/s4/bg/bg2.jpg">
+        <img src="images/content/s4/bg/bg3.jpg">
     </div>
     <main>
         <!-- SLIDE 1 ***************************** -->
@@ -20,7 +23,7 @@
             </div>
         </section>
         <!-- SLIDE 2 ***************************** -->
-        <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px; " data-0="transform:translate(0,75%);background-image: !url('images/content/s2/bg/bg4.jpg');" data-100p="transform:translate(0,0%);" data-_box-100p="" data-130p="background-image: !url('images/content/s2/bg/bg1.jpg');" data-150p="background-image: !url('images/content/s2/bg/bg3.jpg');" data-180p="background-image: !url('images/content/s2/bg/bg2.jpg');" data-_box-300p="transform:translate(0,-100%)">
+        <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px; " data-0="transform:translate(0,75%);background-color: !url('images/content/s2/bg/bg1.jpg');background-image: !url('images/content/s2/bg/bg1.jpg');" data-100p="transform:translate(0,0%);" data-_box-100p="" data-130p="background-image: !url('images/content/s2/bg/bg2.jpg');" data-150p="background-image: !url('images/content/s2/bg/bg3.jpg');" data-180p="background-image: !url('images/content/s2/bg/bg4.jpg');" data-_box-300p="transform:translate(0,-100%)">
             <div class="bcg" data-anchor-target="#slide-2">
                 <div class="hsContainer">
                     <div data-100p="opacity:1;">
@@ -104,7 +107,7 @@
             </div>
         </section>
         <!-- SLIDE 4 ***************************** -->
-        <section id="slide-4" class="initp" data-center="background-position: 50% 0px;" data-400p="transform:translate(0,100%);" data-500p="transform:translate(0,0%)" data-_box3-100p="" data-_box3-300p="transform:translate(0,-100%)" data-300="background-image: !url('images/content/s2/bg/bg1.jpg');" data-555p="background-image: !url('images/content/s2/bg/bg2.jpg');" data-600p="background-image: !url('images/content/s2/bg/bg4.jpg');">
+        <section id="slide-4" class="initp" data-center="background-position: 50% 0px;" data-400p="transform:translate(0,100%);" data-500p="transform:translate(0,0%)" data-_box3-100p="" data-_box3-300p="transform:translate(0,-100%)" data-300="background-image: !url('images/content/s4/bg/bg1.jpg');" data-555p="background-image: !url('images/content/s4/bg/bg2.jpg');" data-600p="background-image: !url('images/content/s4/bg/bg3.jpg');">
             <div class="bcg" data-anchor-target="#slide-4">
                 <div class="hsContainer">
                     <div data-500p="opacity:1;">

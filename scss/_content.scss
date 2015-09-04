@@ -90,9 +90,10 @@
  /* Slide 2 */
  
  #slide-2 {
-     background-image: url('../images/content/bg4.jpg');
+     //background-image: url('../images/content/s2/bg/bg1.jpg');
+     background-color: rgba(247, 7, 0, 0.4);
      @media #{$md} {
-         background-image: url('../images/content/bg4.jpg') !important;
+         // background-image: url('../images/content/bg4.jpg') !important;
      }
      //background-color: rgba(247, 7, 0, 0.4);
      //position: absolute;
