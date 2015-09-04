@@ -24,7 +24,7 @@
             <div class="bcg" data-anchor-target="#slide-2">
                 <div class="hsContainer">
                     <div data-100p="opacity:1;">
-                        <div class="s2_1" data-120p="transform:translate(0,0%);" data-200p="transform:translate(0,-20%);">
+                        <div class="s2_1" data-120p="transform:translate(0,0%);" data-200p="transform:translate(0,-15%);">
                             <div class="s21-tab">
                                 <p>READY</p>
                             </div>
@@ -52,13 +52,53 @@
                             <ul>
                                 <li><img class="s3-ico" src="images/content/s3/s31.png" alt=""></li>
                                 <li>
-                                    <p>S3 1111111111111</p>
+                                    <p class="s3-title">YOUR PROFICIENCY</p>
                                 </li>
-                                <li></li>
+                                <li>
+                                    <p class="s3-info">A tailored curriculum that
+                                        <br>caters to business world ahead</p>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="s3-btn">CURRICULUM ></p>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
-                        <div class="box2 s2_3" data-190p="opacity:0;" data-338p="transform:translate(0%,18%);" data-355p="transform:translate(0%,-12%);opacity:1;" data-375p="transform:translate(0%,-12%);opacity:1;" data-390p="transform:translate(0,-28%);opacity:0;">S3 222222222222222222</div>
-                        <div class="box2 s2_5" data-387p="transform:translate(0%,8%);opacity:0;" data-400p="transform:translate(0%,-20%);opacity:1;" data-400p="transform:translate(0%,-20%);opacity:1;" data-475p="transform:translate(0%,-60%);opacity:0;">S3 3333333333333333333</div>
+                        <div class="box2 s2_3" data-190p="opacity:0;" data-338p="transform:translate(0%,18%);" data-355p="transform:translate(0%,-12%);opacity:1;" data-375p="transform:translate(0%,-12%);opacity:1;" data-390p="transform:translate(0,-28%);opacity:0;">
+                            <ul>
+                                <li><img class="s3-ico" src="images/content/s3/s31.png" alt=""></li>
+                                <li>
+                                    <p class="s3-title">YOUR MASTERY</p>
+                                </li>
+                                <li>
+                                    <p class="s3-info">Learn from Business Masters to
+                                        <br>Master the Business</p>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="s3-btn">FACULTY ></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box2 s2_5" data-387p="transform:translate(0%,8%);opacity:0;" data-400p="transform:translate(0%,-20%);opacity:1;" data-400p="transform:translate(0%,-20%);opacity:1;" data-475p="transform:translate(0%,-60%);opacity:0;">
+                            <ul>
+                                <li><img class="s3-ico" src="images/content/s3/s31.png" alt=""></li>
+                                <li>
+                                    <p class="s3-title">YOUR EMPOWERMENTS</p>
+                                </li>
+                                <li>
+                                    <p class="s3-info">Study the global firms of the
+                                        <br>first magnitude</p>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="s3-btn">GLOBAL EXPOSURE ></p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
