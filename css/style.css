@@ -542,7 +542,7 @@ section:nth-child(5) {
 
 /* Slide 2 */
 #slide-2 {
-  background-color: rgba(247, 7, 0, 0.4); }
+  background-image: url("../images/content/s2/bg/bg1.jpg"); }
 
 /* Slide 3 */
 #slide-3 {
@@ -550,7 +550,7 @@ section:nth-child(5) {
 
 /* Slide 4 */
 #slide-4 {
-  background-image: url("../images/content/bg1.jpg"); }
+  background-image: url("../images/content/s4/bg/bg1.jpg"); }
 
 /* Slide 5 */
 #slide-5 {
@@ -812,22 +812,47 @@ p.s3-btn {
     text-align: right;
     line-height: 1em; }
   .s5-right ul {
-    display: inline-block; }
+    display: inline-flex;
+    float: right; }
 
-.s5-btn {
+a {
+  text-decoration: none; }
+
+.s5-btn1 {
+  margin-right: .5em; }
+
+p.s51-btn1 {
+  width: 8em;
+  position: relative;
   -webkit-border-radius: 5;
   -moz-border-radius: 5;
   border-radius: 5px;
   background: #ff6600;
   padding: 10px 20px 10px 20px;
-  text-decoration: none; }
-  .s5-btn p {
-    font-family: 'helv_b';
-    color: #ffffff;
-    text-align: center;
-    font-size: .45em; }
-  .s5-btn:hover {
+  text-decoration: none;
+  font-family: 'helv_b';
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.3vmax; }
+  p.s51-btn1:hover {
     background: #e36110;
+    text-decoration: none; }
+
+p.s52-btn2 {
+  width: 8em;
+  position: relative;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  background: #F1A63B;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-family: 'helv_b';
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.3vmax; }
+  p.s52-btn2:hover {
+    background: #DB8928;
     text-decoration: none; }
 
 .s5-footer {

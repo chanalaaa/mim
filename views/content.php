@@ -173,11 +173,11 @@
                         
                         <p>YOUR<br><font style="color:#FF6400;font-size: 5vmax;">LEGEND STARTS</font><br>WITHIN YOU<br><font style="font-family:'helv_l'";>JOIN NOW!</font></p><br>
                         <ul>
-                            <li><a href="#">
-                                        <p class="s5-btn">JOIN OPEN HOUSE</p>
+                            <li class="s5-btn1" ><a href="#">
+                                        <p class="s51-btn1">JOIN OPEN HOUSE</p>
                                     </a></li>
-                            <li><a href="#">
-                                        <p class="s5-btn">APPLY</p>
+                            <li class="s5-btn2"><a href="#">
+                                        <p class="s52-btn2">APPLY</p>
                                     </a></li>
                         </ul>
                     </div>
