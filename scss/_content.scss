@@ -18,8 +18,8 @@
      background: transparent center no-repeat;
      background-size: cover;
      //@include background-size(100% 100%); 
-     @media #{$md}{
-     	position: relative;
+     @media #{$md} {
+         position: relative;
      }
  }
  
@@ -32,6 +32,11 @@
      -webkit-transition: background-image 200ms;
      -moz-transition: background-image 200ms;
      transition: background-image 200ms;
+     @media #{$md} {
+     	margin-top: -45%;
+         -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+         clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+     }
      /*
      -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
      -ms-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
@@ -52,6 +57,12 @@
      -webkit-clip-path: url(../#clip_poly2);
      -o-clip-path: url(../#clip_poly2);
      clip-path: url(../#clip_poly2);
+     @media #{$md} {
+         -webkit-clip-path: none;
+         clip-path: none;
+         //-webkit-clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
+         // clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
+     }
      /*
      -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
      -ms-clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
@@ -68,6 +79,12 @@
      -webkit-transition: background-image 200ms;
      -moz-transition: background-image 200ms;
      transition: background-image 200ms;
+     @media #{$md} {
+         -webkit-clip-path: none;
+         clip-path: none;
+         // -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+         // clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+     }
  }
  
  section:nth-child(5) {
@@ -76,7 +93,54 @@
      -webkit-clip-path: url(../#clip_poly2);
      -o-clip-path: url(../#clip_poly2);
      clip-path: url(../#clip_poly2);
+     @media #{$md} {
+         -webkit-clip-path: none;
+         clip-path: none;
+         // -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
+         // clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
+     }
  }
+ 
+ // Content area ////////////////////////////////////
+ .hsContainer {
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+     position: relative;
+     //margin-top: 5%;
+     //background-color: rgba(0, 9, 5, 0.5);
+ }
+ 
+ .hsContent {
+     max-width: 50%;
+     position: absolute;
+     top: 25%;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+     // background-color: rgba(0, 0, 0, 0.5);
+ }
+ /*
+ .hsContent h2 {
+     //color: #fff8de;
+     padding: 10px 5px;
+     font-size: 35px;
+     line-height: 38px;
+     margin-bottom: 12px;
+ }
+ 
+ .hsContent p {
+     width: 400px;
+ }
+ 
+ .hsContent a {
+     color: #b2b2b2;
+     text-decoration: underline;
+ }
+ */
+ 
+ // End Content area ////////////////////////////////////
  /* ==========================================================================
        Slide
        ========================================================================== */
@@ -93,12 +157,9 @@
      background-image: url('../images/content/s2/bg/bg1.jpg');
      //background-color: rgba(247, 7, 0, 0.4);
      @media #{$md} {
+         //	margin-top: -30%;
          // background-image: url('../images/content/bg4.jpg') !important;
      }
-     //background-color: rgba(247, 7, 0, 0.4);
-     //position: absolute;
-     //margin-top: -25%; 
-     //@include bcg_init;
  }
  /* Slide 3 */
  
@@ -151,46 +212,6 @@
     }
     */
  
- // Content area ////////////////////////////////////
- .hsContainer {
-     width: 100%;
-     height: 100%;
-     overflow: hidden;
-     position: relative;
-     //margin-top: 5%;
-     //background-color: rgba(0, 9, 5, 0.5);
- }
- 
- .hsContent {
-     max-width: 50%;
-     position: absolute;
-     top: 25%;
-     left: 0;
-     right: 0;
-     margin-left: auto;
-     margin-right: auto;
-     // background-color: rgba(0, 0, 0, 0.5);
- }
- /*
- .hsContent h2 {
-     //color: #fff8de;
-     padding: 10px 5px;
-     font-size: 35px;
-     line-height: 38px;
-     margin-bottom: 12px;
- }
- 
- .hsContent p {
-     width: 400px;
- }
- 
- .hsContent a {
-     color: #b2b2b2;
-     text-decoration: underline;
- }
- */
- 
- // End Content area ////////////////////////////////////
  @mixin box {
      position: absolute;
      //width: 100%;

@@ -127,7 +127,7 @@ textarea {
 body,
 html {
   height: 100%;
-  min-height: 100%;
+  height: 100%;
   background-color: #000; }
   @media screen and (max-width: 736px) {
     body,
@@ -454,6 +454,11 @@ section:nth-child(2) {
   border-left: 100vw solid rgba(0, 0, 255, 0.5);
   border-top: 2.3em solid transparent;
 */ }
+  @media screen and (max-width: 736px) {
+    section:nth-child(2) {
+      margin-top: -45%;
+      -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+      clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0); } }
 
 section:nth-child(3) {
   width: 100%;
@@ -466,6 +471,10 @@ section:nth-child(3) {
   -ms-clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
   clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
   */ }
+  @media screen and (max-width: 736px) {
+    section:nth-child(3) {
+      -webkit-clip-path: none;
+      clip-path: none; } }
 
 section:nth-child(4) {
   width: 100%;
@@ -476,6 +485,10 @@ section:nth-child(4) {
   -webkit-transition: background-image 200ms;
   -moz-transition: background-image 200ms;
   transition: background-image 200ms; }
+  @media screen and (max-width: 736px) {
+    section:nth-child(4) {
+      -webkit-clip-path: none;
+      clip-path: none; } }
 
 section:nth-child(5) {
   width: 100%;
@@ -483,7 +496,44 @@ section:nth-child(5) {
   -webkit-clip-path: url(../#clip_poly2);
   -o-clip-path: url(../#clip_poly2);
   clip-path: url(../#clip_poly2); }
+  @media screen and (max-width: 736px) {
+    section:nth-child(5) {
+      -webkit-clip-path: none;
+      clip-path: none; } }
 
+.hsContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative; }
+
+.hsContent {
+  max-width: 50%;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*
+.hsContent h2 {
+    //color: #fff8de;
+    padding: 10px 5px;
+    font-size: 35px;
+    line-height: 38px;
+    margin-bottom: 12px;
+}
+
+.hsContent p {
+    width: 400px;
+}
+
+.hsContent a {
+    color: #b2b2b2;
+    text-decoration: underline;
+}
+*/
 /* ==========================================================================
       Slide
       ========================================================================== */
@@ -538,39 +588,6 @@ section:nth-child(5) {
         padding: 3px 10px;
     }
     */
-.hsContainer {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  position: relative; }
-
-.hsContent {
-  max-width: 50%;
-  position: absolute;
-  top: 25%;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto; }
-
-/*
-.hsContent h2 {
-    //color: #fff8de;
-    padding: 10px 5px;
-    font-size: 35px;
-    line-height: 38px;
-    margin-bottom: 12px;
-}
-
-.hsContent p {
-    width: 400px;
-}
-
-.hsContent a {
-    color: #b2b2b2;
-    text-decoration: underline;
-}
-*/
 .box1 {
   position: absolute;
   left: 9em;
