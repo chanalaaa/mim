@@ -96,16 +96,32 @@ $(document).ready(function() {
 
     var $slides = $('#slides-2,#slides-3,#slides-4');
 
-    for (var i = 1; i <= 3; i++) {
 
-        Hammer($slide[i]).on("swipeleft", function(e) {
-            $slides.data('superslides').animate('next');
-        });
+    Hammer($slide[1]).on("swipeleft", function(e) {
+        $('#slides-2').data('superslides').animate('next');
+    });
 
-        Hammer($slide[i]).on("swiperight", function(e) {
-            $slides.data('superslides').animate('prev');
-        });
-    };
+    Hammer($slide[1]).on("swiperight", function(e) {
+        $('#slides-2').data('superslides').animate('prev');
+    });
+
+    Hammer($slide[2]).on("swipeleft", function(e) {
+        $('#slides-3').data('superslides').animate('next');
+    });
+
+    Hammer($slide[2]).on("swiperight", function(e) {
+        $('#slides-3').data('superslides').animate('prev');
+    });
+
+    Hammer($slide[3]).on("swipeleft", function(e) {
+        $('#slides-4').data('superslides').animate('next');
+    });
+
+    Hammer($slide[3]).on("swiperight", function(e) {
+        $('#slides-4').data('superslides').animate('prev');
+    });
+
+
 
     $slides.superslides({
         hashchange: false
