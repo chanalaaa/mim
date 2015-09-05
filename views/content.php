@@ -50,7 +50,7 @@
                     </div>
                     <!-- hsCon-Res -->
                     <div class="hsCon-Res">
-                        <div id="slides">
+                        <div id="slides-2">
                             <div class="slides-container">
                                 <img src="images/content/s2/bg/bg1.jpg" width="100%" height="100%" alt="">
                                 <img src="images/content/s2/bg/bg2.jpg" width="100%" height="100%" alt="">
@@ -66,62 +66,76 @@
         <section id="slide-3" class="initp" data-center="background-position: 50% 0px;" data-190p="transform:translate(0,100%);" data-300p="transform:translate(0,0%)" data-_box2-100p="" data-_box2-300p="transform:translate(0,-100%);">
             <div class="bcg" data-anchor-target="#slide-3">
                 <div class="hsContainer">
-                    <div data-300p="opacity:1;">
-                        <div class="s3_1" data-320p="transform:translate(0,0%);" data-400p="transform:translate(0,-20%);">
-                            <div class="s31-tab">
-                                <p>SET</p>
+                    <!-- hsCon-Desk -->
+                    <div class="hsCon-Desk">
+                        <div data-300p="opacity:1;">
+                            <div class="s3_1" data-320p="transform:translate(0,0%);" data-400p="transform:translate(0,-20%);">
+                                <div class="s31-tab">
+                                    <p>SET</p>
+                                </div>
+                            </div>
+                            <div class="box2 s2_2" data-320p="transform:translate(0,0%);opacity:1;" data-348p="transform:translate(0,-20%);opacity:0;">
+                                <ul>
+                                    <li><img class="s3-ico" src="images/content/s3/s31.png" alt=""></li>
+                                    <li>
+                                        <p class="s3-title">YOUR PROFICIENCY</p>
+                                    </li>
+                                    <li>
+                                        <p class="s3-info">A tailored curriculum that
+                                            <br>caters to business world ahead</p>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="s3-btn">CURRICULUM ></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="box2 s2_3" data-190p="opacity:0;" data-338p="transform:translate(0%,18%);" data-355p="transform:translate(0%,-12%);opacity:1;" data-375p="transform:translate(0%,-12%);opacity:1;" data-390p="transform:translate(0,-28%);opacity:0;">
+                                <ul>
+                                    <li><img class="s3-ico" src="images/content/s3/s32.png" alt=""></li>
+                                    <li>
+                                        <p class="s3-title">YOUR MASTERY</p>
+                                    </li>
+                                    <li>
+                                        <p class="s3-info">Learn from business masters to
+                                            <br>master the business</p>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="s3-btn">FACULTY ></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="box2 s2_5" data-387p="transform:translate(0%,8%);opacity:0;" data-400p="transform:translate(0%,-20%);opacity:1;" data-400p="transform:translate(0%,-20%);opacity:1;" data-475p="transform:translate(0%,-60%);opacity:0;">
+                                <ul>
+                                    <li><img class="s3-ico3" src="images/content/s3/s33.png" alt=""></li>
+                                    <li>
+                                        <p class="s3-title">YOUR EMPOWERMENTS</p>
+                                    </li>
+                                    <li>
+                                        <p class="s3-info">Study the global firms of the
+                                            <br>first magnitude</p>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="s3-btn">GLOBAL EXPOSURE ></p>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="box2 s2_2" data-320p="transform:translate(0,0%);opacity:1;" data-348p="transform:translate(0,-20%);opacity:0;">
-                            <ul>
-                                <li><img class="s3-ico" src="images/content/s3/s31.png" alt=""></li>
-                                <li>
-                                    <p class="s3-title">YOUR PROFICIENCY</p>
-                                </li>
-                                <li>
-                                    <p class="s3-info">A tailored curriculum that
-                                        <br>caters to business world ahead</p>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <p class="s3-btn">CURRICULUM ></p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="box2 s2_3" data-190p="opacity:0;" data-338p="transform:translate(0%,18%);" data-355p="transform:translate(0%,-12%);opacity:1;" data-375p="transform:translate(0%,-12%);opacity:1;" data-390p="transform:translate(0,-28%);opacity:0;">
-                            <ul>
-                                <li><img class="s3-ico" src="images/content/s3/s32.png" alt=""></li>
-                                <li>
-                                    <p class="s3-title">YOUR MASTERY</p>
-                                </li>
-                                <li>
-                                    <p class="s3-info">Learn from business masters to
-                                        <br>master the business</p>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <p class="s3-btn">FACULTY ></p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="box2 s2_5" data-387p="transform:translate(0%,8%);opacity:0;" data-400p="transform:translate(0%,-20%);opacity:1;" data-400p="transform:translate(0%,-20%);opacity:1;" data-475p="transform:translate(0%,-60%);opacity:0;">
-                            <ul>
-                                <li><img class="s3-ico3" src="images/content/s3/s33.png" alt=""></li>
-                                <li>
-                                    <p class="s3-title">YOUR EMPOWERMENTS</p>
-                                </li>
-                                <li>
-                                    <p class="s3-info">Study the global firms of the
-                                        <br>first magnitude</p>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <p class="s3-btn">GLOBAL EXPOSURE ></p>
-                                    </a>
-                                </li>
-                            </ul>
+                    </div>
+                    <!-- hsCon-Res -->
+                    <div class="hsCon-Res">
+                        <div id="slides-3">
+                            <div class="slides-container">
+                                <img src="images/content/s2/bg/bg1.jpg" width="100%" height="100%" alt="">
+                                <img src="images/content/s2/bg/bg2.jpg" width="100%" height="100%" alt="">
+                                <img src="images/content/s2/bg/bg3.jpg" width="100%" height="100%" alt="">
+                                <img src="images/content/s2/bg/bg4.jpg" width="100%" height="100%" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -131,48 +145,61 @@
         <section id="slide-4" class="initp" data-center="background-position: 50% 0px;" data-400p="transform:translate(0,100%);" data-500p="transform:translate(0,0%)" data-_box3-100p="" data-_box3-300p="transform:translate(0,-100%)" data-300="background-image: !url('images/content/s4/bg/bg1.jpg');" data-555p="background-image: !url('images/content/s4/bg/bg2.jpg');" data-600p="background-image: !url('images/content/s4/bg/bg3.jpg');">
             <div class="bcg" data-anchor-target="#slide-4">
                 <div class="hsContainer">
-                    <div data-500p="opacity:1;">
-                        <div class="s4_1" data-520p="transform:translate(0,0%);" data-600p="transform:translate(0,-10%);">
-                            <div class="s41-tab">
-                                <p>GO</p>
+                    <!-- hsCon-Desk -->
+                    <div class="hsCon-Desk">
+                        <div data-500p="opacity:1;">
+                            <div class="s4_1" data-520p="transform:translate(0,0%);" data-600p="transform:translate(0,-10%);">
+                                <div class="s41-tab">
+                                    <p>GO</p>
+                                </div>
+                            </div>
+                            <div class="box3 s2_2" data-520p="transform:translate(0,0%);opacity:1;" data-548p="transform:translate(0,-20%);opacity:0;">
+                                <ul>
+                                    <li>
+                                        <p class="s4-title">SUCCESS!</p>
+                                    </li>
+                                    <li>
+                                        <p class="s4-info">
+                                            <font style="color:#FF6400">Over 3,000 graduates working in key roles </font>
+                                            <br>in Thailand and globally</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="box3 s2_3" data-290p="opacity:0;" data-538p="transform:translate(0%,18%);" data-555p="transform:translate(0%,-12%);opacity:1;" data-575p="transform:translate(0%,-12%);opacity:1;" data-590p="transform:translate(0,-28%);opacity:0;">
+                                <ul>
+                                    <li>
+                                        <p class="s4-title">SUCCESS!</p>
+                                    </li>
+                                    <li>
+                                        <p class="s4-info">
+                                            <font style="color:#FF6400">Engaging with top firms </font>spanning diverse
+                                            <br>industries or starting up their own
+                                            <br>businesses.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="box3 s2_5" data-587p="transform:translate(0%,8%);opacity:0;" data-600p="transform:translate(0%,-17%);opacity:1;" data-600p="transform:translate(0%,-17%);opacity:1;" data-675p="transform:translate(0%,-60%);opacity:0;">
+                                <ul>
+                                    <li>
+                                        <p class="s4-title">SUCCESS!</p>
+                                    </li>
+                                    <li>
+                                        <p class="s4-info">
+                                            <font style="color:#FF6400">Champions </font>of international entrepreneurial
+                                            <br>investment competitions</p>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="box3 s2_2" data-520p="transform:translate(0,0%);opacity:1;" data-548p="transform:translate(0,-20%);opacity:0;">
-                            <ul>
-                                <li>
-                                    <p class="s4-title">SUCCESS!</p>
-                                </li>
-                                <li>
-                                    <p class="s4-info">
-                                        <font style="color:#FF6400">Over 3,000 graduates working in key roles </font>
-                                        <br>in Thailand and globally</p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="box3 s2_3" data-290p="opacity:0;" data-538p="transform:translate(0%,18%);" data-555p="transform:translate(0%,-12%);opacity:1;" data-575p="transform:translate(0%,-12%);opacity:1;" data-590p="transform:translate(0,-28%);opacity:0;">
-                            <ul>
-                                <li>
-                                    <p class="s4-title">SUCCESS!</p>
-                                </li>
-                                <li>
-                                    <p class="s4-info">
-                                        <font style="color:#FF6400">Engaging with top firms </font>spanning diverse
-                                        <br>industries or starting up their own
-                                        <br>businesses.</p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="box3 s2_5" data-587p="transform:translate(0%,8%);opacity:0;" data-600p="transform:translate(0%,-17%);opacity:1;" data-600p="transform:translate(0%,-17%);opacity:1;" data-675p="transform:translate(0%,-60%);opacity:0;">
-                            <ul>
-                                <li>
-                                    <p class="s4-title">SUCCESS!</p>
-                                </li>
-                                <li>
-                                    <p class="s4-info">
-                                        <font style="color:#FF6400">Champions </font>of international entrepreneurial
-                                        <br>investment competitions</p>
-                                </li>
-                            </ul>
+                    </div>
+                    <!-- hsCon-Res -->
+                    <div class="hsCon-Res">
+                        <div id="slides-4">
+                            <div class="slides-container">
+                                <img src="images/content/s4/bg/bg1.jpg" width="100%" height="100%" alt="">
+                                <img src="images/content/s4/bg/bg2.jpg" width="100%" height="100%" alt="">
+                                <img src="images/content/s4/bg/bg3.jpg" width="100%" height="100%" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>

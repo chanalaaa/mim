@@ -94,15 +94,18 @@ $(document).ready(function() {
 
 
 
-    var $slides = $('#slides');
+    var $slides = $('#slides-2,#slides-3,#slides-4');
 
-    Hammer($slides[0]).on("swipeleft", function(e) {
-        $slides.data('superslides').animate('next');
-    });
+    for (var i = 1; i <= 3; i++) {
 
-    Hammer($slides[0]).on("swiperight", function(e) {
-        $slides.data('superslides').animate('prev');
-    });
+        Hammer($slide[i]).on("swipeleft", function(e) {
+            $slides.data('superslides').animate('next');
+        });
+
+        Hammer($slide[i]).on("swiperight", function(e) {
+            $slides.data('superslides').animate('prev');
+        });
+    };
 
     $slides.superslides({
         hashchange: false

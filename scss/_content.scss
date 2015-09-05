@@ -23,6 +23,19 @@
      }
  }
  
+ .hsCon-Desk {
+     @media #{$md} {
+         opacity: 0;
+     }
+ }
+ 
+ .hsCon-Res {
+     opacity: 0;
+     @media #{$md} {
+         opacity: 1;
+     }
+ }
+ 
  section:nth-child(1) {
      .hsContainer {
          @media #{$md} {
@@ -57,17 +70,6 @@
      border-left: 100vw solid rgba(0, 0, 255, 0.5);
      border-top: 2.3em solid transparent;
    */
-     .hsCon-Desk {
-         @media #{$md} {
-             opacity: 0;
-         }
-     }
-     .hsCon-Res {
-         opacity: 0;
-         @media #{$md} {
-             opacity: 1;
-         }
-     }
  }
  
  section:nth-child(3) {
@@ -172,6 +174,9 @@
      background-color: #FF6400;
      //background-image: url('../images/content/bg3.jpg');
      //@include bcg_init;
+     .slides-pagination a.current {
+         background: #000;
+     }
  }
  /* Slide 4 */
  
@@ -365,7 +370,7 @@
      height: 16px;
      @media #{$md} {
          margin-top: 20%;
-        // pointer-events: all;
+         // pointer-events: all;
      }
  }
  
