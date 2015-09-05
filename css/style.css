@@ -600,7 +600,8 @@ section:nth-child(5) {
 
 #slides {
   position: relative;
-  height: 100% !important; }
+  height: 100% !important;
+  pointer-events: auto; }
 
 #slides .slides-container {
   display: none; }
@@ -644,8 +645,8 @@ section:nth-child(5) {
   width: 100%; }
 
 .slides-pagination a {
-  border: 2px solid #222;
   border-radius: 15px;
+  background: #fff;
   width: 10px;
   height: 10px;
   display: -moz-inline-stack;
@@ -660,7 +661,7 @@ section:nth-child(5) {
   text-indent: -100%; }
 
 .slides-pagination a.current {
-  background: #222; }
+  background: #FF6400; }
 
 .box1 {
   position: absolute;

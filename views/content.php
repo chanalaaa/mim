@@ -57,10 +57,6 @@
                                 <img src="images/content/s2/bg/bg3.jpg" width="100%" height="100%" alt="">
                                 <img src="images/content/s2/bg/bg4.jpg" width="100%" height="100%" alt="">
                             </div>
-                            <nav class="slides-navigation">
-                                <a href="#" class="next">Next</a>
-                                <a href="#" class="prev">Previous</a>
-                            </nav>
                         </div>
                     </div>
                 </div>

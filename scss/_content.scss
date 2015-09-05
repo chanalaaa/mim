@@ -191,13 +191,13 @@
  #slides {
      position: relative;
      height: 100% !important;
+     pointer-events: auto;
  }
  
  #slides .slides-container {
      display: none;
      img {
-
-      //  height: auto !important;
+         //  height: auto !important;
      }
  }
  
@@ -247,8 +247,9 @@
  }
  
  .slides-pagination a {
-     border: 2px solid #222;
+     //border: 2px solid #222;
      border-radius: 15px;
+     background: #fff;
      width: 10px;
      height: 10px;
      display: -moz-inline-stack;
@@ -264,7 +265,7 @@
  }
  
  .slides-pagination a.current {
-     background: #222;
+     background: #FF6400;
  }
  
  // ========== End Silde Res =======================================
@@ -364,6 +365,7 @@
      height: 16px;
      @media #{$md} {
          margin-top: 20%;
+        // pointer-events: all;
      }
  }
  
