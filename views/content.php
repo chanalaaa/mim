@@ -22,12 +22,13 @@
                             <font style="color:#FF6400">DIVERSE ASSEMBLY OF FUTURE
                                 <br>LEADERS</font> ARE TAUGHT BY WORLD-CLASS FACULTY.</p>
                         <br>
-                        <a href="#slide-2"><img class="s1-arrow" src="images/content/s1/arrow_grey.png" alt="READY"></a>
+                        <div class="s1-arrow_block">
+                            <a href="#slide-2"><img class="s1-arrow" src="images/content/s1/arrow_grey.png" alt="READY"></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-
         <!-- SLIDE 2 ***************************** -->
         <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px; " data-0="transform:translate(0,75%);background-color: !url('images/content/s2/bg/bg1.jpg');background-image: !url('images/content/s2/bg/bg1.jpg');" data-100p="transform:translate(0,0%);" data-_box-100p="" data-130p="background-image: !url('images/content/s2/bg/bg2.jpg');" data-150p="background-image: !url('images/content/s2/bg/bg3.jpg');" data-180p="background-image: !url('images/content/s2/bg/bg4.jpg');" data-_box-300p="transform:translate(0,-100%)">
             <div class="bcg" data-anchor-target="#slide-2">
@@ -165,13 +166,13 @@
         </section>
         <!-- SLIDE 5 ***************************** -->
         <section id="slide-5" class="initp" data-top-bottom="background-position: 50% -100px;" data-600p="transform:translate(0,100%);" data-700p="transform:translate(0,0%)">
-            <div class="bcg" >
+            <div class="bcg">
                 <div class="hsContainer">
                     <div class="s5-content">
                         <div class="s5-left" data-center="opacity: 1" data-anchor-target="#slide-1">
                             <img src="images/content/s5/s5-left_img.jpg" alt="" class="s5-left_img">
                         </div>
-                        <div class="s5-right" data-center="opacity: 1" >
+                        <div class="s5-right" data-center="opacity: 1">
                             <p>YOUR
                                 <br>
                                 <font style="color:#FF6400;font-size: 5vmax;">LEGEND STARTS</font>
@@ -201,7 +202,7 @@
                             <li>MORE</li>
                         </ul>
                     </div>
-                    <div class="s5-footer" data-center="opacity: 1" >
+                    <div class="s5-footer" data-center="opacity: 1">
                         <div class="s5-foot_info">
                             <ul class="s5-foot_ul">
                                 <li class="s5-li1">MASTER'S DEGREE PROGRAM IN

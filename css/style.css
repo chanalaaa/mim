@@ -475,6 +475,10 @@ p.nav1-btn2 {
     .initp {
       position: relative; } }
 
+@media screen and (max-width: 736px) {
+  section:nth-child(1) .hsContainer {
+    height: 120%; } }
+
 section:nth-child(2) {
   width: 100%;
   overflow: hidden;
@@ -557,25 +561,11 @@ section:nth-child(5) {
   right: 0;
   margin-left: auto;
   margin-right: auto; }
+  @media screen and (max-width: 736px) {
+    .hsContent {
+      max-width: 80%;
+      margin-top: -5%; } }
 
-/*
-.hsContent h2 {
-    //color: #fff8de;
-    padding: 10px 5px;
-    font-size: 35px;
-    line-height: 38px;
-    margin-bottom: 12px;
-}
-
-.hsContent p {
-    width: 400px;
-}
-
-.hsContent a {
-    color: #b2b2b2;
-    text-decoration: underline;
-}
-*/
 /* ==========================================================================
       Slide
       ========================================================================== */
@@ -651,17 +641,31 @@ section:nth-child(5) {
   font-size: 26px;
   font-size: 2vmax;
   margin-bottom: 2%; }
+  @media screen and (max-width: 736px) {
+    .s1-title {
+      font-size: 1.1em; } }
 
 .s1-info {
   font-family: 'helv_b';
   color: #000;
   font-size: 40px;
   font-size: 3vmax; }
+  @media screen and (max-width: 736px) {
+    .s1-info {
+      font-size: 1.6em; } }
+
+@media screen and (max-width: 736px) {
+  .s1-arrow_block {
+    width: 100%;
+    text-align: center; } }
 
 .s1-arrow {
   margin-top: 3%;
   width: 56px;
   height: 16px; }
+  @media screen and (max-width: 736px) {
+    .s1-arrow {
+      margin-top: 20%; } }
 
 .s2_3,
 .s2_4,
