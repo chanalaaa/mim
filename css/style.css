@@ -340,6 +340,9 @@ main {
   width: 100%;
   height: 80px;
   vertical-align: middle; }
+  @media screen and (max-width: 736px) {
+    .entry-header {
+      height: 55px; } }
 
 .inner p {
   font-family: 'helv_h';
@@ -366,7 +369,8 @@ main {
   margin: 15px 20px; }
   @media screen and (max-width: 736px) {
     .nav-sec1 {
-      width: 100%; } }
+      width: 100%;
+      margin: 11px 20px; } }
 
 .nav-sec2 {
   float: right;
@@ -384,9 +388,17 @@ main {
   width: 45px;
   height: 49px;
   margin-right: 20px; }
+  @media screen and (max-width: 736px) {
+    .logo {
+      margin-right: 10px;
+      width: 36px;
+      height: 32px; } }
 
 .nav-title {
   padding-top: 10px; }
+  @media screen and (max-width: 736px) {
+    .nav-title {
+      padding: 0px; } }
 
 .table {
   display: table;
@@ -415,12 +427,12 @@ p.nav1-btn1 {
   color: #ffffff;
   text-align: center;
   font-size: 1.3em; }
+  p.nav1-btn1:active {
+    background: #e36110;
+    text-decoration: none; }
   @media screen and (max-width: 736px) {
     p.nav1-btn1 {
       font-size: 1em; } }
-  p.nav1-btn1:hover {
-    background: #e36110;
-    text-decoration: none; }
 
 p.nav1-btn2 {
   width: 8em;
@@ -435,12 +447,12 @@ p.nav1-btn2 {
   color: #ffffff;
   text-align: center;
   font-size: 1.3em; }
+  p.nav1-btn2:active {
+    background: #DB8928;
+    text-decoration: none; }
   @media screen and (max-width: 736px) {
     p.nav1-btn2 {
       font-size: 1em; } }
-  p.nav1-btn2:hover {
-    background: #DB8928;
-    text-decoration: none; }
 
 .initp1 {
   position: fixed;
