@@ -155,8 +155,6 @@
  
  #slide-1 {
      background-color: #fff;
-     //background-image: url('../images/content/bg2.jpg');
-     //@include bcg_init;
  }
  /* Slide 2 */
  
@@ -164,16 +162,23 @@
      background-image: url('../images/content/s2/bg/bg1.jpg');
      //background-color: rgba(247, 7, 0, 0.4);
      @media #{$md} {
+         background: none;
          //	margin-top: -30%;
          // background-image: url('../images/content/bg4.jpg') !important;
+     }
+     .slides-pagination {
+         @media #{$md} {
+                 bottom: 20%;
+         }
      }
  }
  /* Slide 3 */
  
  #slide-3 {
      background-color: #FF6400;
-     //background-image: url('../images/content/bg3.jpg');
-     //@include bcg_init;
+     @media #{$md} {
+         background: none;
+     }
      .slides-pagination a.current {
          background: #000;
      }
@@ -182,7 +187,6 @@
  
  #slide-4 {
      background-image: url('../images/content/s4/bg/bg1.jpg');
-     //@include bcg_init;
  }
  /* Slide 5 */
  
@@ -287,6 +291,11 @@
      //margin-top: 24%;
      margin-top: 300px;
      // background-color: rgba(4, 15, 5, 0.5);
+     @media #{$md} {
+         left: 0;
+         margin-top: 220px;
+         width: 88%;
+     }
  }
  
  .box2 {
@@ -383,7 +392,23 @@
  }
  
  .s2_2 {
-     @include s2-content;
+     @media #{$md} {
+         @include s2-content;
+         font-size: 3em;
+         margin-left: .7em;
+         margin-top: .5em;
+     }
+ }
+ 
+ .s2-res_title {
+     @media #{$md} {
+         @include s2-content;
+         width: 2.7em;
+         font-size: 3.5em;
+         padding: .4em .7em .2em;
+         background-color: #ff6600;
+         border-radius: 5px;
+     }
  }
  
  .s2_1,

@@ -382,7 +382,7 @@ main {
       width: 100%;
       float: left;
       padding-top: 0px;
-      background-color: rgba(0, 0, 0, 0.5); } }
+      background-color: rgba(0, 0, 0, 0.7); } }
 
 .logo {
   width: 45px;
@@ -586,10 +586,19 @@ section:nth-child(5) {
 /* Slide 2 */
 #slide-2 {
   background-image: url("../images/content/s2/bg/bg1.jpg"); }
+  @media screen and (max-width: 736px) {
+    #slide-2 {
+      background: none; } }
+  @media screen and (max-width: 736px) {
+    #slide-2 .slides-pagination {
+      bottom: 20%; } }
 
 /* Slide 3 */
 #slide-3 {
   background-color: #FF6400; }
+  @media screen and (max-width: 736px) {
+    #slide-3 {
+      background: none; } }
   #slide-3 .slides-pagination a.current {
     background: #000; }
 
@@ -671,6 +680,11 @@ section:nth-child(5) {
   position: absolute;
   left: 9em;
   margin-top: 300px; }
+  @media screen and (max-width: 736px) {
+    .box1 {
+      left: 0;
+      margin-top: 220px;
+      width: 88%; } }
 
 .box2 {
   position: absolute;
@@ -723,11 +737,27 @@ section:nth-child(5) {
   font-size: 3.7vmax;
   pointer-events: none; }
 
-.s2_2 {
-  font-family: 'helv_b';
-  color: #fff;
-  right: 0;
-  font-size: 3.7vmax; }
+@media screen and (max-width: 736px) {
+  .s2_2 {
+    font-family: 'helv_b';
+    color: #fff;
+    right: 0;
+    font-size: 3.7vmax;
+    font-size: 3em;
+    margin-left: .7em;
+    margin-top: .5em; } }
+
+@media screen and (max-width: 736px) {
+  .s2-res_title {
+    font-family: 'helv_b';
+    color: #fff;
+    right: 0;
+    font-size: 3.7vmax;
+    width: 2.7em;
+    font-size: 3.5em;
+    padding: .4em .7em .2em;
+    background-color: #ff6600;
+    border-radius: 5px; } }
 
 .s2_1,
 .s3_1,
