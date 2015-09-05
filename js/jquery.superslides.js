@@ -12,7 +12,7 @@ Superslides = function(el, options) {
     animation_easing: 'swing',
     animation: 'slide',
     inherit_width_from: window,
-    inherit_height_from: window,
+    inherit_height_from: 'section',
     pagination: true,
     hashchange: false,
     scrollable: true,
@@ -434,7 +434,7 @@ Superslides.prototype = {
     return $(this.options.inherit_width_from).width();
   },
   _findHeight: function() {
-    return $(this.options.inherit_height_from).height();
+   return $(this.options.inherit_height_from).height();
   },
 
   _findMultiplier: function() {

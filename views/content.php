@@ -52,10 +52,10 @@
                     <div class="hsCon-Res">
                         <div id="slides">
                             <div class="slides-container">
-                                <img src="images/content/s2/bg/bg1.jpg" alt="">
-                                <img src="images/content/s2/bg/bg2.jpg" width="1024" height="685" alt="">
-                                <img src="images/content/s2/bg/bg3.jpg" width="1024" height="685" alt="">
-                                <img src="images/content/s2/bg/bg4.jpg" width="1024" height="685" alt="">
+                                <img src="images/content/s2/bg/bg1.jpg" width="100%" height="100%" alt="">
+                                <img src="images/content/s2/bg/bg2.jpg" width="100%" height="100%" alt="">
+                                <img src="images/content/s2/bg/bg3.jpg" width="100%" height="100%" alt="">
+                                <img src="images/content/s2/bg/bg4.jpg" width="100%" height="100%" alt="">
                             </div>
                             <nav class="slides-navigation">
                                 <a href="#" class="next">Next</a>
