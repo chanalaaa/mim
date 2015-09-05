@@ -2,11 +2,13 @@ $(document).ready(function() {
 
     // Setup variables
     $window = $(window);
-    $slide = $('.initp1');
-
-    $slideTall = $('.initp');
-    $slideTall2 = $('.homeSlideTall2');
+    $slide = $('.initp');
     $body = $('body');
+
+    causeRepaintsOn = $("h1, h2, h3, p");
+    $(window).resize(function() {
+        causeRepaintsOn.css("z-index", 1);
+    });
 
     //FadeIn all sections   
     $body.imagesLoaded(function() {
@@ -20,10 +22,7 @@ $(document).ready(function() {
 
         }, 800);
     });
-    causeRepaintsOn = $("h1, h2, h3, p");
-    $(window).resize(function() {
-        causeRepaintsOn.css("z-index", 1);
-    });
+
 
     function adjustWindow() {
 
@@ -35,7 +34,7 @@ $(document).ready(function() {
         if (winH <= 550) {
             winH = 550;
         }
-        if (winW >= 768) {
+        if( winW >= 768) {
             var s = skrollr.init({
 
 
@@ -62,22 +61,36 @@ $(document).ready(function() {
 
             // Resize our slides
             $slide.height(winH);
-            $slideTall.height(winH);
-            $slideTall2.height(winH * 3);
 
             // Refresh Skrollr after resizing our sections
             // Init Skrollr
 
 
             s.refresh($('.initp'));
-        } else { // Init Skrollr
+       
+ } else {
+
+            // Init Skrollr
             var s = skrollr.init();
             s.destroy();
         }
 
 
-
     }
+
+    function initAdjustWindow() {
+        return {
+            match : function() {
+                adjustWindow();
+            },
+            unmatch : function() {
+                adjustWindow();
+            }
+        };
+    }
+
+    enquire.register("screen and (min-width : 768px)", initAdjustWindow(), false)
+            .listen(100);
 
 
 

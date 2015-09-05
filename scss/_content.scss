@@ -18,6 +18,9 @@
      background: transparent center no-repeat;
      background-size: cover;
      //@include background-size(100% 100%); 
+     @media #{$md}{
+     	position: relative;
+     }
  }
  
  section:nth-child(2) {

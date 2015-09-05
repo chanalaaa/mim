@@ -9,6 +9,7 @@ ob_start('ob_gzhandler');
         <meta name="viewport" content="width=device-width">
         <script type="text/javascript" src="js/jquery-1.11.3.min.js?v=1001"></script>
         <script type="text/javascript" src="js/imagesloaded.js"></script>
+        <script type="text/javascript" src="js/enquire.min.js"></script>
         <!-- <script type="text/javascript" src="js/javascript.fullPage.min.js"></script>
         <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
         <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
