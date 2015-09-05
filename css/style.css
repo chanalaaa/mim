@@ -683,7 +683,7 @@ section:nth-child(5) {
   @media screen and (max-width: 736px) {
     .box1 {
       left: 0;
-      margin-top: 220px;
+      margin-top: 200px;
       width: 88%; } }
 
 .box2 {
@@ -695,6 +695,15 @@ section:nth-child(5) {
   position: absolute;
   left: 9em;
   margin-top: 285px; }
+
+@media screen and (max-width: 736px) {
+  .arrow_white {
+    position: absolute;
+    z-index: 30;
+    bottom: 0;
+    text-align: center;
+    width: 56px;
+    height: 16px; } }
 
 .s1-title {
   font-family: 'helv_c';

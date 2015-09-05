@@ -79,6 +79,9 @@
                                         </div>
                                     </div></li>
                             </ul>
+                            <div class="arrow_white">
+                            <a href="#slide-3"><img class="arrow_white_img" src="images/content/arrow_white.png"></a>
+                        </div>
                         </div>
                     </div>
                 </div>

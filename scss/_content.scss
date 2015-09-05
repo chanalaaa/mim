@@ -168,7 +168,7 @@
      }
      .slides-pagination {
          @media #{$md} {
-                 bottom: 20%;
+             bottom: 20%;
          }
      }
  }
@@ -293,7 +293,7 @@
      // background-color: rgba(4, 15, 5, 0.5);
      @media #{$md} {
          left: 0;
-         margin-top: 220px;
+         margin-top: 200px;
          width: 88%;
      }
  }
@@ -342,6 +342,18 @@
      //font-size: 3vmax;
      //font-size: 2.8em;
      font-size: 3.7vmax;
+ }
+ 
+ .arrow_white {
+     @media #{$md} {
+         position: absolute;
+         z-index: 30;
+         bottom: 0;
+         text-align: center;
+         // pointer-events: all;
+         width: 56px;
+         height: 16px;
+     }
  }
  
  // S1 /////////////////////////////////////
