@@ -13,6 +13,14 @@
          font-family: 'helv_h';
          font-size: 1em;
          color: #fff;
+         @media #{$md} {
+             float: left;
+         }
+     }
+     img {
+         @media #{$md} {
+             float: left;
+         }
      }
  }
  

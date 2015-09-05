@@ -347,6 +347,12 @@ main {
     font-family: 'helv_h';
     font-size: 1em;
     color: #fff; }
+    @media screen and (max-width: 736px) {
+      .inner p {
+        float: left; } }
+  @media screen and (max-width: 736px) {
+    .inner img {
+      float: left; } }
 
 .entry-header {
   background-color: #000;
