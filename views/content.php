@@ -33,17 +33,35 @@
         <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px; " data-0="transform:translate(0,75%);background-color: !url('images/content/s2/bg/bg1.jpg');background-image: !url('images/content/s2/bg/bg1.jpg');" data-100p="transform:translate(0,0%);" data-_box-100p="" data-130p="background-image: !url('images/content/s2/bg/bg2.jpg');" data-150p="background-image: !url('images/content/s2/bg/bg3.jpg');" data-180p="background-image: !url('images/content/s2/bg/bg4.jpg');" data-_box-300p="transform:translate(0,-100%)">
             <div class="bcg" data-anchor-target="#slide-2">
                 <div class="hsContainer">
-                    <div data-100p="opacity:1;">
-                        <div class="s2_1" data-120p="transform:translate(0,0%);" data-200p="transform:translate(0,-15%);">
-                            <div class="s21-tab">
-                                <p>READY</p>
+                    <!-- hsCon-Desk -->
+                    <div class="hsCon-Desk">
+                        <div data-100p="opacity:1;">
+                            <div class="s2_1" data-120p="transform:translate(0,0%);" data-200p="transform:translate(0,-15%);">
+                                <div class="s21-tab">
+                                    <p>READY</p>
+                                </div>
                             </div>
+                            <div class="box1 s2_2" data-120p="transform:translate(0,0%);opacity:1;" data-128p="transform:translate(0,-20%);opacity:0;">TO BECOME A BUSINESS MASTER?
+                            </div>
+                            <div class="box1 s2_3" data-128p="transform:translate(0%,18%);opacity:0;" data-135p="transform:translate(0%,-6%);opacity:1;" data-145p="transform:translate(0%,-6%);opacity:1;" data-153p="transform:translate(0,-23%);opacity:0;">TO ACHIEVE YOUR CAREER GOAL?</div>
+                            <div class="box1 s2_4" data-153p="transform:translate(0%,8%);opacity:0;" data-160p="transform:translate(0%,-50%);opacity:1;" data-170p="transform:translate(0%,-50%);opacity:1;" data-190p="transform:translate(0%,-85%);opacity:0;">TO SUCCEED IN YOUR LIFE'S MISSION?</div>
+                            <div class="box1 s2_5" data-187p="transform:translate(0%,15%);opacity:0;" data-200p="transform:translate(0%,-80%);opacity:1;" data-218p="transform:translate(0%,-80%);opacity:1;" data-250p="transform:translate(0%,-120%);opacity:0;">TO START YOUR LEGEND?</div>
                         </div>
-                        <div class="box1 s2_2" data-120p="transform:translate(0,0%);opacity:1;" data-128p="transform:translate(0,-20%);opacity:0;">TO BECOME A BUSINESS MASTER?
+                    </div>
+                    <!-- hsCon-Res -->
+                    <div class="hsCon-Res">
+                        <div id="slides">
+                            <div class="slides-container">
+                                <img src="images/content/s2/bg/bg1.jpg" alt="">
+                                <img src="images/content/s2/bg/bg2.jpg" width="1024" height="685" alt="">
+                                <img src="images/content/s2/bg/bg3.jpg" width="1024" height="685" alt="">
+                                <img src="images/content/s2/bg/bg4.jpg" width="1024" height="685" alt="">
+                            </div>
+                            <nav class="slides-navigation">
+                                <a href="#" class="next">Next</a>
+                                <a href="#" class="prev">Previous</a>
+                            </nav>
                         </div>
-                        <div class="box1 s2_3" data-128p="transform:translate(0%,18%);opacity:0;" data-135p="transform:translate(0%,-6%);opacity:1;" data-145p="transform:translate(0%,-6%);opacity:1;" data-153p="transform:translate(0,-23%);opacity:0;">TO ACHIEVE YOUR CAREER GOAL?</div>
-                        <div class="box1 s2_4" data-153p="transform:translate(0%,8%);opacity:0;" data-160p="transform:translate(0%,-50%);opacity:1;" data-170p="transform:translate(0%,-50%);opacity:1;" data-190p="transform:translate(0%,-85%);opacity:0;">TO SUCCEED IN YOUR LIFE'S MISSION?</div>
-                        <div class="box1 s2_5" data-187p="transform:translate(0%,15%);opacity:0;" data-200p="transform:translate(0%,-80%);opacity:1;" data-218p="transform:translate(0%,-80%);opacity:1;" data-250p="transform:translate(0%,-120%);opacity:0;">TO START YOUR LEGEND?</div>
                     </div>
                 </div>
             </div>

@@ -505,6 +505,14 @@ section:nth-child(2) {
       margin-top: -45%;
       -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
       clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0); } }
+  @media screen and (max-width: 736px) {
+    section:nth-child(2) .hsCon-Desk {
+      opacity: 0; } }
+  section:nth-child(2) .hsCon-Res {
+    opacity: 0; }
+    @media screen and (max-width: 736px) {
+      section:nth-child(2) .hsCon-Res {
+        opacity: 1; } }
 
 section:nth-child(3) {
   width: 100%;
@@ -590,36 +598,70 @@ section:nth-child(5) {
   background-color: #fff;
   color: #000; }
 
- /*
-    #slide-5 .bcg {
-        color: white;
-    }
+#slides {
+  position: relative;
+  height: 100% !important; }
 
-    #slide-5 .bcg2 {
-        background-image: url('../images/content/bg1b.jpg');
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        opacity: 0;
-        z-index: 1
-    }
+#slides .slides-container {
+  display: none; }
 
-    #slide-5 .bcg3 {
-        background: none;
-        background-color: #010101;
-        z-index: 2;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        opacity: 0;
-        z-index: 2
-    }
+#slides .scrollable {
+  *zoom: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  height: 100%; }
 
-    .bgBlack {
-        background-color: rgba(0, 0, 0, 0.75);
-        padding: 3px 10px;
-    }
-    */
+#slides .scrollable:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.slides-navigation {
+  margin: 0 auto;
+  position: absolute;
+  z-index: 3;
+  top: 46%;
+  width: 100%; }
+
+.slides-navigation a {
+  position: absolute;
+  display: block; }
+
+.slides-navigation a.prev {
+  left: 0; }
+
+.slides-navigation a.next {
+  right: 0; }
+
+.slides-pagination {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  text-align: center;
+  width: 100%; }
+
+.slides-pagination a {
+  border: 2px solid #222;
+  border-radius: 15px;
+  width: 10px;
+  height: 10px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=");
+  margin: 2px;
+  overflow: hidden;
+  text-indent: -100%; }
+
+.slides-pagination a.current {
+  background: #222; }
+
 .box1 {
   position: absolute;
   left: 9em;
