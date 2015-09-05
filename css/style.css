@@ -341,18 +341,16 @@ main {
   height: 80px;
   vertical-align: middle; }
 
-.inner {
-  margin: 15px 20px; }
-  .inner p {
-    font-family: 'helv_h';
-    font-size: 1em;
-    color: #fff; }
-    @media screen and (max-width: 736px) {
-      .inner p {
-        float: left; } }
+.inner p {
+  font-family: 'helv_h';
+  font-size: 1em;
+  color: #fff; }
   @media screen and (max-width: 736px) {
-    .inner img {
+    .inner p {
       float: left; } }
+@media screen and (max-width: 736px) {
+  .inner img {
+    float: left; } }
 
 .entry-header {
   background-color: #000;
@@ -364,11 +362,23 @@ main {
 
 .nav-sec1 {
   float: left;
-  display: inline-flex; }
+  display: inline-flex;
+  margin: 15px 20px; }
+  @media screen and (max-width: 736px) {
+    .nav-sec1 {
+      width: 100%; } }
 
 .nav-sec2 {
   float: right;
-  padding-top: 5px; }
+  padding-top: 5px;
+  margin: 15px 20px; }
+  @media screen and (max-width: 736px) {
+    .nav-sec2 {
+      margin: 0px;
+      width: 100%;
+      float: left;
+      padding-top: 0px;
+      background-color: rgba(0, 0, 0, 0.5); } }
 
 .logo {
   width: 45px;
@@ -378,6 +388,14 @@ main {
 .nav-title {
   padding-top: 10px; }
 
+.table {
+  display: table;
+  /* Allow the centering to work */
+  margin: 0 auto; }
+
+@media screen and (max-width: 736px) {
+  ul.nav-ul {
+    margin: 10px 0px; } }
 ul.nav-ul li {
   display: inline-block; }
 
@@ -397,6 +415,9 @@ p.nav1-btn1 {
   color: #ffffff;
   text-align: center;
   font-size: 1.3em; }
+  @media screen and (max-width: 736px) {
+    p.nav1-btn1 {
+      font-size: 1em; } }
   p.nav1-btn1:hover {
     background: #e36110;
     text-decoration: none; }
@@ -414,6 +435,9 @@ p.nav1-btn2 {
   color: #ffffff;
   text-align: center;
   font-size: 1.3em; }
+  @media screen and (max-width: 736px) {
+    p.nav1-btn2 {
+      font-size: 1em; } }
   p.nav1-btn2:hover {
     background: #DB8928;
     text-decoration: none; }

@@ -7,18 +7,20 @@
                 <br>PROGRAM IN MARKTING</p>
         </div>
         <div class="nav-sec2">
-            <ul class="nav-ul">
-                <li class="nav-btn1">
-                    <a href="#">
-                        <p class="nav1-btn1">JOIN OPEN HOUSE</p>
-                    </a>
-                </li>
-                <li class="nav-btn2">
-                    <a href="#">
-                        <p class="nav1-btn2">APPLY</p>
-                    </a>
-                </li>
-            </ul>
+            <div class="table">
+                <ul class="nav-ul">
+                    <li class="nav-btn1">
+                        <a href="#">
+                            <p class="nav1-btn1">JOIN OPEN HOUSE</p>
+                        </a>
+                    </li>
+                    <li class="nav-btn2">
+                        <a href="#">
+                            <p class="nav1-btn2">APPLY</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </header>
