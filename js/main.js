@@ -34,7 +34,7 @@ $(document).ready(function() {
         if (winH <= 550) {
             winH = 550;
         }
-        if( winW >= 768) {
+        if (winW >= 768) {
             var s = skrollr.init({
 
 
@@ -67,8 +67,8 @@ $(document).ready(function() {
 
 
             s.refresh($('.initp'));
-       
- } else {
+
+        } else {
 
             // Init Skrollr
             var s = skrollr.init();
@@ -80,17 +80,17 @@ $(document).ready(function() {
 
     function initAdjustWindow() {
         return {
-            match : function() {
+            match: function() {
                 adjustWindow();
             },
-            unmatch : function() {
+            unmatch: function() {
                 adjustWindow();
             }
         };
     }
 
     enquire.register("screen and (min-width : 768px)", initAdjustWindow(), false)
-            .listen(100);
+        .listen(100);
 
 
 

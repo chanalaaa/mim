@@ -76,7 +76,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: bold;
   font-style: normal; }
 /*
-$sm: "screen and (min-width: 375px)";
+
 $md-600: "screen and (min-width: 600px)";
 
 $lg: "screen and (min-width: 960px)";
@@ -129,6 +129,10 @@ html {
   height: 100%;
   min-height: 100%;
   background-color: #000; }
+  @media screen and (max-width: 736px) {
+    body,
+    html {
+      height: auto; } }
 
 .no-js {
   padding-top: 106px; }
@@ -140,7 +144,7 @@ h2 {
   background: url("../images/ico_loading.gif") no-repeat center center; }
 
 section {
-  min-width: 100%;
+  width: 100%;
   opacity: 0; }
 
 .loaded section,
@@ -425,7 +429,7 @@ p.nav1-btn2 {
   height: 100%;
   background: transparent center no-repeat;
   background-size: cover; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 736px) {
     .initp {
       position: relative; } }
 

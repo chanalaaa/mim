@@ -47,8 +47,6 @@
        Parallax Scroll
        ========================================================================== */
     
-   
-    
     @mixin bcg_init {
         background-position: center center;
         background-repeat: no-repeat;
@@ -63,6 +61,9 @@
         height: 100%;
         min-height: 100%;
         background-color: #000;
+        @media #{$md} {
+            height: auto;
+        }
     }
     
     body {}
@@ -80,9 +81,8 @@
     }
     
     section {
-        min-width: 100%;
+        width: 100%;
         opacity: 0;
-        
     }
     
     .loaded section,
@@ -210,7 +210,6 @@
        Modify as content requires.
        ========================================================================== */
     
-
     @media print,
     (-o-min-device-pixel-ratio: 5/4),
     (-webkit-min-device-pixel-ratio: 1.25),
