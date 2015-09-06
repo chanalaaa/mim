@@ -613,7 +613,7 @@ section:nth-child(2) {
 }
 @media screen and (max-width: 736px) {
   section:nth-child(2) {
-    margin-top: -45%;
+    margin-top: -10.5em;
     -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
     clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
   }
@@ -726,6 +726,9 @@ section:nth-child(5) {
   #slide-3 .slides-pagination {
     bottom: 7%;
   }
+  #slide-3 .slides-pagination a {
+    color: #000;
+  }
 }
 
 /* Slide 4 */
@@ -808,11 +811,18 @@ section:nth-child(5) {
 }
 
 .slides-pagination {
+  color: #fff;
   position: absolute;
   z-index: 3;
   bottom: 0;
   text-align: center;
   width: 100%;
+}
+.slides-pagination a {
+  color: #fff;
+}
+.slides-pagination a:visited {
+  color: #fff;
 }
 
 .slides-pagination a {

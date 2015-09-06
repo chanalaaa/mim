@@ -54,7 +54,7 @@
      -moz-transition: background-image 200ms;
      transition: background-image 200ms;
      @media #{$md} {
-         margin-top: -45%;
+         margin-top: -10.5em;
          -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
          clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
      }
@@ -185,6 +185,9 @@
      .slides-pagination {
          @media #{$md} {
              bottom: 7%;
+             a {
+                 color: #000;
+             }
          }
      }
  }
@@ -276,11 +279,18 @@
  }
  
  .slides-pagination {
+     color: #fff;
      position: absolute;
      z-index: 3;
      bottom: 0;
      text-align: center;
      width: 100%;
+     a {
+         color: #fff;
+         &:visited {
+             color: #fff;
+         }
+     }
  }
  
  .slides-pagination a {
