@@ -361,7 +361,8 @@
      margin-top: 285px;
      // background-color: rgba(4, 15, 5, 0.5);
      @media #{$md} {
-         margin-top: 150px;
+         // margin-top: 150px;
+         margin-top: 26vmax;
      }
  }
  
@@ -646,8 +647,9 @@
      font-size: 6vmax;
      color: #fff;
      @media #{$md} {
-         margin: .2em .5em;
-         font-size: 4em;
+         margin: 1.2% .5em;
+         //font-size: 4em;
+         font-size: 8vmax;
      }
  }
  
@@ -660,6 +662,8 @@
      @media #{$md} {
          margin: 0em 1em;
          font-size: 1.9em;
+         // line-height: 5vmax;
+         // font-size: 4.3vmax;
      }
  }
  
@@ -691,8 +695,10 @@
      width: 24vmax;
      height: 26vmax;
      @media #{$md} {
-         width: 250px;
-         height: 300px;
+         //width: 250px;
+         width: 43vmax;
+         // height: 300px;
+         height: 52vmax;
      }
  }
  
@@ -718,7 +724,8 @@
          text-align: right;
          line-height: 1em;
          @media #{$md} {
-             font-size: 2.1em;
+             //font-size: 2.1em;
+             font-size: 5.8vmax;
          }
      }
      .s5-highlight {
@@ -772,7 +779,8 @@
          text-decoration: none;
      }
      @media #{$md} {
-         font-size: 1em;
+         //font-size: 1em;
+         font-size: 2.2vmax;
      }
  }
  
@@ -794,7 +802,8 @@
          text-decoration: none;
      }
      @media #{$md} {
-         font-size: 1em;
+         // font-size: 1em;
+         font-size: 2.2vmax;
      }
  }
  
@@ -815,7 +824,8 @@
          position: relative;
          margin: 0 auto;
          bottom: 0px;
-         top: 5%;
+         //top: 5%;
+        // top: 15vmax;
          //float: left;
      }
      //background-color: rgba(0, 100, 0, .5);
@@ -860,6 +870,7 @@
      float: left;
      @media #{$md} {
          height: 450px;
+         //height: 80vmax;
      }
  }
  
@@ -921,5 +932,5 @@
  // End Content //////////////////////////////////
  /* 
 by Chanala Wilangka
-update-05-09-2015
+update-07-09-2015
 */

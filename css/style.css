@@ -886,7 +886,7 @@ section:nth-child(5) {
 }
 @media screen and (max-width: 736px) {
   .box3 {
-    margin-top: 150px;
+    margin-top: 26vmax;
   }
 }
 
@@ -1224,8 +1224,8 @@ p.s3-btn:hover {
 }
 @media screen and (max-width: 736px) {
   .s4-title {
-    margin: .2em .5em;
-    font-size: 4em;
+    margin: 1.2% .5em;
+    font-size: 8vmax;
   }
 }
 
@@ -1268,8 +1268,8 @@ p.s3-btn:hover {
 }
 @media screen and (max-width: 736px) {
   .s5-left_img {
-    width: 250px;
-    height: 300px;
+    width: 43vmax;
+    height: 52vmax;
   }
 }
 
@@ -1295,7 +1295,7 @@ p.s3-btn:hover {
 }
 @media screen and (max-width: 736px) {
   .s5-right p {
-    font-size: 2.1em;
+    font-size: 5.8vmax;
   }
 }
 .s5-right .s5-highlight {
@@ -1351,7 +1351,7 @@ p.s51-btn1:hover {
 }
 @media screen and (max-width: 736px) {
   p.s51-btn1 {
-    font-size: 1em;
+    font-size: 2.2vmax;
   }
 }
 
@@ -1375,7 +1375,7 @@ p.s52-btn2:hover {
 }
 @media screen and (max-width: 736px) {
   p.s52-btn2 {
-    font-size: 1em;
+    font-size: 2.2vmax;
   }
 }
 
@@ -1397,7 +1397,6 @@ p.s52-btn2:hover {
     position: relative;
     margin: 0 auto;
     bottom: 0px;
-    top: 5%;
   }
 }
 .s5-pre_footer li {
@@ -1499,5 +1498,5 @@ li a {
 
  /* 
 by Chanala Wilangka
-update-05-09-2015
+update-07-09-2015
 */
