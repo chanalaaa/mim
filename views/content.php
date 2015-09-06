@@ -55,7 +55,7 @@
                                 <li><img src="images/content/s2/bg/bg1.jpg" width="100%" height="100%" alt="">
                                     <div class="container">
                                         <div class="box1">
-                                            <p class="s2-res_title">READY</p>
+                                            <p class="s2-res_tab">READY</p>
                                             <p class="s2_2">TO BECOME A BUSINESS MASTER?</p>
                                         </div>
                                     </div>
@@ -63,7 +63,7 @@
                                 <li><img src="images/content/s2/bg/bg2.jpg" width="100%" height="100%" alt="">
                                     <div class="container">
                                         <div class="box1">
-                                            <p class="s2-res_title">READY</p>
+                                            <p class="s2-res_tab">READY</p>
                                             <p class="s2_2">TO ACHIEVE YOUR CAREER GOAL?</p>
                                         </div>
                                     </div>
@@ -71,7 +71,7 @@
                                 <li><img src="images/content/s2/bg/bg3.jpg" width="100%" height="100%" alt="">
                                     <div class="container">
                                         <div class="box1">
-                                            <p class="s2-res_title">READY</p>
+                                            <p class="s2-res_tab">READY</p>
                                             <p class="s2_2">TO SUCCEED IN YOUR LIFE'S MISSION?</p>
                                         </div>
                                     </div>
@@ -165,7 +165,7 @@
                                 <li><img src="" width="100%" height="100%" alt="">
                                     <div class="container">
                                         <div class="box2">
-                                            <p class="s3-res_title">SET</p>
+                                            <p class="s3-res_tab">SET</p>
                                             <div class="table">
                                                 <ul>
                                                     <li>
@@ -193,7 +193,7 @@
                                 <li><img src="" width="100%" height="100%" alt="">
                                     <div class="container">
                                         <div class="box2">
-                                            <p class="s3-res_title">SET</p>
+                                            <p class="s3-res_tab">SET</p>
                                             <div class="table">
                                                 <ul>
                                                     <li>
@@ -221,7 +221,7 @@
                                 <li><img src="" width="100%" height="100%" alt="">
                                     <div class="container">
                                         <div class="box2">
-                                            <p class="s3-res_title">SET</p>
+                                            <p class="s3-res_tab">SET</p>
                                             <div class="table">
                                                 <ul>
                                                     <li>
@@ -299,7 +299,7 @@
                                     </li>
                                     <li>
                                         <p class="s4-info">
-                                            <font style="color:#FF6400">Champions </font>of international entrepreneurial
+                                            <font style="color:#FF6400">Champions</font>of international entrepreneurial
                                             <br>investment competitions</p>
                                     </li>
                                 </ul>
@@ -313,29 +313,62 @@
                                 <li>
                                     <div style="background: url(images/content/s4/bg/bg1.jpg) no-repeat "></div>
                                     <div class="container">
-                                        <div class="box1">
-                                            <p class="s2-res_title">READY</p>
-                                            <p class="s2_2">TO BECOME A BUSINESS MASTER?</p>
+                                        <div class="box3">
+                                            <ul>
+                                                <li>
+                                                    <p class="s4-res_tab">GO!</p>
+                                                </li>
+                                                <li>
+                                                    <p class="s4-title">SUCCESS!</p>
+                                                </li>
+                                                <li>
+                                                    <p class="s4-info">
+                                                        <font style="color:#FF6400">Over 3,000 graduates working in key roles </font>
+                                                        in Thailand and globally</p>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </li>
-                                <!--
                                 <li><img src="images/content/s4/bg/bg2.jpg" width="100%" height="100%" alt="">
                                     <div class="container">
-                                        <div class="box1">
-                                            <p class="s2-res_title">READY</p>
-                                            <p class="s2_2">TO ACHIEVE YOUR CAREER GOAL?</p>
+                                        <div class="box3">
+                                            <ul>
+                                                <li>
+                                                    <p class="s4-res_tab">GO!</p>
+                                                </li>
+                                                <li>
+                                                    <p class="s4-title">SUCCESS!</p>
+                                                </li>
+                                                <li>
+                                                    <p class="s4-info">
+                                                        <font style="color:#FF6400">Engaging with top firms </font>spanning diverse
+                                                        industries or starting up their own
+                                                        businesses.</p>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </li>
                                 <li><img src="images/content/s4/bg/bg3.jpg" width="100%" height="100%" alt="">
                                     <div class="container">
-                                        <div class="box1">
-                                            <p class="s2-res_title">READY</p>
-                                            <p class="s2_2">TO SUCCEED IN YOUR LIFE'S MISSION?</p>
+                                        <div class="box3">
+                                            <ul>
+                                                <li>
+                                                    <p class="s4-res_tab">GO!</p>
+                                                </li>
+                                                <li>
+                                                    <p class="s4-title">SUCCESS!</p>
+                                                </li>
+                                                <li>
+                                                    <p class="s4-info">
+                                                        <font style="color:#FF6400">Champions </font>of international entrepreneurial
+                                                        investment competitions</p>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
-                                </li>-->
+                                </li>
                             </ul>
                             <div class="arrow_white">
                                 <a href="#slide-3"><img class="arrow_white_img" src="images/content/arrow_white.png"></a>
