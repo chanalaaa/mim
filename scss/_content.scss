@@ -182,6 +182,11 @@
      .slides-pagination a.current {
          background: #000;
      }
+     .slides-pagination {
+         @media #{$md} {
+             bottom: 7%;
+         }
+     }
  }
  /* Slide 4 */
  
@@ -303,6 +308,11 @@
      //margin-top: 11%;
      margin-top: 150px;
      // background-color: rgba(4, 15, 5, 0.5);
+     @media #{$md} {
+         left: 0;
+         margin-top: 80px;
+         width: 100%;
+     }
  }
  
  .box3 {
@@ -351,7 +361,7 @@
          bottom: 0;
          text-align: center;
          left: 0;
-          right: 0;
+         right: 0;
          margin: 0 auto;
          // pointer-events: all;
          img {
@@ -424,7 +434,8 @@
          font-size: 3.5em;
          padding: .4em .7em .2em;
          background-color: #ff6600;
-         border-radius: 5px;
+         border-top-right-radius: 5px;
+         border-bottom-right-radius: 5px;
      }
  }
  
@@ -432,13 +443,16 @@
      @media #{$md} {
          @include s2-content;
          color: #000;
-         width: 2.7em;
+         width: 1.7em;
          font-size: 3.5em;
+         text-align: right;
          padding: .4em .7em .2em;
          background-color: #fff;
-         border-radius: 5px;
+         border-top-right-radius: 5px;
+         border-bottom-right-radius: 5px;
      }
  }
+ 
  .s2_1,
  .s3_1,
  .s4_1 {
@@ -477,6 +491,13 @@
      width: 198px;
      height: 177px;
      clear: both;
+     @media #{$md} {
+         @include bg_img('../images/content/s3/s31.png');
+         margin: 0 auto;
+         width: 140px;
+         height: 123px;
+         margin-top: 10%;
+     }
  }
  
  .s3-ico3 {
@@ -490,6 +511,11 @@
      margin: 20px 0px;
      color: #000;
      font-size: 1.2em;
+     @media #{$md} {
+         font-size: 3em;
+         text-align: center;
+         margin: 20px 0px 10px;
+     }
  }
  
  .s3-info {
@@ -499,6 +525,11 @@
      color: #fff;
      line-height: 1.2em;
      margin-bottom: 30px;
+     @media #{$md} {
+         margin-bottom: 15px;
+         font-size: 1.5em;
+         text-align: center;
+     }
  }
  
  p.s3-btn {
@@ -516,6 +547,12 @@
      text-decoration: none;
      &:hover {
          text-decoration: none;
+     }
+     @media #{$md} {
+         padding: 3px;
+         font-size: 1.5em;
+         position: relative;
+         left: -50%;
      }
  }
  

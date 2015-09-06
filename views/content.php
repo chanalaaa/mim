@@ -164,71 +164,92 @@
                             <ul class="slides-container">
                                 <li><img src="" width="100%" height="100%" alt="">
                                     <div class="container">
-                                        <div class="box1">
+                                        <div class="box2">
                                             <p class="s3-res_title">SET</p>
-                                            <ul>
-                                                <li><img class="s3-ico" src="images/content/s3/s31.png" alt=""></li>
-                                                <li>
-                                                    <p class="s3-title">YOUR PROFICIENCY</p>
-                                                </li>
-                                                <li>
-                                                    <p class="s3-info">A tailored curriculum that
-                                                        <br>caters to business world ahead
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <p class="s3-btn">CURRICULUM ></p>
-                                                    </a>
-                                                </li>
-                                            </ul>
+                                            <div class="table">
+                                                <ul>
+                                                    <li>
+                                                        <div class="s3-ico"></div>
+                                                    </li>
+                                                    <li>
+                                                        <p class="s3-title">YOUR PROFICIENCY</p>
+                                                    </li>
+                                                    <li>
+                                                        <p class="s3-info">A tailored curriculum that
+                                                            <br>caters to business world ahead </p>
+                                                    </li>
+                                                    <li>
+                                                        <div style="position: absolute; left: 50%;">
+                                                            <a href="#">
+                                                                <p class="s3-btn">CURRICULUM ></p>
+                                                            </a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </li>
                                 <li><img src="" width="100%" height="100%" alt="">
                                     <div class="container">
-                                        <div class="box1">
+                                        <div class="box2">
                                             <p class="s3-res_title">SET</p>
-                                            <ul>
-                                                <li><img class="s3-ico" src="images/content/s3/s32.png" alt=""></li>
-                                                <li>
-                                                    <p class="s3-title">YOUR MASTERY</p>
-                                                </li>
-                                                <li>
-                                                    <p class="s3-info">Learn from business masters to
-                                                        <br>master the business</p>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <p class="s3-btn">FACULTY ></p>
-                                                    </a>
-                                                </li>
-                                            </ul>
+                                            <div class="table">
+                                                <ul>
+                                                    <li>
+                                                        <div class="s3-ico"></div>
+                                                    </li>
+                                                    <li>
+                                                        <p class="s3-title">YOUR MASTERY</p>
+                                                    </li>
+                                                    <li>
+                                                        <p class="s3-info">Learn from business masters to
+                                                            <br>master the business </p>
+                                                    </li>
+                                                    <li>
+                                                        <div style="position: absolute; left: 50%;">
+                                                            <a href="#">
+                                                                <p class="s3-btn">FACULTY ></p>
+                                                            </a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </li>
                                 <li><img src="" width="100%" height="100%" alt="">
                                     <div class="container">
-                                        <div class="box1">
+                                        <div class="box2">
                                             <p class="s3-res_title">SET</p>
-                                            <ul>
-                                                <li><img class="s3-ico3" src="images/content/s3/s33.png" alt=""></li>
-                                                <li>
-                                                    <p class="s3-title">YOUR EMPOWERMENTS</p>
-                                                </li>
-                                                <li>
-                                                    <p class="s3-info">Study the global firms of the
-                                                        <br>first magnitude</p>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <p class="s3-btn">GLOBAL EXPOSURE ></p>
-                                                    </a>
-                                                </li>
-                                            </ul>
+                                            <div class="table">
+                                                <ul>
+                                                    <li>
+                                                        <div class="s3-ico"></div>
+                                                    </li>
+                                                    <li>
+                                                        <p class="s3-title">YOUR EMPOWERMENTS</p>
+                                                    </li>
+                                                    <li>
+                                                        <p class="s3-info">Study the global firms of the
+                                                            <br>first magnitude </p>
+                                                    </li>
+                                                    <li>
+                                                        <div style="position: absolute; left: 50%;">
+                                                            <a href="#">
+                                                                <p class="s3-btn">GLOBAL EXPOSURE ></p>
+                                                            </a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </li>
                             </ul>
+                            <div class="arrow_white">
+                                <a href="#slide-4"><img class="arrow_white_img" src="images/content/arrow_white.png"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
