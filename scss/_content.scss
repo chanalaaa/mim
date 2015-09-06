@@ -7,6 +7,10 @@
      height: 100%;
      background: transparent center no-repeat;
      background-size: cover;
+     @media #{$md} {
+         height: 200%;
+         position: relative;
+     }
  }
  
  .initp {
@@ -548,10 +552,27 @@
      }
  }
  
+ .s3-ico2 {
+     @media #{$md} {
+         @include bg_img('../images/content/s3/s32.png');
+         margin: 0 auto;
+         width: 140px;
+         height: 123px;
+         margin-top: 10%;
+     }
+ }
+ 
  .s3-ico3 {
      width: 260px;
      height: 177px;
      clear: both;
+     @media #{$md} {
+         @include bg_img('../images/content/s3/s33.png');
+         margin: 0 auto;
+         width: 169px;
+         height: 76px;
+         margin-top: 10%;
+     }
  }
  
  .s3-title {
@@ -637,29 +658,45 @@
  
  .s5-left {
      width: 40%;
+     float: left;
+     margin-left: 10%;
+     margin-top: 6em;
+     // margin-top: 7%;
+     //background-color: rgba(234, 0, 0, 0.5);
      // position: absolute;
      //top: 13%;
-     float: left;
-     //background-color: rgba(234, 0, 0, 0.5);
-     margin-left: 10%;
-     // margin-top: 7%;
-     margin-top: 6em;
+     @media #{$md} {
+         margin-left: 0;
+         width: 80%;
+         margin: 4em;
+         margin-top: 3.5em;
+         margin-bottom: 0;
+     }
  }
  
  .s5-left_img {
      width: 24vmax;
      height: 26vmax;
+     @media #{$md} {
+         width: 250px;
+         height: 300px;
+     }
  }
  
  .s5-right {
      // position: absolute;
+     //background-color: rgba(34, 200, 23, 0.5);
      width: 40%;
      float: right;
      //top: 22%;
      margin-right: 10%;
-     margin-top: 8.5%;
+     //margin-top: 8.5%;
      margin-top: 7.5em;
-     //background-color: rgba(34, 200, 23, 0.5);
+     @media #{$md} {
+         margin-left: 0;
+         width: 80%;
+         margin-top: 0;
+     }
      p {
          font-family: 'helv_b';
          //font-size: 4em;
@@ -667,6 +704,16 @@
          font: #000;
          text-align: right;
          line-height: 1em;
+         @media #{$md} {
+             font-size: 2.1em;
+         }
+     }
+     .s5-highlight {
+         color: #FF6400;
+         font-size: 5vmax;
+         @media #{$md} {
+             font-size: 1.2em;
+         }
      }
      ul {
          display: inline-flex;
@@ -681,9 +728,18 @@
  
  .s5-btn1 {
      margin-right: .5em;
+     @media #{$md} {
+         //display: block;
+         float: left;
+     }
  }
  
- .s5-btn2 {}
+ .s5-btn2 {
+     @media #{$md} {
+         //display: block;
+         float: left;
+     }
+ }
  
  p.s51-btn1 {
      width: 8em;
@@ -701,6 +757,9 @@
      &:hover {
          background: #e36110;
          text-decoration: none;
+     }
+     @media #{$md} {
+         font-size: 1em;
      }
  }
  
@@ -720,6 +779,9 @@
      &:hover {
          background: #DB8928;
          text-decoration: none;
+     }
+     @media #{$md} {
+         font-size: 1em;
      }
  }
  

@@ -95,6 +95,12 @@ $md-600: "screen and (min-width: 600px)";
 
 $lg: "screen and (min-width: 960px)";
 */
+.table {
+  display: table;
+  /* Allow the centering to work */
+  margin: 0 auto;
+}
+
 /*
  * A better looking default horizontal rule
  */
@@ -476,12 +482,6 @@ main {
   }
 }
 
-.table {
-  display: table;
-  /* Allow the centering to work */
-  margin: 0 auto;
-}
-
 @media screen and (max-width: 736px) {
   ul.nav-ul {
     margin: 10px 0px;
@@ -551,6 +551,12 @@ p.nav1-btn2:active {
   height: 100%;
   background: transparent center no-repeat;
   background-size: cover;
+}
+@media screen and (max-width: 736px) {
+  .initp1 {
+    height: 200%;
+    position: relative;
+  }
 }
 
 .initp {
@@ -1115,10 +1121,45 @@ section:nth-child(5) {
   }
 }
 
+@media screen and (max-width: 736px) {
+  .s3-ico2 {
+    background-image: url("../images/content/s3/s32.png");
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    width: 140px;
+    height: 123px;
+    margin-top: 10%;
+  }
+}
+
 .s3-ico3 {
   width: 260px;
   height: 177px;
   clear: both;
+}
+@media screen and (max-width: 736px) {
+  .s3-ico3 {
+    background-image: url("../images/content/s3/s33.png");
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    width: 169px;
+    height: 76px;
+    margin-top: 10%;
+  }
 }
 
 .s3-title {
@@ -1210,18 +1251,39 @@ p.s3-btn:hover {
   margin-left: 10%;
   margin-top: 6em;
 }
+@media screen and (max-width: 736px) {
+  .s5-left {
+    margin-left: 0;
+    width: 80%;
+    margin: 4em;
+    margin-top: 3.5em;
+    margin-bottom: 0;
+  }
+}
 
 .s5-left_img {
   width: 24vmax;
   height: 26vmax;
+}
+@media screen and (max-width: 736px) {
+  .s5-left_img {
+    width: 250px;
+    height: 300px;
+  }
 }
 
 .s5-right {
   width: 40%;
   float: right;
   margin-right: 10%;
-  margin-top: 8.5%;
   margin-top: 7.5em;
+}
+@media screen and (max-width: 736px) {
+  .s5-right {
+    margin-left: 0;
+    width: 80%;
+    margin-top: 0;
+  }
 }
 .s5-right p {
   font-family: 'helv_b';
@@ -1229,6 +1291,20 @@ p.s3-btn:hover {
   font: #000;
   text-align: right;
   line-height: 1em;
+}
+@media screen and (max-width: 736px) {
+  .s5-right p {
+    font-size: 2.1em;
+  }
+}
+.s5-right .s5-highlight {
+  color: #FF6400;
+  font-size: 5vmax;
+}
+@media screen and (max-width: 736px) {
+  .s5-right .s5-highlight {
+    font-size: 1.2em;
+  }
 }
 .s5-right ul {
   display: inline-flex;
@@ -1241,6 +1317,17 @@ a {
 
 .s5-btn1 {
   margin-right: .5em;
+}
+@media screen and (max-width: 736px) {
+  .s5-btn1 {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .s5-btn2 {
+    float: left;
+  }
 }
 
 p.s51-btn1 {
@@ -1261,6 +1348,11 @@ p.s51-btn1:hover {
   background: #e36110;
   text-decoration: none;
 }
+@media screen and (max-width: 736px) {
+  p.s51-btn1 {
+    font-size: 1em;
+  }
+}
 
 p.s52-btn2 {
   width: 8em;
@@ -1279,6 +1371,11 @@ p.s52-btn2 {
 p.s52-btn2:hover {
   background: #DB8928;
   text-decoration: none;
+}
+@media screen and (max-width: 736px) {
+  p.s52-btn2 {
+    font-size: 1em;
+  }
 }
 
 .s5-pre_footer {

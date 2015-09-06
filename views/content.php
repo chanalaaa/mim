@@ -197,7 +197,7 @@
                                             <div class="table">
                                                 <ul>
                                                     <li>
-                                                        <div class="s3-ico"></div>
+                                                        <div class="s3-ico2"></div>
                                                     </li>
                                                     <li>
                                                         <p class="s3-title">YOUR MASTERY</p>
@@ -225,7 +225,7 @@
                                             <div class="table">
                                                 <ul>
                                                     <li>
-                                                        <div class="s3-ico"></div>
+                                                        <div class="s3-ico3"></div>
                                                     </li>
                                                     <li>
                                                         <p class="s3-title">YOUR EMPOWERMENTS</p>
@@ -379,7 +379,7 @@
             </div>
         </section>
         <!-- SLIDE 5 ***************************** -->
-        <section id="slide-5" class="initp" data-top-bottom="background-position: 50% -100px;" data-600p="transform:translate(0,100%);" data-700p="transform:translate(0,0%)">
+        <section id="slide-5" class="initp1" data-top-bottom="background-position: 50% -100px;" data-600p="transform:translate(0,100%);" data-700p="transform:translate(0,0%)">
             <div class="bcg">
                 <div class="hsContainer">
                     <div class="s5-content">
@@ -389,12 +389,13 @@
                         <div class="s5-right" data-center="opacity: 1">
                             <p>YOUR
                                 <br>
-                                <font style="color:#FF6400;font-size: 5vmax;">LEGEND STARTS</font>
+                                <font class="s5-highlight">LEGEND STARTS</font>
                                 <br>WITHIN YOU
                                 <br>
                                 <font style="font-family:'helv_l'" ;>JOIN NOW!</font>
                             </p>
                             <br>
+                             <div class="table">
                             <ul>
                                 <li class="s5-btn1">
                                     <a href="#">
@@ -407,6 +408,7 @@
                                     </a>
                                 </li>
                             </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="s5-pre_footer">

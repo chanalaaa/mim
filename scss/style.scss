@@ -1,9 +1,8 @@
 @import 'compass/reset';
 @import 'compass';
 @import 'font-face';
-
-
 $md: "screen and (max-width: 736px)";
+
 /*
 
 $md-600: "screen and (min-width: 600px)";
@@ -29,6 +28,12 @@ $lg: "screen and (min-width: 960px)";
 #wrapper {
     //overflow: hidden;
     //width: 100%;
+}
+
+.table {
+    display: table;
+    /* Allow the centering to work */
+    margin: 0 auto;
 }
 
 @import 'scroll';
