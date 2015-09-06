@@ -168,7 +168,7 @@
      }
      .slides-pagination {
          @media #{$md} {
-             bottom: 20%;
+             bottom: 15%;
          }
      }
  }
@@ -350,9 +350,14 @@
          z-index: 30;
          bottom: 0;
          text-align: center;
+         left: 0;
+          right: 0;
+         margin: 0 auto;
          // pointer-events: all;
-         width: 56px;
-         height: 16px;
+         img {
+             width: 56px;
+             height: 16px;
+         }
      }
  }
  
@@ -404,8 +409,8 @@
  }
  
  .s2_2 {
+     @include s2-content;
      @media #{$md} {
-         @include s2-content;
          font-size: 3em;
          margin-left: .7em;
          margin-top: .5em;
