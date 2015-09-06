@@ -1462,6 +1462,12 @@ p.s52-btn2:hover {
   .s5-foot_ul li {
     width: 100%;
     margin-bottom: 2.5em;
+    font-size: 1.1em;
+  }
+}
+@media screen and (max-width: 736px) {
+  .s5-foot_ul li a {
+    color: #B2B2B2;
   }
 }
 @media screen and (max-width: 736px) {
@@ -1475,13 +1481,8 @@ li {
   font-size: .9em;
   vertical-align: text-top;
 }
-@media screen and (max-width: 736px) {
-  li {
-    font-size: 1em;
-  }
-}
 li a {
-  color: #B2B2B2;
+  color: #fff;
 }
 
 .s5-li1 {

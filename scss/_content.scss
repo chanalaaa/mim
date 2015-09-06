@@ -873,6 +873,12 @@
          @media #{$md} {
              width: 100%;
              margin-bottom: 2.5em;
+             font-size: 1.1em;
+         }
+         a {
+             @media #{$md} {
+                 color: #B2B2B2;
+             }
          }
      }
      @media #{$md} {
@@ -884,11 +890,8 @@
      font-family: 'helv_c';
      font-size: .9em;
      vertical-align: text-top;
-      @media #{$md} {
-         font-size: 1em;
-     }
      a {
-         color: #B2B2B2;
+         color: #fff;
      }
  }
  
@@ -896,7 +899,7 @@
      color: #fff;
      font-family: 'helv_b';
      font-size: 1em;
-      @media #{$md} {
+     @media #{$md} {
          font-size: 1.1em;
      }
  }
