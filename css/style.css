@@ -596,9 +596,6 @@ section:nth-child(5) {
 /* Slide 3 */
 #slide-3 {
   background-color: #FF6400; }
-  @media screen and (max-width: 736px) {
-    #slide-3 {
-      background: none; } }
   #slide-3 .slides-pagination a.current {
     background: #000; }
 
@@ -771,6 +768,19 @@ section:nth-child(5) {
     font-size: 3.5em;
     padding: .4em .7em .2em;
     background-color: #ff6600;
+    border-radius: 5px; } }
+
+@media screen and (max-width: 736px) {
+  .s3-res_title {
+    font-family: 'helv_b';
+    color: #fff;
+    right: 0;
+    font-size: 3.7vmax;
+    color: #000;
+    width: 2.7em;
+    font-size: 3.5em;
+    padding: .4em .7em .2em;
+    background-color: #fff;
     border-radius: 5px; } }
 
 .s2_1,

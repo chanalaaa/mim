@@ -177,7 +177,7 @@
  #slide-3 {
      background-color: #FF6400;
      @media #{$md} {
-         background: none;
+         //background: none;
      }
      .slides-pagination a.current {
          background: #000;
@@ -428,6 +428,17 @@
      }
  }
  
+ .s3-res_title {
+     @media #{$md} {
+         @include s2-content;
+         color: #000;
+         width: 2.7em;
+         font-size: 3.5em;
+         padding: .4em .7em .2em;
+         background-color: #fff;
+         border-radius: 5px;
+     }
+ }
  .s2_1,
  .s3_1,
  .s4_1 {

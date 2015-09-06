@@ -60,28 +60,34 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li><img src="images/content/s2/bg/bg2.jpg" width="100%" height="100%" alt=""><div class="container">
+                                <li><img src="images/content/s2/bg/bg2.jpg" width="100%" height="100%" alt="">
+                                    <div class="container">
                                         <div class="box1">
                                             <p class="s2-res_title">READY</p>
                                             <p class="s2_2">TO ACHIEVE YOUR CAREER GOAL?</p>
                                         </div>
-                                    </div></li>
-                                <li><img src="images/content/s2/bg/bg3.jpg" width="100%" height="100%" alt=""><div class="container">
+                                    </div>
+                                </li>
+                                <li><img src="images/content/s2/bg/bg3.jpg" width="100%" height="100%" alt="">
+                                    <div class="container">
                                         <div class="box1">
                                             <p class="s2-res_title">READY</p>
                                             <p class="s2_2">TO SUCCEED IN YOUR LIFE'S MISSION?</p>
                                         </div>
-                                    </div></li>
-                                <li><img src="images/content/s2/bg/bg4.jpg" width="100%" height="100%" alt=""><div class="container">
+                                    </div>
+                                </li>
+                                <li><img src="images/content/s2/bg/bg4.jpg" width="100%" height="100%" alt="">
+                                    <div class="container">
                                         <div class="box1">
                                             <p class="s2-res_title">READY</p>
                                             <p class="s2_2">TO START YOUR LEGEND?</p>
                                         </div>
-                                    </div></li>
+                                    </div>
+                                </li>
                             </ul>
                             <div class="arrow_white">
-                            <a href="#slide-3"><img class="arrow_white_img" src="images/content/arrow_white.png"></a>
-                        </div>
+                                <a href="#slide-3"><img class="arrow_white_img" src="images/content/arrow_white.png"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -155,12 +161,74 @@
                     <!-- hsCon-Res -->
                     <div class="hsCon-Res">
                         <div id="slides-3">
-                            <div class="slides-container">
-                                <img src="images/content/s2/bg/bg1.jpg" width="100%" height="100%" alt="">
-                                <img src="images/content/s2/bg/bg2.jpg" width="100%" height="100%" alt="">
-                                <img src="images/content/s2/bg/bg3.jpg" width="100%" height="100%" alt="">
-                                <img src="images/content/s2/bg/bg4.jpg" width="100%" height="100%" alt="">
-                            </div>
+                            <ul class="slides-container">
+                                <li><img src="" width="100%" height="100%" alt="">
+                                    <div class="container">
+                                        <div class="box1">
+                                            <p class="s3-res_title">SET</p>
+                                            <ul>
+                                                <li><img class="s3-ico" src="images/content/s3/s31.png" alt=""></li>
+                                                <li>
+                                                    <p class="s3-title">YOUR PROFICIENCY</p>
+                                                </li>
+                                                <li>
+                                                    <p class="s3-info">A tailored curriculum that
+                                                        <br>caters to business world ahead
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <p class="s3-btn">CURRICULUM ></p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><img src="" width="100%" height="100%" alt="">
+                                    <div class="container">
+                                        <div class="box1">
+                                            <p class="s3-res_title">SET</p>
+                                            <ul>
+                                                <li><img class="s3-ico" src="images/content/s3/s32.png" alt=""></li>
+                                                <li>
+                                                    <p class="s3-title">YOUR MASTERY</p>
+                                                </li>
+                                                <li>
+                                                    <p class="s3-info">Learn from business masters to
+                                                        <br>master the business</p>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <p class="s3-btn">FACULTY ></p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><img src="" width="100%" height="100%" alt="">
+                                    <div class="container">
+                                        <div class="box1">
+                                            <p class="s3-res_title">SET</p>
+                                            <ul>
+                                                <li><img class="s3-ico3" src="images/content/s3/s33.png" alt=""></li>
+                                                <li>
+                                                    <p class="s3-title">YOUR EMPOWERMENTS</p>
+                                                </li>
+                                                <li>
+                                                    <p class="s3-info">Study the global firms of the
+                                                        <br>first magnitude</p>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <p class="s3-btn">GLOBAL EXPOSURE ></p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
