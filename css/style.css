@@ -619,7 +619,7 @@ section:nth-child(2) {
 }
 @media screen and (max-width: 736px) {
   section:nth-child(2) {
-    margin-top: -10.5em;
+    margin-top: -23.5vmax;
     -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
     clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
   }
@@ -718,6 +718,7 @@ section:nth-child(5) {
 @media screen and (max-width: 736px) {
   #slide-2 .slides-pagination {
     bottom: 15%;
+    bottom: 10vmax;
   }
 }
 
@@ -860,8 +861,8 @@ section:nth-child(5) {
 @media screen and (max-width: 736px) {
   .box1 {
     left: 0;
-    margin-top: 200px;
-    width: 88%;
+    margin-top: 35vmax;
+    width: 90%;
   }
 }
 
@@ -926,7 +927,7 @@ section:nth-child(5) {
 }
 @media screen and (max-width: 736px) {
   .s1-info {
-    font-size: 1.6em;
+    font-size: 4.6vmax;
   }
 }
 
@@ -1115,8 +1116,8 @@ section:nth-child(5) {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    width: 140px;
-    height: 123px;
+    width: 24vmax;
+    height: 21vmax;
     margin-top: 10%;
   }
 }
@@ -1133,8 +1134,8 @@ section:nth-child(5) {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    width: 140px;
-    height: 123px;
+    width: 24vmax;
+    height: 21vmax;
     margin-top: 10%;
   }
 }
@@ -1156,8 +1157,8 @@ section:nth-child(5) {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    width: 169px;
-    height: 76px;
+    width: 27vmax;
+    height: 12vmax;
     margin-top: 10%;
   }
 }
@@ -1170,7 +1171,7 @@ section:nth-child(5) {
 }
 @media screen and (max-width: 736px) {
   .s3-title {
-    font-size: 3em;
+    font-size: 6.5vmax;
     text-align: center;
     margin: 20px 0px 10px;
   }
@@ -1187,7 +1188,7 @@ section:nth-child(5) {
 @media screen and (max-width: 736px) {
   .s3-info {
     margin-bottom: 15px;
-    font-size: 1.5em;
+    font-size: 3.3vmax;
     text-align: center;
   }
 }
@@ -1210,7 +1211,7 @@ p.s3-btn:hover {
 @media screen and (max-width: 736px) {
   p.s3-btn {
     padding: 3px;
-    font-size: 1.5em;
+    font-size: 3vmax;
     position: relative;
     left: -50%;
   }
@@ -1396,7 +1397,7 @@ p.s52-btn2:hover {
     position: relative;
     margin: 0 auto;
     bottom: 0px;
-    top: 60px;
+    top: 5%;
   }
 }
 .s5-pre_footer li {

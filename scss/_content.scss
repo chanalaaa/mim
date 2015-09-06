@@ -58,7 +58,8 @@
      -moz-transition: background-image 200ms;
      transition: background-image 200ms;
      @media #{$md} {
-         margin-top: -10.5em;
+         // margin-top: -10.5em;
+         margin-top: -23.5vmax;
          -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
          clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
      }
@@ -173,6 +174,7 @@
      .slides-pagination {
          @media #{$md} {
              bottom: 15%;
+             bottom: 10vmax;
          }
      }
  }
@@ -335,8 +337,9 @@
      // background-color: rgba(4, 15, 5, 0.5);
      @media #{$md} {
          left: 0;
-         margin-top: 200px;
-         width: 88%;
+         //margin-top: 200px;
+         margin-top: 35vmax;
+         width: 90%;
      }
  }
  
@@ -429,7 +432,8 @@
      font-size: 40px;
      font-size: 3vmax;
      @media #{$md} {
-         font-size: 1.6em;
+         //font-size: 1.6em;
+         font-size: 4.6vmax;
      }
  }
  
@@ -546,8 +550,10 @@
      @media #{$md} {
          @include bg_img('../images/content/s3/s31.png');
          margin: 0 auto;
-         width: 140px;
-         height: 123px;
+         //width: 140px;
+         width: 24vmax;
+         // height: 123px;
+         height: 21vmax;
          margin-top: 10%;
      }
  }
@@ -556,8 +562,10 @@
      @media #{$md} {
          @include bg_img('../images/content/s3/s32.png');
          margin: 0 auto;
-         width: 140px;
-         height: 123px;
+         //width: 140px;
+         width: 24vmax;
+         // height: 123px;
+         height: 21vmax;
          margin-top: 10%;
      }
  }
@@ -569,8 +577,10 @@
      @media #{$md} {
          @include bg_img('../images/content/s3/s33.png');
          margin: 0 auto;
-         width: 169px;
-         height: 76px;
+         //width: 169px;
+         width: 27vmax;
+         //height: 76px;
+         height: 12vmax;
          margin-top: 10%;
      }
  }
@@ -581,7 +591,8 @@
      color: #000;
      font-size: 1.2em;
      @media #{$md} {
-         font-size: 3em;
+         //font-size: 3em;
+         font-size: 6.5vmax;
          text-align: center;
          margin: 20px 0px 10px;
      }
@@ -596,7 +607,8 @@
      margin-bottom: 30px;
      @media #{$md} {
          margin-bottom: 15px;
-         font-size: 1.5em;
+         //font-size: 1.5em;
+         font-size: 3.3vmax;
          text-align: center;
      }
  }
@@ -619,7 +631,8 @@
      }
      @media #{$md} {
          padding: 3px;
-         font-size: 1.5em;
+         //font-size: 1.5em;
+         font-size: 3vmax;
          position: relative;
          left: -50%;
      }
@@ -802,7 +815,7 @@
          position: relative;
          margin: 0 auto;
          bottom: 0px;
-         top: 60px;
+         top: 5%;
          //float: left;
      }
      //background-color: rgba(0, 100, 0, .5);
