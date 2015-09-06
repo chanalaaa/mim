@@ -330,7 +330,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li><img src="images/content/s4/bg/bg2.jpg" width="100%" height="100%" alt="">
+                                <li><div style="background: url(images/content/s4/bg/bg2.jpg) no-repeat "></div>
                                     <div class="container">
                                         <div class="box3">
                                             <ul>
@@ -350,7 +350,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li><img src="images/content/s4/bg/bg3.jpg" width="100%" height="100%" alt="">
+                                <li><div style="background: url(images/content/s4/bg/bg3.jpg) no-repeat "></div>
                                     <div class="container">
                                         <div class="box3">
                                             <ul>
@@ -371,7 +371,7 @@
                                 </li>
                             </ul>
                             <div class="arrow_white">
-                                <a href="#slide-3"><img class="arrow_white_img" src="images/content/arrow_white.png"></a>
+                                <a href="#slide-5"><img class="arrow_white_img" src="images/content/arrow_white.png"></a>
                             </div>
                         </div>
                     </div>

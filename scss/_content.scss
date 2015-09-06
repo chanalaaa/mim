@@ -201,7 +201,7 @@
              div {
                  @media #{$md} {
                      position: absolute;
-                     top: 10% !important;
+                     top: 12% !important;
                      left: 0 !important;
                      width: 100% !important;
                      height: 40% !important;
@@ -212,7 +212,7 @@
      }
      .slides-pagination {
          @media #{$md} {
-             bottom: 10%;
+             bottom: 8%;
          }
      }
  }

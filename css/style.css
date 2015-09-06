@@ -741,7 +741,7 @@ section:nth-child(5) {
 @media screen and (max-width: 736px) {
   #slide-4 .slides-container li div {
     position: absolute;
-    top: 10% !important;
+    top: 12% !important;
     left: 0 !important;
     width: 100% !important;
     height: 40% !important;
@@ -750,7 +750,7 @@ section:nth-child(5) {
 }
 @media screen and (max-width: 736px) {
   #slide-4 .slides-pagination {
-    bottom: 10%;
+    bottom: 8%;
   }
 }
 
