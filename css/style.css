@@ -739,8 +739,9 @@ section:nth-child(5) {
   }
 }
 @media screen and (max-width: 736px) {
-  #slide-4 .slides-container img {
-    top: 15% !important;
+  #slide-4 .slides-container li div {
+    position: absolute;
+    top: 0 !important;
     left: 0 !important;
     width: 100% !important;
     height: 40% !important;
@@ -821,7 +822,7 @@ section:nth-child(5) {
   zoom: 1;
   *display: inline;
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=");
-  margin: 10px;
+  margin: 6px;
   overflow: hidden;
   text-indent: -100%;
 }

@@ -309,10 +309,36 @@
                     <!-- hsCon-Res -->
                     <div class="hsCon-Res">
                         <div id="slides-4">
-                            <div class="slides-container">
-                                <img src="images/content/s4/bg/bg1.jpg" width="100%" height="100%" alt="">
-                                <img src="images/content/s4/bg/bg2.jpg" width="100%" height="100%" alt="">
-                                <img src="images/content/s4/bg/bg3.jpg" width="100%" height="100%" alt="">
+                            <ul class="slides-container">
+                                <li>
+                                    <div style="background: url(images/content/s4/bg/bg1.jpg) no-repeat "></div>
+                                    <div class="container">
+                                        <div class="box1">
+                                            <p class="s2-res_title">READY</p>
+                                            <p class="s2_2">TO BECOME A BUSINESS MASTER?</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!--
+                                <li><img src="images/content/s4/bg/bg2.jpg" width="100%" height="100%" alt="">
+                                    <div class="container">
+                                        <div class="box1">
+                                            <p class="s2-res_title">READY</p>
+                                            <p class="s2_2">TO ACHIEVE YOUR CAREER GOAL?</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><img src="images/content/s4/bg/bg3.jpg" width="100%" height="100%" alt="">
+                                    <div class="container">
+                                        <div class="box1">
+                                            <p class="s2-res_title">READY</p>
+                                            <p class="s2_2">TO SUCCEED IN YOUR LIFE'S MISSION?</p>
+                                        </div>
+                                    </div>
+                                </li>-->
+                            </ul>
+                            <div class="arrow_white">
+                                <a href="#slide-3"><img class="arrow_white_img" src="images/content/arrow_white.png"></a>
                             </div>
                         </div>
                     </div>
