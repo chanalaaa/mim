@@ -330,7 +330,8 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li><div style="background: url(images/content/s4/bg/bg2.jpg) no-repeat "></div>
+                                <li>
+                                    <div style="background: url(images/content/s4/bg/bg2.jpg) no-repeat "></div>
                                     <div class="container">
                                         <div class="box3">
                                             <ul>
@@ -342,15 +343,15 @@
                                                 </li>
                                                 <li>
                                                     <p class="s4-info">
-                                                        <font style="color:#FF6400">Engaging with top firms </font>spanning diverse
-                                                        industries or starting up their own
-                                                        businesses.</p>
+                                                        <font style="color:#FF6400">Engaging with top firms </font>spanning diverse industries or starting up their own businesses.
+                                                    </p>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </li>
-                                <li><div style="background: url(images/content/s4/bg/bg3.jpg) no-repeat "></div>
+                                <li>
+                                    <div style="background: url(images/content/s4/bg/bg3.jpg) no-repeat "></div>
                                     <div class="container">
                                         <div class="box3">
                                             <ul>
@@ -362,8 +363,7 @@
                                                 </li>
                                                 <li>
                                                     <p class="s4-info">
-                                                        <font style="color:#FF6400">Champions </font>of international entrepreneurial
-                                                        investment competitions</p>
+                                                        <font style="color:#FF6400">Champions </font>of international entrepreneurial investment competitions</p>
                                                 </li>
                                             </ul>
                                         </div>
@@ -395,28 +395,30 @@
                                 <font style="font-family:'helv_l'" ;>JOIN NOW!</font>
                             </p>
                             <br>
-                             <div class="table">
-                            <ul>
-                                <li class="s5-btn1">
-                                    <a href="#">
-                                        <p class="s51-btn1">JOIN OPEN HOUSE</p>
-                                    </a>
-                                </li>
-                                <li class="s5-btn2">
-                                    <a href="#">
-                                        <p class="s52-btn2">APPLY</p>
-                                    </a>
-                                </li>
-                            </ul>
+                            <div class="table">
+                                <ul>
+                                    <li class="s5-btn1">
+                                        <a href="#">
+                                            <p class="s51-btn1">JOIN OPEN HOUSE</p>
+                                        </a>
+                                    </li>
+                                    <li class="s5-btn2">
+                                        <a href="#">
+                                            <p class="s52-btn2">APPLY</p>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                     <div class="s5-pre_footer">
-                        <ul>
-                            <li>LEARN</li>
-                            <li><img src="images/content/s5/s5-ico_dome.png" alt="dome"> </li>
-                            <li>MORE</li>
-                        </ul>
+                        <div class="table">
+                            <ul>
+                                <li>LEARN</li>
+                                <li><img src="images/content/s5/s5-ico_dome.png" alt="dome"> </li>
+                                <li>MORE</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="s5-footer" data-center="opacity: 1">
                         <div class="s5-foot_info">
@@ -438,18 +440,6 @@
                 </div>
             </div>
         </section>
-        <!--
-         <section id="slide-5" class="initp">
-                <div class="bcg bcg3" data-300-bottom="opacity: 0;" data-100-bottom="opacity: 1;" data-anchor-target="#slide-5">
-                    <div class="hsContainer">
-                        <div class="hsContent" data-100-bottom="opacity: 0;" data-bottom="opacity: 1;" data-anchor-target="#slide-5">
-                            <h2>The End</h2>
-                            <p>Not enough parallax goodness? Let me know in the comments or hit me up at <a href="https://www.twitter.com/ihatetomatoes" target="_blank">@ihatetomatoes</a>.<br /><br /></p><p> Go to Part 2, where we will add <a href="https://ihatetomatoes.net/how-to-create-a-parallax-scrolling-website-part-2/">one page navigation</a>.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            -->
     </main>
     <!--/ SVG /***************************** -->
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="0" width="0">

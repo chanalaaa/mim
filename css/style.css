@@ -1391,6 +1391,14 @@ p.s52-btn2:hover {
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (max-width: 736px) {
+  .s5-pre_footer {
+    position: relative;
+    margin: 0 auto;
+    bottom: 0px;
+    top: 60px;
+  }
+}
 .s5-pre_footer li {
   width: 80px;
   display: inline-block;
@@ -1422,11 +1430,21 @@ p.s52-btn2:hover {
   background-color: #323232;
   float: left;
 }
+@media screen and (max-width: 736px) {
+  .s5-footer {
+    height: 450px;
+  }
+}
 
 .s5-foot_info {
   width: 80%;
   height: 100%;
   margin: 0 auto;
+}
+@media screen and (max-width: 736px) {
+  .s5-foot_info {
+    margin-top: 2em;
+  }
 }
 
 .s5-foot_ul {
@@ -1434,11 +1452,22 @@ p.s52-btn2:hover {
   display: inline-block;
   margin-top: 50px;
   margin-left: 50px;
-  color: #fff;
+  color: #B2B2B2;
 }
 .s5-foot_ul li {
   display: inline-block;
   width: 32%;
+}
+@media screen and (max-width: 736px) {
+  .s5-foot_ul li {
+    width: 100%;
+    margin-bottom: 2.5em;
+  }
+}
+@media screen and (max-width: 736px) {
+  .s5-foot_ul {
+    margin-left: 0px;
+  }
 }
 
 li {
@@ -1446,13 +1475,24 @@ li {
   font-size: .9em;
   vertical-align: text-top;
 }
+@media screen and (max-width: 736px) {
+  li {
+    font-size: 1em;
+  }
+}
 li a {
-  color: #fff;
+  color: #B2B2B2;
 }
 
 .s5-li1 {
+  color: #fff;
   font-family: 'helv_b';
   font-size: 1em;
+}
+@media screen and (max-width: 736px) {
+  .s5-li1 {
+    font-size: 1.1em;
+  }
 }
 
  /* 

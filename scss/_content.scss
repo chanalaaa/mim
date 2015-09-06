@@ -798,6 +798,13 @@
      right: 0;
      margin-left: auto;
      margin-right: auto;
+     @media #{$md} {
+         position: relative;
+         margin: 0 auto;
+         bottom: 0px;
+         top: 60px;
+         //float: left;
+     }
      //background-color: rgba(0, 100, 0, .5);
      ul {
          //margin-left: 20px;
@@ -838,6 +845,9 @@
      bottom: 0;
      background-color: #323232;
      float: left;
+     @media #{$md} {
+         height: 450px;
+     }
  }
  
  .s5-foot_info {
@@ -845,6 +855,9 @@
      width: 80%;
      height: 100%;
      margin: 0 auto;
+     @media #{$md} {
+         margin-top: 2em;
+     }
  }
  
  .s5-foot_ul {
@@ -852,11 +865,18 @@
      display: inline-block;
      margin-top: 50px;
      margin-left: 50px;
-     color: #fff;
+     color: #B2B2B2;
      li {
          display: inline-block;
          width: 32%;
          // background-color: rgba(54, 121, 123, 0.5);
+         @media #{$md} {
+             width: 100%;
+             margin-bottom: 2.5em;
+         }
+     }
+     @media #{$md} {
+         margin-left: 0px;
      }
  }
  
@@ -864,14 +884,21 @@
      font-family: 'helv_c';
      font-size: .9em;
      vertical-align: text-top;
+      @media #{$md} {
+         font-size: 1em;
+     }
      a {
-         color: #fff;
+         color: #B2B2B2;
      }
  }
  
  .s5-li1 {
+     color: #fff;
      font-family: 'helv_b';
      font-size: 1em;
+      @media #{$md} {
+         font-size: 1.1em;
+     }
  }
  
  // End S5 /////////////////////////////////////
