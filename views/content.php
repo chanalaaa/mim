@@ -373,7 +373,7 @@
                                 <font class="s5-highlight">LEGEND STARTS</font>
                                 <br>WITHIN YOU
                                 <br>
-                                <font style="font-family:'helv_l'" ;>JOIN NOW!</font>
+                                <font style="font-family:'helv_l'" ;>JOIN NOW! </font><br>
                             </p>
                             <br>
                             <div class="table">

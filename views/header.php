@@ -4,7 +4,7 @@
         <div class="nav-sec1">
             <img src="images/header/mim_logo.jpg" alt="" class="logo">
             <p class="nav-title">MASTER’S DEGREE
-                <br>PROGRAM IN MARKTING</p>
+                <br>PROGRAM IN MARKETING</p>
         </div>
         <div class="nav-sec2">
             <div class="table">
