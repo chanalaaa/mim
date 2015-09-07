@@ -90,43 +90,46 @@ $(document).ready(function() {
             }
         };
     }
+    
+    //func. on mobile
+    if ($(window).width() <= 768) {
+
+        var $slides = $('#slides-2,#slides-3,#slides-4');
 
 
+        Hammer($slide[1]).on("swipeleft", function(e) {
+            $('#slides-2').data('superslides').animate('next');
+        });
 
-    var $slides = $('#slides-2,#slides-3,#slides-4');
+        Hammer($slide[1]).on("swiperight", function(e) {
+            $('#slides-2').data('superslides').animate('prev');
+        });
 
+        Hammer($slide[2]).on("swipeleft", function(e) {
+            $('#slides-3').data('superslides').animate('next');
+        });
 
-    Hammer($slide[1]).on("swipeleft", function(e) {
-        $('#slides-2').data('superslides').animate('next');
-    });
+        Hammer($slide[2]).on("swiperight", function(e) {
+            $('#slides-3').data('superslides').animate('prev');
+        });
 
-    Hammer($slide[1]).on("swiperight", function(e) {
-        $('#slides-2').data('superslides').animate('prev');
-    });
+        Hammer($slide[3]).on("swipeleft", function(e) {
+            $('#slides-4').data('superslides').animate('next');
+        });
 
-    Hammer($slide[2]).on("swipeleft", function(e) {
-        $('#slides-3').data('superslides').animate('next');
-    });
+        Hammer($slide[3]).on("swiperight", function(e) {
+            $('#slides-4').data('superslides').animate('prev');
+        });
 
-    Hammer($slide[2]).on("swiperight", function(e) {
-        $('#slides-3').data('superslides').animate('prev');
-    });
+        enquire.register("screen and (max-width : 768px)", initAdjustWindow(), false)
+            .listen(100);
 
-    Hammer($slide[3]).on("swipeleft", function(e) {
-        $('#slides-4').data('superslides').animate('next');
-    });
+        $slides.superslides({
+            hashchange: false
+        });
 
-    Hammer($slide[3]).on("swiperight", function(e) {
-        $('#slides-4').data('superslides').animate('prev');
-    });
+    }
 
-    enquire.register("screen and (max-width : 768px)", initAdjustWindow(), false)
-        .listen(100);
-
-
-    $slides.superslides({
-        hashchange: false
-    });
 
 
 

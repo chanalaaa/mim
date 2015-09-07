@@ -52,17 +52,18 @@ ob_start('ob_gzhandler');
             }
         }).listen();
         </script>
+        <!--
         <script type="text/javascript">
         if (window.matchMedia('screen and (max-width: 768px)')) {
             document.write('<script type="text/javascript" src="js/hammer.min.js"/>');
             document.write('<script type="text/javascript" src="js/jquery.superslides.js" charset="utf-8"/>');
 
         }
-        </script>
+        </script> -->
         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
         <script type="text/javascript" src="js/jquery.animate-enhanced.min.js"></script>
-        <!--<script type="text/javascript" src="js/hammer.min.js"></script>
-        <script type="text/javascript" src="js/jquery.superslides.js" charset="utf-8"></script> -->
+        <script type="text/javascript" src="js/hammer.min.js"></script>
+        <script type="text/javascript" src="js/jquery.superslides.js" charset="utf-8"></script>
         <script type="text/javascript" src="js/main.js"></script>
     </body>
 

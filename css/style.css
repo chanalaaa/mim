@@ -1272,7 +1272,7 @@ p.s3-btn:hover {
     height: 49vmax;
   }
 }
-@media screen and (min-width: 670px) {
+@media screen and (min-width: 640px) {
   .s5-left_img {
     width: 31vmax;
     height: 40vmax;
