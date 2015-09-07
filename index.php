@@ -20,6 +20,19 @@ ob_start('ob_gzhandler');
         <script type="text/javascript" src="js/jquery.pagepiling.min.js">
         <link rel="stylesheet" href="css/jquery.pagepiling.css"></script> -->
         <script type="text/javascript" src="js/skrollr.min.js"></script>
+        <script type="text/javascript">
+        // This loads JS files in the head element
+        function loadJS(url) {
+            // adding the script tag to the head
+            var head = document.getElementsByTagName('head')[0];
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = url;
+
+            // fire the loading
+            head.appendChild(script);
+        }
+        </script>
         <link rel="stylesheet" href="css/style.css">
     </head>
 
@@ -29,10 +42,27 @@ ob_start('ob_gzhandler');
                 <?php include("views/content.php"); ?>
                     <?php //include("views/footer.php"); ?>
         </div>
+        <script type="text/javascript">
+        enquire.register("screen and (max-width: 768px)", {
+            match: function() {
+                // Load a JS file
+                loadJS('js/jquery.superslides.js');
+                loadJS('js/hammer.min.js');
+
+            }
+        }).listen();
+        </script>
+        <script type="text/javascript">
+        if (window.matchMedia('screen and (max-width: 768px)')) {
+            document.write('<script type="text/javascript" src="js/hammer.min.js"/>');
+            document.write('<script type="text/javascript" src="js/jquery.superslides.js" charset="utf-8"/>');
+
+        }
+        </script>
         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
         <script type="text/javascript" src="js/jquery.animate-enhanced.min.js"></script>
-        <script type="text/javascript" src="js/hammer.min.js"></script>
-        <script type="text/javascript" src="js/jquery.superslides.js" charset="utf-8"></script>
+        <!--<script type="text/javascript" src="js/hammer.min.js"></script>
+        <script type="text/javascript" src="js/jquery.superslides.js" charset="utf-8"></script> -->
         <script type="text/javascript" src="js/main.js"></script>
     </body>
 

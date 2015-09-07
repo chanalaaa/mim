@@ -73,6 +73,8 @@ $(document).ready(function() {
             // Init Skrollr
             var s = skrollr.init();
             s.destroy();
+
+
         }
 
 
@@ -88,9 +90,6 @@ $(document).ready(function() {
             }
         };
     }
-
-    enquire.register("screen and (max-width : 736px)", initAdjustWindow(), false)
-        .listen(100);
 
 
 
@@ -121,14 +120,13 @@ $(document).ready(function() {
         $('#slides-4').data('superslides').animate('prev');
     });
 
+    enquire.register("screen and (max-width : 768px)", initAdjustWindow(), false)
+        .listen(100);
 
 
     $slides.superslides({
         hashchange: false
     });
-
-
-
 
 
 
