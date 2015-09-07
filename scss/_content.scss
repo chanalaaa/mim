@@ -198,6 +198,7 @@
                  }
              }
          }
+       
      }
      /* Slide 4 */
      
@@ -653,6 +654,9 @@
          text-decoration: none;
          &:hover {
              text-decoration: none;
+         }
+         &:active{
+         	opacity: .7;
          }
          @media #{$md} {
              padding: 3px;

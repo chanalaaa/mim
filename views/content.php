@@ -113,7 +113,7 @@
                                             <br>caters to business world ahead</p>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="http://mim.tbs.tu.ac.th/academic.php">
                                             <p class="s3-btn">CURRICULUM ></p>
                                         </a>
                                     </li>
@@ -130,7 +130,7 @@
                                             <br>master the business</p>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="http://mim.tbs.tu.ac.th/faculty.php">
                                             <p class="s3-btn">FACULTY ></p>
                                         </a>
                                     </li>
@@ -147,7 +147,7 @@
                                             <br>first magnitude</p>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="http://mim.tbs.tu.ac.th/global_exposure.php">
                                             <p class="s3-btn">GLOBAL EXPOSURE ></p>
                                         </a>
                                     </li>
@@ -177,7 +177,7 @@
                                                     </li>
                                                     <li>
                                                         <div style="position: absolute; left: 50%;">
-                                                            <a href="#">
+                                                            <a href="http://mim.tbs.tu.ac.th/academic.php">
                                                                 <p class="s3-btn">CURRICULUM ></p>
                                                             </a>
                                                         </div>
@@ -204,7 +204,7 @@
                                                     </li>
                                                     <li>
                                                         <div style="position: absolute; left: 50%;">
-                                                            <a href="#">
+                                                            <a href="http://mim.tbs.tu.ac.th/faculty.php">
                                                                 <p class="s3-btn">FACULTY ></p>
                                                             </a>
                                                         </div>
@@ -231,7 +231,7 @@
                                                     </li>
                                                     <li>
                                                         <div style="position: absolute; left: 50%;">
-                                                            <a href="#">
+                                                            <a href="http://mim.tbs.tu.ac.th/global_exposure.php">
                                                                 <p class="s3-btn">GLOBAL EXPOSURE ></p>
                                                             </a>
                                                         </div>
@@ -379,12 +379,12 @@
                             <div class="table">
                                 <ul>
                                     <li class="s5-btn1">
-                                        <a href="#">
+                                        <a href="http://mim.tbs.tu.ac.th/admission.php?sect4">
                                             <p class="s51-btn1">JOIN OPEN HOUSE</p>
                                         </a>
                                     </li>
                                     <li class="s5-btn2">
-                                        <a href="#">
+                                        <a href="http://mim.tbs.tu.ac.th/apply_online.php">
                                             <p class="s52-btn2">APPLY</p>
                                         </a>
                                     </li>
@@ -396,7 +396,11 @@
                         <div class="table">
                             <ul>
                                 <li>LEARN</li>
-                                <li><img src="images/content/s5/s5-ico_dome.png" alt="dome"> </li>
+                                <li>
+                                    <div>
+                                        <a href="http://mim.tbs.tu.ac.th"> <img src="images/content/s5/s5-ico_dome.png" alt="dome"></a>
+                                    </div>
+                                </li>
                                 <li>MORE</li>
                             </ul>
                         </div>

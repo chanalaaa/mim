@@ -10,12 +10,12 @@
             <div class="table">
                 <ul class="nav-ul">
                     <li class="nav-btn1">
-                        <a href="#">
+                        <a href="http://mim.tbs.tu.ac.th/admission.php?sect4">
                             <p class="nav1-btn1">JOIN OPEN HOUSE</p>
                         </a>
                     </li>
                     <li class="nav-btn2">
-                        <a href="#">
+                        <a href="http://mim.tbs.tu.ac.th/apply_online.php">
                             <p class="nav1-btn2">APPLY</p>
                         </a>
                     </li>

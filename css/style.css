@@ -1232,6 +1232,9 @@ p.s3-btn {
 p.s3-btn:hover {
   text-decoration: none;
 }
+p.s3-btn:active {
+  opacity: .7;
+}
 @media screen and (max-width: 768px) {
   p.s3-btn {
     padding: 3px;
