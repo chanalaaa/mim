@@ -158,11 +158,11 @@
                     <!-- hsCon-Res -->
                     <div class="hsCon-Res">
                         <div id="slides-3">
+                            <div class="s3-res_tab">SET</div>
                             <ul class="slides-container">
                                 <li><img src="" width="100%" height="100%" alt="">
                                     <div class="container">
                                         <div class="box2">
-                                            <p class="s3-res_tab">SET</p>
                                             <div class="table">
                                                 <ul>
                                                     <li>
@@ -190,7 +190,6 @@
                                 <li><img src="" width="100%" height="100%" alt="">
                                     <div class="container">
                                         <div class="box2">
-                                            <p class="s3-res_tab">SET</p>
                                             <div class="table">
                                                 <ul>
                                                     <li>
@@ -218,7 +217,6 @@
                                 <li><img src="" width="100%" height="100%" alt="">
                                     <div class="container">
                                         <div class="box2">
-                                            <p class="s3-res_tab">SET</p>
                                             <div class="table">
                                                 <ul>
                                                     <li>

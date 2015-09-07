@@ -352,7 +352,7 @@
          // background-color: rgba(4, 15, 5, 0.5);
          @media #{$md} {
              left: 0;
-             margin-top: 80px;
+             margin-top: 140px;
              width: 100%;
          }
      }
@@ -494,6 +494,7 @@
      
      .s3-res_tab {
          @media #{$md} {
+             position: absolute;
              @include s2-content;
              color: #000;
              width: 1.7em;
@@ -503,6 +504,9 @@
              background-color: #fff;
              border-top-right-radius: 5px;
              border-bottom-right-radius: 5px;
+             z-index: 100;
+             top: 10vmax;
+             left: 0;
          }
      }
      
@@ -572,7 +576,7 @@
              @include bg_img('../images/content/s3/s32.png');
              margin: 0 auto;
              //width: 140px;
-             width: 22vmax;
+             width: 23vmax;
              // height: 123px;
              height: 20.5vmax;
              margin-top: 10%;
