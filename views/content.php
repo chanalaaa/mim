@@ -51,11 +51,11 @@
                     <!-- hsCon-Res -->
                     <div class="hsCon-Res">
                         <div id="slides-2">
+                            <div class="s2-res_tab">READY</div>
                             <ul class="slides-container">
                                 <li><img src="images/content/s2/bg/bg1.jpg" width="100%" height="100%" alt="">
                                     <div class="container">
                                         <div class="box1">
-                                            <p class="s2-res_tab">READY</p>
                                             <p class="s2_2">TO BECOME A BUSINESS MASTER?</p>
                                         </div>
                                     </div>
@@ -63,7 +63,6 @@
                                 <li><img src="images/content/s2/bg/bg2.jpg" width="100%" height="100%" alt="">
                                     <div class="container">
                                         <div class="box1">
-                                            <p class="s2-res_tab">READY</p>
                                             <p class="s2_2">TO ACHIEVE YOUR CAREER GOAL?</p>
                                         </div>
                                     </div>
@@ -71,7 +70,6 @@
                                 <li><img src="images/content/s2/bg/bg3.jpg" width="100%" height="100%" alt="">
                                     <div class="container">
                                         <div class="box1">
-                                            <p class="s2-res_tab">READY</p>
                                             <p class="s2_2">TO SUCCEED IN YOUR LIFE'S MISSION?</p>
                                         </div>
                                     </div>
@@ -79,7 +77,6 @@
                                 <li><img src="images/content/s2/bg/bg4.jpg" width="100%" height="100%" alt="">
                                     <div class="container">
                                         <div class="box1">
-                                            <p class="s2-res_tab">READY</p>
                                             <p class="s2_2">TO START YOUR LEGEND?</p>
                                         </div>
                                     </div>

@@ -865,7 +865,7 @@ section:nth-child(5) {
 @media screen and (max-width: 768px) {
   .box1 {
     left: 0;
-    margin-top: 32vmax;
+    margin-top: 40vmax;
     width: 90%;
   }
 }
@@ -979,6 +979,7 @@ section:nth-child(5) {
 
 @media screen and (max-width: 768px) {
   .s2-res_tab {
+    position: absolute;
     font-family: 'helv_b';
     color: #fff;
     right: 0;
@@ -989,6 +990,10 @@ section:nth-child(5) {
     background-color: #ff6600;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    z-index: 100;
+    top: 26vmax;
+    text-align: center;
+    left: 0;
   }
 }
 

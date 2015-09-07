@@ -340,7 +340,7 @@
          @media #{$md} {
              left: 0;
              //margin-top: 200px;
-             margin-top: 32vmax;
+             margin-top: 40vmax;
              width: 90%;
          }
      }
@@ -477,6 +477,7 @@
      
      .s2-res_tab {
          @media #{$md} {
+             position: absolute;
              @include s2-content;
              width: 2.7em;
              font-size: 3.5em;
@@ -484,6 +485,10 @@
              background-color: #ff6600;
              border-top-right-radius: 5px;
              border-bottom-right-radius: 5px;
+             z-index: 100;
+             top: 26vmax;
+             text-align: center;
+             left: 0;
          }
      }
      
