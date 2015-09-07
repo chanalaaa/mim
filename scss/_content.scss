@@ -364,7 +364,8 @@
          // background-color: rgba(4, 15, 5, 0.5);
          @media #{$md} {
              // margin-top: 150px;
-             margin-top: 20vmax;
+             // margin-top: 20vmax;
+             margin-top: 43vmax;
          }
      }
      
@@ -510,8 +511,16 @@
          }
      }
      
+     .s4-res_Mtab {
+         @media #{$md} {
+             position: relative;
+             top: 24vmax;
+         }
+     }
+     
      .s4-res_tab {
          @media #{$md} {
+             position: absolute;
              @include s2-content;
              width: 1.2em;
              font-size: 3.5em;
@@ -519,6 +528,9 @@
              background-color: #ff6600;
              border-top-right-radius: 5px;
              border-bottom-right-radius: 5px;
+             z-index: 100;
+             top: 10vmax;
+             left: 0;
          }
      }
      
@@ -659,9 +671,14 @@
          font-size: 6vmax;
          color: #fff;
          @media #{$md} {
+             position: absolute;
+             @include s2-content;
              margin: 1.2% .5em;
              //font-size: 4em;
              font-size: 8vmax;
+             z-index: 100;
+             top: 25vmax;
+             left: 0;
          }
      }
      

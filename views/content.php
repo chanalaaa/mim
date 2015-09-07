@@ -304,18 +304,16 @@
                     <!-- hsCon-Res -->
                     <div class="hsCon-Res">
                         <div id="slides-4">
+                            <div class="s4-res_Mtab">
+                                <div class="s4-res_tab">GO!</div>
+                                <div class="s4-title">SUCCESS!</div>
+                            </div>
                             <ul class="slides-container">
                                 <li>
                                     <div style="background: url(images/content/s4/bg/bg1.jpg) no-repeat "></div>
                                     <div class="container">
                                         <div class="box3">
                                             <ul>
-                                                <li>
-                                                    <p class="s4-res_tab">GO!</p>
-                                                </li>
-                                                <li>
-                                                    <p class="s4-title">SUCCESS!</p>
-                                                </li>
                                                 <li>
                                                     <p class="s4-info">
                                                         <font style="color:#FF6400">Over 3,000 graduates working in key roles </font>
@@ -331,12 +329,6 @@
                                         <div class="box3">
                                             <ul>
                                                 <li>
-                                                    <p class="s4-res_tab">GO!</p>
-                                                </li>
-                                                <li>
-                                                    <p class="s4-title">SUCCESS!</p>
-                                                </li>
-                                                <li>
                                                     <p class="s4-info">
                                                         <font style="color:#FF6400">Engaging with top firms </font>spanning diverse industries or starting up their own businesses.
                                                     </p>
@@ -350,12 +342,6 @@
                                     <div class="container">
                                         <div class="box3">
                                             <ul>
-                                                <li>
-                                                    <p class="s4-res_tab">GO!</p>
-                                                </li>
-                                                <li>
-                                                    <p class="s4-title">SUCCESS!</p>
-                                                </li>
                                                 <li>
                                                     <p class="s4-info">
                                                         <font style="color:#FF6400">Champions </font>of international entrepreneurial investment competitions</p>

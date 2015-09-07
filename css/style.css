@@ -890,7 +890,7 @@ section:nth-child(5) {
 }
 @media screen and (max-width: 768px) {
   .box3 {
-    margin-top: 20vmax;
+    margin-top: 43vmax;
   }
 }
 
@@ -1019,7 +1019,15 @@ section:nth-child(5) {
 }
 
 @media screen and (max-width: 768px) {
+  .s4-res_Mtab {
+    position: relative;
+    top: 24vmax;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .s4-res_tab {
+    position: absolute;
     font-family: 'helv_b';
     color: #fff;
     right: 0;
@@ -1030,6 +1038,9 @@ section:nth-child(5) {
     background-color: #ff6600;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    z-index: 100;
+    top: 10vmax;
+    left: 0;
   }
 }
 
@@ -1237,8 +1248,16 @@ p.s3-btn:hover {
 }
 @media screen and (max-width: 768px) {
   .s4-title {
+    position: absolute;
+    font-family: 'helv_b';
+    color: #fff;
+    right: 0;
+    font-size: 3.7vmax;
     margin: 1.2% .5em;
     font-size: 8vmax;
+    z-index: 100;
+    top: 25vmax;
+    left: 0;
   }
 }
 
