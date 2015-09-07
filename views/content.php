@@ -79,7 +79,7 @@
                                 <li><img src="images/content/s2/bg/bg4.jpg" width="100%" height="100%" alt="">
                                     <div class="container">
                                         <div class="box1">
-                                            <p class="s2-res_title">READY</p>
+                                            <p class="s2-res_tab">READY</p>
                                             <p class="s2_2">TO START YOUR LEGEND?</p>
                                         </div>
                                     </div>

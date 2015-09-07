@@ -21,6 +21,7 @@ $(document).ready(function() {
 
         }, 800);
     });
+
     function adjustWindow() {
 
 
@@ -119,10 +120,20 @@ $(document).ready(function() {
     }
 
 
+    var p = $("section#slide-5");
+    var position = p.position();
 
+    console.log(position.top);
+    console.log($(window).scrollTop());
 
-
-
+    $(window).bind('scroll', function() {
+        if ($(window).scrollTop() < position.top -50) {
+            console.log('1');
+            $('.nav-sec2').css("visibility", "visible");
+        } else {console.log('2');
+            $('.nav-sec2').css("visibility", "hidden");
+        }
+    });
 
 
     /*

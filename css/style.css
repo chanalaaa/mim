@@ -621,8 +621,8 @@ clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
 @media screen and (max-width: 768px) {
   section:nth-child(2) {
     margin-top: -22.5vmax;
-    -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
-    clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+    -webkit-clip-path: none;
+    clip-path: none;
   }
 }
 
