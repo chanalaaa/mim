@@ -127,7 +127,7 @@
                                     </li>
                                     <li>
                                         <p class="s3-info">Learn from business masters to
-                                            <br>master business</p>
+                                            <br>master the business</p>
                                     </li>
                                     <li>
                                         <a href="http://mim.tbs.tu.ac.th/faculty.php">
@@ -143,7 +143,7 @@
                                         <p class="s3-title">YOUR EMPOWERMENTS</p>
                                     </li>
                                     <li>
-                                        <p class="s3-info">Study the global firms of the
+                                        <p class="s3-info">Study global firms of the
                                             <br>first magnitude</p>
                                     </li>
                                     <li>
@@ -200,7 +200,7 @@
                                                     </li>
                                                     <li>
                                                         <p class="s3-info">Learn from business masters to
-                                                            <br>master business </p>
+                                                            <br>master the business </p>
                                                     </li>
                                                     <li>
                                                         <div style="position: absolute; left: 50%;">
@@ -226,7 +226,7 @@
                                                         <p class="s3-title">YOUR EMPOWERMENTS</p>
                                                     </li>
                                                     <li>
-                                                        <p class="s3-info">Study the global firms of the
+                                                        <p class="s3-info">Study global firms of the
                                                             <br>first magnitude </p>
                                                     </li>
                                                     <li>
