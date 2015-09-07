@@ -370,12 +370,12 @@
                         <div class="s5-right" data-center="opacity: 1">
                             <p>YOUR
                                 <br>
-                                <font class="s5-highlight">LEGEND STARTS</font>
-                                <br>WITHIN YOU
+                                <font class="s5-highlight">LEGEND STARTS </font><br>
+                                WITHIN YOU
                                 <br>
                                 <font style="font-family:'helv_l'" ;>JOIN NOW! </font><br>
                             </p>
-                            <br>
+                            
                             <div class="table">
                                 <ul>
                                     <li class="s5-btn1">

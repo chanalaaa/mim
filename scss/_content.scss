@@ -150,7 +150,7 @@
          // background-color: rgba(0, 0, 0, 0.5);
          @media #{$md} {
              max-width: 80%;
-             margin-top: -5%;
+             margin-top: 0%;
          }
      }
      
@@ -352,7 +352,7 @@
          // background-color: rgba(4, 15, 5, 0.5);
          @media #{$md} {
              left: 0;
-             margin-top: 140px;
+             margin-top: 12%;
              width: 100%;
          }
      }
@@ -497,18 +497,19 @@
      
      .s3-res_tab {
          @media #{$md} {
-             position: absolute;
+             position: relative;
              @include s2-content;
              color: #000;
              width: 1.7em;
              font-size: 3.5em;
+             font-size: 9vmax;
              text-align: right;
              padding: .4em .7em .2em;
              background-color: #fff;
              border-top-right-radius: 5px;
              border-bottom-right-radius: 5px;
              z-index: 100;
-             top: 10vmax;
+             top: 8.5vmax;
              left: 0;
          }
      }
@@ -723,7 +724,7 @@
              width: 80%;
              margin: 4em;
              //margin-top: 3.5em;
-             margin-top: 8vmax;
+             margin-top: 6%;
              margin-bottom: 0;
          }
      }
@@ -737,7 +738,9 @@
              // height: 300px;
              // height: 49vmax;
              width: 12em;
+             width: 37vmax;
              height: 14em;
+             height: 44vmax;
          }
          @media #{$md-640} {
              width: 31vmax;
@@ -769,7 +772,7 @@
              @media #{$md} {
                  //font-size: 2.1em;
                  font-size: 2em;
-                 font-size: 5.8vmax;
+                 font-size: 5.5vmax;
              }
              @media #{$md-640} {
                  // font-size: 4.8vmax;
@@ -779,7 +782,7 @@
              color: #FF6400;
              font-size: 5vmax;
              @media #{$md} {
-                 font-size: 1.2em;
+                 font-size: 1em;
              }
              @media #{$md-640} {
                  //font-size: 1em;
@@ -874,7 +877,8 @@
              //position: relative;
              margin: 0 auto;
              //bottom: 0px;
-             bottom: 435px;
+             // bottom: 435px;
+             bottom: 43%;
              //top: 5%;
              // top: 15vmax;
              //float: left;
@@ -893,7 +897,9 @@
              text-align: center;
              img {
                  width: 100px;
+                 width: 100%;
                  height: 100px;
+                 height: 50%;
              }
          }
          li:nth-child(1) {
@@ -921,6 +927,7 @@
          float: left;
          @media #{$md} {
              height: 450px;
+             height: 44%;
              //height: 80vmax;
          }
      }

@@ -698,7 +698,7 @@ section:nth-child(5) {
 @media screen and (max-width: 768px) {
   .hsContent {
     max-width: 80%;
-    margin-top: -5%;
+    margin-top: 0%;
   }
 }
 
@@ -878,7 +878,7 @@ section:nth-child(5) {
 @media screen and (max-width: 768px) {
   .box2 {
     left: 0;
-    margin-top: 140px;
+    margin-top: 12%;
     width: 100%;
   }
 }
@@ -999,7 +999,7 @@ section:nth-child(5) {
 
 @media screen and (max-width: 768px) {
   .s3-res_tab {
-    position: absolute;
+    position: relative;
     font-family: 'helv_b';
     color: #fff;
     right: 0;
@@ -1007,13 +1007,14 @@ section:nth-child(5) {
     color: #000;
     width: 1.7em;
     font-size: 3.5em;
+    font-size: 9vmax;
     text-align: right;
     padding: .4em .7em .2em;
     background-color: #fff;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     z-index: 100;
-    top: 10vmax;
+    top: 8.5vmax;
     left: 0;
   }
 }
@@ -1300,7 +1301,7 @@ p.s3-btn:active {
     margin-left: 0;
     width: 80%;
     margin: 4em;
-    margin-top: 8vmax;
+    margin-top: 6%;
     margin-bottom: 0;
   }
 }
@@ -1312,7 +1313,9 @@ p.s3-btn:active {
 @media screen and (max-width: 768px) {
   .s5-left_img {
     width: 12em;
+    width: 37vmax;
     height: 14em;
+    height: 44vmax;
   }
 }
 @media screen and (min-width: 640px) {
@@ -1345,7 +1348,7 @@ p.s3-btn:active {
 @media screen and (max-width: 768px) {
   .s5-right p {
     font-size: 2em;
-    font-size: 5.8vmax;
+    font-size: 5.5vmax;
   }
 }
 .s5-right .s5-highlight {
@@ -1354,7 +1357,7 @@ p.s3-btn:active {
 }
 @media screen and (max-width: 768px) {
   .s5-right .s5-highlight {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 }
 .s5-right ul {
@@ -1445,7 +1448,7 @@ p.s52-btn2:hover {
 @media screen and (max-width: 768px) {
   .s5-pre_footer {
     margin: 0 auto;
-    bottom: 435px;
+    bottom: 43%;
   }
 }
 .s5-pre_footer li {
@@ -1458,7 +1461,9 @@ p.s52-btn2:hover {
 }
 .s5-pre_footer li img {
   width: 100px;
+  width: 100%;
   height: 100px;
+  height: 50%;
 }
 .s5-pre_footer li:nth-child(1) {
   text-align: right;
@@ -1482,6 +1487,7 @@ p.s52-btn2:hover {
 @media screen and (max-width: 768px) {
   .s5-footer {
     height: 450px;
+    height: 44%;
   }
 }
 
