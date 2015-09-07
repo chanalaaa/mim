@@ -16,11 +16,11 @@
             <div class="bcg" data-anchor-target="#slide-1">
                 <div class="hsContainer">
                     <div class="hsContent" data-0="opacity: 1" data--250-top="opacity: 0" data-anchor-target="#slide-1">
-                        <p class="s1-title">Thailand's first graduate degree program in Marketing</p>
+                        <p class="s1-title">Thailand's first graduate degree program in marketing</p>
                         <br>
                         <p class="s1-info">WHERE A
                             <font style="color:#FF6400">DIVERSE ASSEMBLY OF FUTURE
-                                <br>LEADERS</font> ARE TAUGHT BY WORLD-CLASS FACULTY.</p>
+                                <br>LEADERS</font> IS TAUGHT BY A WORLD-CLASS FACULTY</p>
                         <br>
                         <div class="s1-arrow_block">
                             <a href="#slide-2"><img class="s1-arrow" src="images/content/s1/arrow_grey.png" alt="READY"></a>
@@ -110,7 +110,7 @@
                                     </li>
                                     <li>
                                         <p class="s3-info">A tailored curriculum that
-                                            <br>caters to business world ahead</p>
+                                            <br>caters to the business world ahead</p>
                                     </li>
                                     <li>
                                         <a href="http://mim.tbs.tu.ac.th/academic.php">
@@ -127,7 +127,7 @@
                                     </li>
                                     <li>
                                         <p class="s3-info">Learn from business masters to
-                                            <br>master the business</p>
+                                            <br>master business</p>
                                     </li>
                                     <li>
                                         <a href="http://mim.tbs.tu.ac.th/faculty.php">
@@ -173,7 +173,7 @@
                                                     </li>
                                                     <li>
                                                         <p class="s3-info">A tailored curriculum that
-                                                            <br>caters to business world ahead </p>
+                                                            <br>caters to the business world ahead </p>
                                                     </li>
                                                     <li>
                                                         <div style="position: absolute; left: 50%;">
@@ -200,7 +200,7 @@
                                                     </li>
                                                     <li>
                                                         <p class="s3-info">Learn from business masters to
-                                                            <br>master the business </p>
+                                                            <br>master business </p>
                                                     </li>
                                                     <li>
                                                         <div style="position: absolute; left: 50%;">
@@ -265,7 +265,7 @@
                             <div class="box3 s2_2" data-520p="transform:translate(0,0%);opacity:1;" data-548p="transform:translate(0,-20%);opacity:0;">
                                 <ul>
                                     <li>
-                                        <p class="s4-title">SUCCESS!</p>
+                                        <p class="s4-title">FOR SUCCESS</p>
                                     </li>
                                     <li>
                                         <p class="s4-info">
@@ -277,7 +277,7 @@
                             <div class="box3 s2_3" data-290p="opacity:0;" data-538p="transform:translate(0%,18%);" data-555p="transform:translate(0%,-12%);opacity:1;" data-575p="transform:translate(0%,-12%);opacity:1;" data-590p="transform:translate(0,-28%);opacity:0;">
                                 <ul>
                                     <li>
-                                        <p class="s4-title">SUCCESS!</p>
+                                        <p class="s4-title">FOR SUCCESS</p>
                                     </li>
                                     <li>
                                         <p class="s4-info">
@@ -290,7 +290,7 @@
                             <div class="box3 s2_5" data-587p="transform:translate(0%,8%);opacity:0;" data-600p="transform:translate(0%,-17%);opacity:1;" data-600p="transform:translate(0%,-17%);opacity:1;" data-675p="transform:translate(0%,-60%);opacity:0;">
                                 <ul>
                                     <li>
-                                        <p class="s4-title">SUCCESS!</p>
+                                        <p class="s4-title">FOR SUCCESS</p>
                                     </li>
                                     <li>
                                         <p class="s4-info">
@@ -305,8 +305,8 @@
                     <div class="hsCon-Res">
                         <div id="slides-4">
                             <div class="s4-res_Mtab">
-                                <div class="s4-res_tab">GO!</div>
-                                <div class="s4-title">SUCCESS!</div>
+                                <div class="s4-res_tab">GO</div>
+                                <div class="s4-title">FOR SUCCESS</div>
                             </div>
                             <ul class="slides-container">
                                 <li>
@@ -431,9 +431,9 @@
                                 </li>
                                 <li>Thammasat University, Room 114, 2 Prachan Rd.,
                                     <br>Pranakorn, Bangkok 10200, Thailand</li>
-                                <li>tel: +66 2222 1331, +66 2223 9983 2240
+                                <li>tel: +66 2222 1331, +66 2223 9983
                                     <br>E-mail: mim@tbs.tu.ac.th
-                                    <br><a href="http://mim.tbs.tu.ac.th/">http://mim.tbs.tu.ac.th/</a>
+                                    <br><a href="http://mim.tbs.tu.ac.th/">www.mim.tbs.tu.ac.th/</a>
                                 </li>
                             </ul>
                         </div>
