@@ -159,6 +159,7 @@ html {
   body,
   html {
     height: auto;
+    background-color: #323232;
   }
 }
 
@@ -457,6 +458,8 @@ main {
     float: left;
     padding-top: 0px;
     background-color: rgba(0, 0, 0, 0.7);
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
   }
 }
 
@@ -732,7 +735,7 @@ section:nth-child(5) {
 }
 @media screen and (max-width: 768px) {
   #slide-3 .slides-pagination {
-    bottom: 7%;
+    bottom: 11%;
   }
   #slide-3 .slides-pagination a {
     color: #000;
@@ -761,7 +764,7 @@ section:nth-child(5) {
 }
 @media screen and (max-width: 768px) {
   #slide-4 .slides-pagination {
-    bottom: 8%;
+    bottom: 11%;
   }
 }
 
@@ -895,7 +898,7 @@ section:nth-child(5) {
   .arrow_white {
     position: absolute;
     z-index: 30;
-    bottom: 0;
+    bottom: 15px;
     text-align: center;
     left: 0;
     right: 0;

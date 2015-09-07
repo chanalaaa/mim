@@ -123,9 +123,9 @@ $(document).ready(function() {
 
         $(window).bind('scroll', function() {
             if ($(window).scrollTop() < position.top - 50) {
-                $('.nav-sec2').css("visibility", "visible");
+                $('.nav-sec2').css("opacity", "1");
             } else {
-                $('.nav-sec2').css("visibility", "hidden");
+                $('.nav-sec2').css("opacity", "0");
             }
         });
 
