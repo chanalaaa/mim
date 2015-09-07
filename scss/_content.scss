@@ -823,9 +823,10 @@
      margin-left: auto;
      margin-right: auto;
      @media #{$md} {
-         position: relative;
+         //position: relative;
          margin: 0 auto;
-         bottom: 0px;
+         //bottom: 0px;
+         bottom: 435px;
          //top: 5%;
          // top: 15vmax;
          //float: left;

@@ -1394,9 +1394,8 @@ p.s52-btn2:hover {
 }
 @media screen and (max-width: 736px) {
   .s5-pre_footer {
-    position: relative;
     margin: 0 auto;
-    bottom: 0px;
+    bottom: 435px;
   }
 }
 .s5-pre_footer li {
