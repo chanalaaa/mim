@@ -80,8 +80,6 @@
      }
  }
  
-
- 
  ul.nav-ul {
      @media #{$md} {
          margin: 10px 0px;
@@ -92,7 +90,7 @@
  }
  
  .nav-btn1 {
-     margin-right: .5em;
+     margin-right: .3em;
  }
  
  p.nav1-btn1 {
@@ -113,6 +111,7 @@
          text-decoration: none;
      }
      @media #{$md} {
+         width: 8.8em;
          font-size: 1em;
      }
  }

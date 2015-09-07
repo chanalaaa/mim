@@ -9,7 +9,6 @@ $(document).ready(function() {
     $(window).resize(function() {
         causeRepaintsOn.css("z-index", 1);
     });
-
     //FadeIn all sections   
     $body.imagesLoaded(function() {
         setTimeout(function() {
@@ -22,8 +21,6 @@ $(document).ready(function() {
 
         }, 800);
     });
-
-
     function adjustWindow() {
 
 
@@ -34,10 +31,8 @@ $(document).ready(function() {
         if (winH <= 550) {
             winH = 550;
         }
-        if (winW >= 768) {
+        if (winW > 768) {
             var s = skrollr.init({
-
-
                 //forceHeight: false,
                 smoothScrolling: true,
                 smoothScrollingDuration: 250,
@@ -49,14 +44,10 @@ $(document).ready(function() {
                     box: '100p',
                     box2: '350p',
                     box3: '550p',
-
-
-
                 }
 
 
             });
-
             // Get window size
 
             // Resize our slides
@@ -64,10 +55,7 @@ $(document).ready(function() {
 
             // Refresh Skrollr after resizing our sections
             // Init Skrollr
-
-
             s.refresh($('.initp'));
-
         } else {
 
             // Init Skrollr
@@ -90,7 +78,7 @@ $(document).ready(function() {
             }
         };
     }
-    
+
     //func. on mobile
     if ($(window).width() <= 768) {
 
