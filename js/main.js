@@ -117,23 +117,22 @@ $(document).ready(function() {
             hashchange: false
         });
 
+
+        var p = $("section#slide-5");
+        var position = p.position();
+
+        $(window).bind('scroll', function() {
+            if ($(window).scrollTop() < position.top - 50) {
+                $('.nav-sec2').css("visibility", "visible");
+            } else {
+                $('.nav-sec2').css("visibility", "hidden");
+            }
+        });
+
     }
 
 
-    var p = $("section#slide-5");
-    var position = p.position();
 
-    console.log(position.top);
-    console.log($(window).scrollTop());
-
-    $(window).bind('scroll', function() {
-        if ($(window).scrollTop() < position.top -50) {
-            console.log('1');
-            $('.nav-sec2').css("visibility", "visible");
-        } else {console.log('2');
-            $('.nav-sec2').css("visibility", "hidden");
-        }
-    });
 
 
     /*

@@ -461,14 +461,14 @@ main {
 }
 
 .logo {
-  width: 45px;
+  width: 50px;
   height: 49px;
   margin-right: 20px;
 }
 @media screen and (max-width: 768px) {
   .logo {
     margin-right: 10px;
-    width: 36px;
+    width: 31px;
     height: 32px;
   }
 }
