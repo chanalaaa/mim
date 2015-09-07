@@ -1295,7 +1295,7 @@ p.s3-btn:hover {
 }
 @media screen and (max-width: 736px) {
   .s5-right p {
-    font-size: 4.8vmax;
+    font-size: 5.8vmax;
   }
 }
 .s5-right .s5-highlight {
@@ -1304,7 +1304,7 @@ p.s3-btn:hover {
 }
 @media screen and (max-width: 736px) {
   .s5-right .s5-highlight {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
 .s5-right ul {
