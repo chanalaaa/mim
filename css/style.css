@@ -91,7 +91,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /*
 
-$md-600: "screen and (min-width: 600px)";
+
 
 $lg: "screen and (min-width: 960px)";
 */
@@ -1270,6 +1270,12 @@ p.s3-btn:hover {
   .s5-left_img {
     width: 40vmax;
     height: 49vmax;
+  }
+}
+@media screen and (min-width: 670px) {
+  .s5-left_img {
+    width: 31vmax;
+    height: 40vmax;
   }
 }
 

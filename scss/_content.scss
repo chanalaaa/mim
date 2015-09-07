@@ -702,6 +702,10 @@
          // height: 300px;
          height: 49vmax;
      }
+     @media #{$md-670} {
+         width: 31vmax;
+         height: 40vmax;
+     }
  }
  
  .s5-right {
