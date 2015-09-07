@@ -608,14 +608,14 @@ section:nth-child(2) {
   -webkit-transition: background-image 200ms;
   -moz-transition: background-image 200ms;
   transition: background-image 200ms;
-    /*
--webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
--ms-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
--moz-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
--webkit-clip-path: url("#clip_poly");
-*/
-      /*
+  /*
+  -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+  -ms-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+  -moz-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+  -webkit-clip-path: url("#clip_poly");
+  */
+  /*
   border-bottom: 0em solid transparent;
   border-left: 100vw solid rgba(0, 0, 255, 0.5);
   border-top: 2.3em solid transparent;
@@ -635,11 +635,11 @@ section:nth-child(3) {
   -webkit-clip-path: url(../#clip_poly2);
   -o-clip-path: url(../#clip_poly2);
   clip-path: url(../#clip_poly2);
-    /*
--webkit-clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
--ms-clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
-clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
-*/
+  /*
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
+  -ms-clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
+  clip-path: polygon(100% 0, 100% 100%, 50% 100%, 0 100%, 0 10%);
+  */
 }
 @media screen and (max-width: 768px) {
   section:nth-child(3) {
@@ -698,13 +698,13 @@ section:nth-child(5) {
 @media screen and (max-width: 768px) {
   .hsContent {
     max-width: 80%;
-    margin-top: 0%;
+    margin-top: 2%;
   }
 }
 
 /* ==========================================================================
-  Slide
-  ========================================================================== */
+      Slide
+      ========================================================================== */
 /* Slide 1 */
 #slide-1 {
   background-color: #fff;
@@ -1080,11 +1080,11 @@ section:nth-child(5) {
   float: right;
   padding-top: 120px;
   padding-right: 22px;
-    /*
-top: 125px;
-right: 0;
-position: absolute;
-*/
+  /*
+  top: 125px;
+  right: 0;
+  position: absolute;
+  */
 }
 
 .s2_2 ul {
@@ -1115,11 +1115,11 @@ position: absolute;
   float: right;
   padding-top: 120px;
   padding-right: 22px;
-    /*
-top: 125px;
-right: 0;
-position: absolute;
-*/
+  /*
+  top: 125px;
+  right: 0;
+  position: absolute;
+  */
 }
 .s31-tab p {
   color: #000;
@@ -1318,12 +1318,6 @@ p.s3-btn:active {
     height: 44vmax;
   }
 }
-@media screen and (min-width: 640px) {
-  .s5-left_img {
-    width: 31vmax;
-    height: 40vmax;
-  }
-}
 
 .s5-right {
   width: 40%;
@@ -1367,6 +1361,24 @@ p.s3-btn:active {
 
 a {
   text-decoration: none;
+}
+
+.s5-res_btn {
+  visibility: hidden;
+}
+@media screen and (max-width: 768px) {
+  .s5-res_btn {
+    visibility: visible;
+  }
+}
+
+.s5_btn {
+  visibility: visible;
+}
+@media screen and (max-width: 768px) {
+  .s5_btn {
+    visibility: hidden;
+  }
 }
 
 .s5-btn1 {
@@ -1551,7 +1563,7 @@ li a {
   }
 }
 
-     /* 
+ /* 
 by Chanala Wilangka
 update-07-09-2015
 */

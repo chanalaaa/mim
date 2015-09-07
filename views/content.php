@@ -368,15 +368,15 @@
                             <img src="images/content/s5/s5-left_img.jpg" alt="" class="s5-left_img">
                         </div>
                         <div class="s5-right" data-center="opacity: 1">
-                            <p>YOUR
-                                <br>
-                                <font class="s5-highlight">LEGEND STARTS </font><br>
-                                WITHIN YOU
-                                <br>
-                                <font style="font-family:'helv_l'" ;>JOIN NOW! </font><br>
+                            <p>YOUR </p>
+                            <p>
+                                <font class="s5-highlight">LEGEND STARTS</font>
                             </p>
-                            
-                            <div class="table">
+                            <p>WITHIN YOU</p>
+                            <p>
+                                <font style="font-family:'helv_l'" ;>JOIN NOW!</font>
+                            </p>
+                            <div class="s5_btn">
                                 <ul>
                                     <li class="s5-btn1">
                                         <a href="http://mim.tbs.tu.ac.th/admission.php?sect4">
@@ -389,6 +389,22 @@
                                         </a>
                                     </li>
                                 </ul>
+                            </div>
+                            <div class="s5-res_btn">
+                                <div class="table">
+                                    <ul>
+                                        <li class="s5-btn1">
+                                            <a href="http://mim.tbs.tu.ac.th/admission.php?sect4">
+                                                <p class="s51-btn1">JOIN OPEN HOUSE</p>
+                                            </a>
+                                        </li>
+                                        <li class="s5-btn2">
+                                            <a href="http://mim.tbs.tu.ac.th/apply_online.php">
+                                                <p class="s52-btn2">APPLY</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
