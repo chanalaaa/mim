@@ -335,7 +335,8 @@
  .box1 {
      @include box;
      //margin-top: 24%;
-     margin-top: 300px;
+         top: 48%;
+
      // background-color: rgba(4, 15, 5, 0.5);
      @media #{$md} {
          left: 0;
@@ -360,7 +361,8 @@
  .box3 {
      @include box;
      //margin-top: 23%;
-     margin-top: 285px;
+     //margin-top: 285px;
+     top: 46%;
      // background-color: rgba(4, 15, 5, 0.5);
      @media #{$md} {
          // margin-top: 150px;
@@ -731,8 +733,10 @@
  }
  
  .s5-left_img {
-     width: 24vmax;
-     height: 26vmax;
+     width: 22vmax;
+     height: 27vmax;
+     float: right;
+     padding-right: 18%;
      @media #{$md} {
          //width: 250px;
          // width: 40vmax;
@@ -742,6 +746,8 @@
          width: 37vmax;
          height: 14em;
          height: 44vmax;
+         float: none;
+         padding-right: 0;
      }
  }
  

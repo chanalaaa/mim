@@ -860,7 +860,7 @@ section:nth-child(5) {
 .box1 {
   position: absolute;
   left: 9em;
-  margin-top: 300px;
+  top: 48%;
 }
 @media screen and (max-width: 768px) {
   .box1 {
@@ -886,7 +886,7 @@ section:nth-child(5) {
 .box3 {
   position: absolute;
   left: 9em;
-  margin-top: 285px;
+  top: 46%;
 }
 @media screen and (max-width: 768px) {
   .box3 {
@@ -1308,8 +1308,10 @@ p.s3-btn:active {
 }
 
 .s5-left_img {
-  width: 24vmax;
-  height: 26vmax;
+  width: 22vmax;
+  height: 27vmax;
+  float: right;
+  padding-right: 18%;
 }
 @media screen and (max-width: 768px) {
   .s5-left_img {
@@ -1317,6 +1319,8 @@ p.s3-btn:active {
     width: 37vmax;
     height: 14em;
     height: 44vmax;
+    float: none;
+    padding-right: 0;
   }
 }
 

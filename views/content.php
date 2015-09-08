@@ -30,7 +30,7 @@
             </div>
         </section>
         <!-- SLIDE 2 ***************************** -->
-        <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px; " data-0="transform:translate(0,75%);background-color: !url('images/content/s2/bg/bg1.jpg');background-image: !url('images/content/s2/bg/bg1.jpg');" data-100p="transform:translate(0,0%);" data-_box-100p="" data-130p="background-image: !url('images/content/s2/bg/bg2.jpg');" data-150p="background-image: !url('images/content/s2/bg/bg3.jpg');" data-180p="background-image: !url('images/content/s2/bg/bg4.jpg');" data-_box-300p="transform:translate(0,-100%)">
+        <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px; " data-0="transform:translate(0,75%);background-color: !url('images/content/s2/bg/bg1.jpg');background-image: !url('images/content/s2/bg/bg1.jpg');" data-100p="transform:translate(0,0%);" data-_box-100p="" data-130p="background-image: !url('images/content/s2/bg/bg2.jpg');" data-150p="background-image: !url('images/content/s2/bg/bg3.jpg');" data-180p="background-image: !url('images/content/s2/bg/bg4.jpg');" >
             <div class="bcg" data-anchor-target="#slide-2">
                 <div class="hsContainer">
                     <!-- hsCon-Desk -->
@@ -91,7 +91,7 @@
             </div>
         </section>
         <!-- SLIDE 3 ***************************** -->
-        <section id="slide-3" class="initp" data-center="background-position: 50% 0px;" data-190p="transform:translate(0,100%);" data-300p="transform:translate(0,0%)" data-_box2-100p="" data-_box2-300p="transform:translate(0,-100%);">
+        <section id="slide-3" class="initp" data-center="background-position: 50% 0px;" data-250p="transform:translate(0,100%);" data-300p="transform:translate(0,0%)" data-_box2-100p="" data-_box2-300p="transform:translate(0,-100%);">
             <div class="bcg" data-anchor-target="#slide-3">
                 <div class="hsContainer">
                     <!-- hsCon-Desk -->
@@ -283,7 +283,7 @@
                                         <p class="s4-info">
                                             <font style="color:#FF6400">Engaging with top firms </font>spanning diverse
                                             <br>industries or starting up their own
-                                            <br>businesses.</p>
+                                            <br>businesses</p>
                                     </li>
                                 </ul>
                             </div>
@@ -330,7 +330,7 @@
                                             <ul>
                                                 <li>
                                                     <p class="s4-info">
-                                                        <font style="color:#FF6400">Engaging with top firms </font>spanning diverse industries or starting up their own businesses.
+                                                        <font style="color:#FF6400">Engaging with top firms </font>spanning diverse industries or starting up their own businesses
                                                     </p>
                                                 </li>
                                             </ul>
@@ -433,7 +433,7 @@
                                     <br>Pranakorn, Bangkok 10200, Thailand</li>
                                 <li>tel: +66 2222 1331, +66 2223 9983
                                     <br>E-mail: mim@tbs.tu.ac.th
-                                    <br><a href="http://mim.tbs.tu.ac.th/">www.mim.tbs.tu.ac.th/</a>
+                                    <br><a href="http://mim.tbs.tu.ac.th/">www.mim.tbs.tu.ac.th</a>
                                 </li>
                             </ul>
                         </div>
