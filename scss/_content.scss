@@ -399,6 +399,10 @@
          margin-top: 32vmax;
          // width: 90%;
      }
+     @media #{$sm} {
+         margin-top: 12em;
+         // width: 90%;
+     }
  }
  
  @mixin s-tab($uri) {
@@ -584,6 +588,10 @@
      @media #{$md-580} {
          top: 0;
      }
+     @media #{$sm} {
+         
+         top: 7.5em;
+     }
  }
  
  .s4-res_tab {
@@ -603,8 +611,8 @@
          text-align: right;
      }
      @media #{$sm} {
-         top: 1em;
-         font-size: 2em;
+         top: .5em;
+         font-size: 2.5em;
      }
  }
  
@@ -791,6 +799,7 @@
      }
      @media #{$sm} {
          font-size: 1.6em;
+         top: 3.5em;
      }
  }
  

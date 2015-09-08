@@ -958,6 +958,11 @@ section:nth-child(5) {
     margin-top: 32vmax;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .box3 {
+    margin-top: 12em;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .arrow_white {
@@ -1140,6 +1145,11 @@ section:nth-child(5) {
     top: 0;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .s4-res_Mtab {
+    top: 7.5em;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .s4-res_tab {
@@ -1163,8 +1173,8 @@ section:nth-child(5) {
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .s4-res_tab {
-    top: 1em;
-    font-size: 2em;
+    top: .5em;
+    font-size: 2.5em;
   }
 }
 
@@ -1446,6 +1456,7 @@ p.s3-btn:active {
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .s4-title {
     font-size: 1.6em;
+    top: 3.5em;
   }
 }
 
