@@ -828,7 +828,6 @@
          }
      }
      ul {
-         
          display: -webkit-inline-flex;
          display: -ms-inline-flexbox;
          display: inline-flex;
@@ -850,9 +849,6 @@
  
  .s5_btn {
      visibility: visible;
-     display: -webkit-inline-flex;
-     display: -ms-inline-flexbox;
-     display: inline-flex;
      @media #{$md} {
          visibility: hidden;
      }

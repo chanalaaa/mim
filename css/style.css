@@ -1446,9 +1446,6 @@ a {
 
 .s5_btn {
   visibility: visible;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
 }
 @media screen and (max-width: 768px) {
   .s5_btn {
