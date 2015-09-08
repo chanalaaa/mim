@@ -251,7 +251,7 @@
             </div>
         </section>
         <!-- SLIDE 4 ***************************** -->
-        <section id="slide-4" class="initp" data-center="background-position: 50% 0px;" data-400p="transform:translate(0,100%);" data-500p="transform:translate(0,0%)" data-_box3-100p="" data-_box3-300p="transform:translate(0,-100%)" data-300="background-image: !url('images/content/s4/bg/bg1.jpg');" data-555p="background-image: !url('images/content/s4/bg/bg2.jpg');" data-600p="background-image: !url('images/content/s4/bg/bg3.jpg');">
+        <section id="slide-4" class="initp" data-center="background-position: 50% 0px;" data-400p="transform:translate(0,100%);" data-500p="transform:translate(0,0%)" data-_box3-100p="" data-_box3-300p="transform:translate(0,-1%)" data-300="background-image: !url('images/content/s4/bg/bg1.jpg');" data-555p="background-image: !url('images/content/s4/bg/bg2.jpg');" data-600p="background-image: !url('images/content/s4/bg/bg3.jpg');">
             <div class="bcg" data-anchor-target="#slide-4">
                 <div class="hsContainer">
                     <!-- hsCon-Desk -->
@@ -360,7 +360,7 @@
             </div>
         </section>
         <!-- SLIDE 5 ***************************** -->
-        <section id="slide-5" class="initp1" data-top-bottom="background-position: 50% -100px;" data-600p="transform:translate(0,100%);" data-700p="transform:translate(0,0%)">
+        <section id="slide-5" class="initp1" data-top-bottom="background-position: 50% -100px;" data-600p="transform:translate(0,130%);" data-700p="transform:translate(0,0%)">
             <div class="bcg">
                 <div class="hsContainer">
                     <div class="s5-content">

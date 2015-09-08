@@ -33,11 +33,31 @@ $(document).ready(function() {
             winH = 550;
         }
         if (winW > 768) {
+            var box = $('section#slide-5'),
+                boxDone = false;
             var s = skrollr.init({
                 //forceHeight: false,
                 smoothScrolling: true,
                 smoothScrollingDuration: 250,
-                render: function(data) {},
+                render: function(data) {
+                    //visibility nav
+                    if (box.hasClass('skrollable-after')) {
+                        if (!boxDone) {
+                            console.log('1');
+                            boxDone = true;
+                            // do stuff
+                            box.css("clip-path", "none");
+                            box.css("-webkit-clip-path", "none");
+                            $('.entry-header').css("opacity", "0");
+                        }
+                    } else {
+                        console.log('2');
+                        boxDone = false;
+                        $('.entry-header').css("opacity", "1");
+                        box.css("clip-path", "url(../#clip_poly2)");
+                        box.css("-webkit-clip-path", "url(../#clip_poly2)");
+                    }
+                },
                 constants: {
 
                     //fill the box for a "duration" of 150% of the viewport (pause for 150%)
@@ -49,7 +69,7 @@ $(document).ready(function() {
 
 
             });
-            // Get window size
+
 
             // Resize our slides
             $slide.height(winH);
@@ -57,6 +77,23 @@ $(document).ready(function() {
             // Refresh Skrollr after resizing our sections
             // Init Skrollr
             s.refresh($('.initp'));
+            /*
+
+            var p = $("section#slide-4");
+            var position = p.position();
+
+            console.log(position.top * 4);
+            console.log($(window).scrollTop());
+            $(window).bind('scroll', function() {
+                if ($(window).scrollTop() < position.top - 50) {
+                    $('.entry-header').css("opacity", "1");
+                } else {
+                    $('.entry-header').css("opacity", "0");
+                }
+            });
+
+
+*/
         } else {
 
             // Init Skrollr

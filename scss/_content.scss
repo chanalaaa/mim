@@ -335,8 +335,8 @@
  .box1 {
      @include box;
      //margin-top: 24%;
-         top: 48%;
-
+     top: 48%;
+     //top: 312px;
      // background-color: rgba(4, 15, 5, 0.5);
      @media #{$md} {
          left: 0;
@@ -717,7 +717,7 @@
      width: 40%;
      float: left;
      margin-left: 10%;
-     margin-top: 6em;
+     margin-top: 2em;
      // margin-top: 7%;
      //background-color: rgba(234, 0, 0, 0.5);
      // position: absolute;
@@ -733,8 +733,10 @@
  }
  
  .s5-left_img {
-     width: 22vmax;
-     height: 27vmax;
+     width: 65%;
+     width: 26vmax;
+     height: 66%;
+     height: 31vmax;
      float: right;
      padding-right: 18%;
      @media #{$md} {
