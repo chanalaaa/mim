@@ -186,6 +186,10 @@
              bottom: 15%;
              bottom: 10vmax;
          }
+          @media #{$sm} {
+             bottom: 20%;
+            //bottom: 10vmax;
+         }
      }
  }
  /* Slide 3 */
@@ -357,6 +361,11 @@
          margin-top: 22vmax;
          // width: 90%;
      }
+      @media #{$sm} {
+         margin-top: 10em;
+         // width: 90%;
+     }
+
  }
  
  .box2 {
@@ -506,6 +515,10 @@
          font-size: 2.5em;
          font-size: 5.5vmax;
      }
+     @media #{$sm} {
+         font-size: 2em;
+         
+     }
  }
  
  .s2-res_tab {
@@ -532,8 +545,8 @@
      }
      @media #{$sm} {
         position: absolute;
-         top: 0;
-         font-size: 3.5em;
+         top: 70px;
+         font-size: 2.5em;
          
      }
  }
