@@ -119,6 +119,10 @@
          background: #e36110;
          text-decoration: none;
      }
+      &:hover {
+         background: #e36110;
+         text-decoration: none;
+     }
      @media #{$md} {
          width: 8.8em;
          font-size: 1em;
@@ -139,6 +143,10 @@
      text-align: center;
      font-size: 1.3em;
      &:active {
+         background: #DB8928;
+         text-decoration: none;
+     }
+      &:hover {
          background: #DB8928;
          text-decoration: none;
      }

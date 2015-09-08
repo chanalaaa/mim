@@ -522,6 +522,10 @@ p.nav1-btn1:active {
   background: #e36110;
   text-decoration: none;
 }
+p.nav1-btn1:hover {
+  background: #e36110;
+  text-decoration: none;
+}
 @media screen and (max-width: 768px) {
   p.nav1-btn1 {
     width: 8.8em;
@@ -544,6 +548,10 @@ p.nav1-btn2 {
   font-size: 1.3em;
 }
 p.nav1-btn2:active {
+  background: #DB8928;
+  text-decoration: none;
+}
+p.nav1-btn2:hover {
   background: #DB8928;
   text-decoration: none;
 }
