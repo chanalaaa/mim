@@ -163,7 +163,7 @@
                                 <li><img src="" width="100%" height="100%" alt="">
                                     <div class="container">
                                         <div class="box2">
-                                            <div class="table">
+                                            <div class="table-sm">
                                                 <ul>
                                                     <li>
                                                         <div class="s3-ico"></div>

@@ -101,6 +101,19 @@ $lg: "screen and (min-width: 960px)";
   margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+  .table-sm {
+    display: table;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .table-sm {
+    display: block;
+    margin: 0;
+  }
+}
+
 /*
  * A better looking default horizontal rule
  */
@@ -924,6 +937,11 @@ section:nth-child(5) {
     margin-top: 0%;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .box2 {
+    margin-top: 2%;
+  }
+}
 
 .box3 {
   position: absolute;
@@ -1104,6 +1122,12 @@ section:nth-child(5) {
     font-size: 7vmax;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .s3-res_tab {
+    top: .8em;
+    font-size: 2.5em;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .s4-res_Mtab {
@@ -1241,6 +1265,12 @@ section:nth-child(5) {
     margin-top: 10%;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .s3-ico {
+    width: 8em;
+    height: 7em;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .s3-ico2 {
@@ -1259,6 +1289,13 @@ section:nth-child(5) {
     height: 123px;
     height: 20.5vmax;
     margin-top: 10%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .s3-ico2 {
+    width: 8em;
+    height: 7em;
+    margin-top: 21%;
   }
 }
 
@@ -1286,6 +1323,13 @@ section:nth-child(5) {
     margin-top: 10%;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .s3-ico3 {
+    width: 10em;
+    height: 5em;
+    margin-top: 15%;
+  }
+}
 
 .s3-title {
   font-family: 'helv_b';
@@ -1305,6 +1349,11 @@ section:nth-child(5) {
   .s3-title {
     font-size: 4.5em;
     font-size: 4.5vmax;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .s3-title {
+    font-size: 1.7em;
   }
 }
 
@@ -1328,6 +1377,12 @@ section:nth-child(5) {
   .s3-info {
     font-size: .5em;
     font-size: 2.3vmax;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .s3-info {
+    margin-bottom: .7em;
+    font-size: 1em;
   }
 }
 
@@ -1355,6 +1410,11 @@ p.s3-btn:active {
     font-size: 3vmax;
     position: relative;
     left: -50%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  p.s3-btn {
+    font-size: 1em;
   }
 }
 
