@@ -480,7 +480,7 @@
  .s2_5 {
      @include s2-content;
      pointer-events: none;
-    // visibility: hidden;
+     // visibility: hidden;
  }
  
  .s2_2 {
@@ -550,8 +550,8 @@
          position: relative;
          top: 24vmax;
      }
-      @media #{$md-580} {
-         top:0;
+     @media #{$md-580} {
+         top: 0;
      }
  }
  
@@ -571,7 +571,6 @@
          left: 0;
          text-align: right;
      }
-    
  }
  
  .s2_1,
@@ -664,7 +663,6 @@
      @media #{$md-580} {
          font-size: 4.5em;
          font-size: 4.5vmax;
-        
      }
  }
  
@@ -684,7 +682,6 @@
      @media #{$md-580} {
          font-size: .5em;
          font-size: 2.3vmax;
-        
      }
  }
  
@@ -760,7 +757,7 @@
      width: 40%;
      float: left;
      margin-left: 10%;
-     margin-top: 2em;
+     margin-top: 6em;
      // margin-top: 7%;
      //background-color: rgba(234, 0, 0, 0.5);
      // position: absolute;
@@ -776,10 +773,10 @@
  }
  
  .s5-left_img {
-     width: 65%;
-     width: 26vmax;
-     height: 66%;
-     height: 31vmax;
+     width: 57%;
+     width: 25vmax;
+     height: 58%;
+     height: 28vmax;
      float: right;
      padding-right: 18%;
      @media #{$md} {
@@ -804,7 +801,7 @@
      //top: 22%;
      margin-right: 10%;
      //margin-top: 8.5%;
-     margin-top: 7.5em;
+     margin-top: 10.5%;
      @media #{$md} {
          margin-left: 0;
          width: 80%;
@@ -831,6 +828,9 @@
          }
      }
      ul {
+         
+         display: -webkit-inline-flex;
+         display: -ms-inline-flexbox;
          display: inline-flex;
          float: right;
          //margin-right: 10%;
@@ -850,6 +850,9 @@
  
  .s5_btn {
      visibility: visible;
+     display: -webkit-inline-flex;
+     display: -ms-inline-flexbox;
+     display: inline-flex;
      @media #{$md} {
          visibility: hidden;
      }

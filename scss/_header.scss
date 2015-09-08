@@ -55,6 +55,8 @@
      float: right;
      padding-top: 5px;
      margin: 15px 20px;
+      -webkit-transition: opacity .3s;
+     transition: opacity .3s;
      @media #{$md} {
          margin: 0px;
          width: 100%;
@@ -69,9 +71,10 @@
  
  .logo {
      //float: left;
-     width: 50px;
+     width: 46px;
      height: 49px;
      margin-right: 20px;
+
      @media #{$md} {
          margin-right: 10px;
          width: 31px;

@@ -119,7 +119,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="box2 s2_3" data-190p="opacity:0;visibility: hidden;" data-338p="transform:translate(0%,18%);" data-355p="transform:translate(0%,-12%);opacity:1;visibility: visible;pointer-events:visible;" data-375p="transform:translate(0%,-12%);opacity:1;visibility: visible;" data-390p="transform:translate(0,-28%);opacity:0;visibility: hidden;pointer-events:none;">
+                            <div class="box2 s2_3" data-190p="opacity:0;visibility: hidden;" data-338p="transform:translate(0%,18%);" data-355p="transform:translate(0%,-12%);opacity:1;pointer-events:visible;" data-375p="transform:translate(0%,-12%);opacity:1;visibility: visible;" data-390p="transform:translate(0,-28%);opacity:0;pointer-events:none;" data-390p="visibility: hidden;">
                                 <ul>
                                     <li><img class="s3-ico" src="images/content/s3/s32.png" alt=""></li>
                                     <li>

@@ -454,6 +454,8 @@ main {
   float: right;
   padding-top: 5px;
   margin: 15px 20px;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
 }
 @media screen and (max-width: 768px) {
   .nav-sec2 {
@@ -468,7 +470,7 @@ main {
 }
 
 .logo {
-  width: 50px;
+  width: 46px;
   height: 49px;
   margin-right: 20px;
 }
@@ -1356,7 +1358,7 @@ p.s3-btn:active {
   width: 40%;
   float: left;
   margin-left: 10%;
-  margin-top: 2em;
+  margin-top: 6em;
 }
 @media screen and (max-width: 768px) {
   .s5-left {
@@ -1369,10 +1371,10 @@ p.s3-btn:active {
 }
 
 .s5-left_img {
-  width: 65%;
-  width: 26vmax;
-  height: 66%;
-  height: 31vmax;
+  width: 57%;
+  width: 25vmax;
+  height: 58%;
+  height: 28vmax;
   float: right;
   padding-right: 18%;
 }
@@ -1391,7 +1393,7 @@ p.s3-btn:active {
   width: 40%;
   float: right;
   margin-right: 10%;
-  margin-top: 7.5em;
+  margin-top: 10.5%;
 }
 @media screen and (max-width: 768px) {
   .s5-right {
@@ -1423,6 +1425,8 @@ p.s3-btn:active {
   }
 }
 .s5-right ul {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   float: right;
 }
@@ -1442,6 +1446,9 @@ a {
 
 .s5_btn {
   visibility: visible;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 @media screen and (max-width: 768px) {
   .s5_btn {

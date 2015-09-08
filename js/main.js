@@ -48,12 +48,12 @@ $(document).ready(function() {
                             // do stuff
                             box.css("clip-path", "none");
                             box.css("-webkit-clip-path", "none");
-                            $('.entry-header').css("opacity", "0");
+                            $('.nav-sec2').css("opacity", "0");
                         }
                     } else {
                        // console.log('2');
                         boxDone = false;
-                        $('.entry-header').css("opacity", "1");
+                        $('.nav-sec2').css("opacity", "1");
                         box.css("clip-path", "url(../#clip_poly2)");
                         box.css("-webkit-clip-path", "url(../#clip_poly2)");
                     }
