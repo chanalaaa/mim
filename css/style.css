@@ -589,11 +589,11 @@ p.nav1-btn2:active {
 }
 
 .hsCon-Res {
-  opacity: 0;
+  visibility: hidden;
 }
 @media screen and (max-width: 768px) {
   .hsCon-Res {
-    opacity: 1;
+    visibility: visible;
   }
 }
 

@@ -34,9 +34,11 @@
  }
  
  .hsCon-Res {
-     opacity: 0;
+     //opacity: 0;
+     visibility: hidden;
      @media #{$md} {
-         opacity: 1;
+         //opacity: 1;
+         visibility: visible;
      }
  }
  
@@ -478,6 +480,7 @@
  .s2_5 {
      @include s2-content;
      pointer-events: none;
+    // visibility: hidden;
  }
  
  .s2_2 {
