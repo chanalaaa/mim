@@ -59,6 +59,7 @@
      -webkit-transition: background-image 200ms;
      -moz-transition: background-image 200ms;
      transition: background-image 200ms;
+    
      @media #{$md} {
          // margin-top: -10.5em;
          margin-top: -22.5vmax;
@@ -66,6 +67,11 @@
          clip-path: none;
          //-webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
          // clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
+     }
+      @media #{$sm} {
+         margin-top: -1em;
+         -webkit-clip-path: none;
+         clip-path: none;
      }
      /*
      -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
@@ -455,6 +461,11 @@
          //font-size: 1.6em;
          font-size: 4.6vmax;
      }
+     @media #{$sm} {
+         font-size: 1.5em;
+         
+     }
+
  }
  
  .s1-arrow_block {
@@ -518,6 +529,12 @@
          top: 22vmax;
          font-size: 3em;
          font-size: 7vmax;
+     }
+     @media #{$sm} {
+        position: absolute;
+         top: 0;
+         font-size: 3.5em;
+         
      }
  }
  

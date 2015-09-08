@@ -1,6 +1,8 @@
 @import 'compass/reset';
 @import 'compass';
 @import 'font-face';
+
+$sm: "screen and (min-width: 320px) and (max-width: 374px)";
 $md: "screen and (max-width: 768px)";
 $md-580: "screen and (min-width: 580px) and (max-width: 768px)";
 

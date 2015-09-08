@@ -642,6 +642,13 @@ section:nth-child(2) {
     clip-path: none;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  section:nth-child(2) {
+    margin-top: -1em;
+    -webkit-clip-path: none;
+    clip-path: none;
+  }
+}
 
 section:nth-child(3) {
   width: 100%;
@@ -964,6 +971,11 @@ section:nth-child(5) {
     font-size: 4.6vmax;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .s1-info {
+    font-size: 1.5em;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .s1-arrow_block {
@@ -1039,6 +1051,13 @@ section:nth-child(5) {
     top: 22vmax;
     font-size: 3em;
     font-size: 7vmax;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .s2-res_tab {
+    position: absolute;
+    top: 0;
+    font-size: 3.5em;
   }
 }
 
