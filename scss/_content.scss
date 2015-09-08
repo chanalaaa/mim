@@ -602,6 +602,9 @@
          left: 0;
          text-align: right;
      }
+     @media #{$sm} {
+         top: 1em;
+     }
  }
  
  .s2_1,
@@ -846,6 +849,10 @@
          float: none;
          padding-right: 0;
      }
+     @media #{$sm} {
+         width: 9em;
+         height: 10em;
+     }
  }
  
  .s5-right {
@@ -873,6 +880,10 @@
              //font-size: 2.1em;
              font-size: 2em;
              font-size: 5.5vmax;
+         }
+         @media #{$sm} {
+             //font-size: 2.1em;
+             font-size: 1.3em;
          }
      }
      .s5-highlight {
@@ -945,6 +956,10 @@
          //font-size: 1em;
          font-size: 2.2vmax;
      }
+     @media #{$sm} {
+         //font-size: 1em;
+         font-size: .6em;
+     }
  }
  
  p.s52-btn2 {
@@ -967,6 +982,10 @@
      @media #{$md} {
          // font-size: 1em;
          font-size: 2.2vmax;
+     }
+     @media #{$sm} {
+         //font-size: 1em;
+         font-size: .6em;
      }
  }
  
@@ -1044,11 +1063,12 @@
  
  .s5-foot_info {
      // background-color: rgba(54, 211, 23, 0.5);
-     width: 80%;
+     width: 85%;
      height: 100%;
      margin: 0 auto;
      @media #{$md} {
          margin-top: 2em;
+         width: 90%;
      }
  }
  
@@ -1066,6 +1086,9 @@
              width: 100%;
              margin-bottom: 2.5em;
              font-size: 1.1em;
+         }
+         @media #{$sm} {
+             font-size: .9em;
          }
          a {
              @media #{$md} {
