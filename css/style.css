@@ -1164,6 +1164,7 @@ section:nth-child(5) {
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .s4-res_tab {
     top: 1em;
+    font-size: 2em;
   }
 }
 
@@ -1442,6 +1443,11 @@ p.s3-btn:active {
     left: 0;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .s4-title {
+    font-size: 1.6em;
+  }
+}
 
 .s4-info {
   color: #fff;
@@ -1454,6 +1460,11 @@ p.s3-btn:active {
     margin: 0em 1em;
     font-size: 1.8em;
     font-size: 4.2vmax;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .s4-info {
+    font-size: 1.2em;
   }
 }
 
@@ -1530,7 +1541,7 @@ p.s3-btn:active {
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .s5-right p {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 }
 .s5-right .s5-highlight {
@@ -1611,7 +1622,7 @@ p.s51-btn1:hover {
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   p.s51-btn1 {
-    font-size: .6em;
+    font-size: .8em;
   }
 }
 
@@ -1640,7 +1651,7 @@ p.s52-btn2:hover {
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   p.s52-btn2 {
-    font-size: .6em;
+    font-size: .8em;
   }
 }
 

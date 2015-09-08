@@ -604,6 +604,7 @@
      }
      @media #{$sm} {
          top: 1em;
+         font-size: 2em;
      }
  }
  
@@ -788,6 +789,9 @@
          top: 25vmax;
          left: 0;
      }
+     @media #{$sm} {
+         font-size: 1.6em;
+     }
  }
  
  .s4-info {
@@ -802,6 +806,9 @@
          font-size: 4.2vmax;
          // line-height: 5vmax;
          // font-size: 4.3vmax;
+     }
+     @media #{$sm} {
+         font-size: 1.2em;
      }
  }
  
@@ -883,7 +890,7 @@
          }
          @media #{$sm} {
              //font-size: 2.1em;
-             font-size: 1.3em;
+             font-size: 1.5em;
          }
      }
      .s5-highlight {
@@ -958,7 +965,7 @@
      }
      @media #{$sm} {
          //font-size: 1em;
-         font-size: .6em;
+         font-size: .8em;
      }
  }
  
@@ -985,7 +992,7 @@
      }
      @media #{$sm} {
          //font-size: 1em;
-         font-size: .6em;
+         font-size: .8em;
      }
  }
  
