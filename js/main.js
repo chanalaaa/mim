@@ -43,7 +43,7 @@ $(document).ready(function() {
                     //visibility nav
                     if (box.hasClass('skrollable-after')) {
                         if (!boxDone) {
-                          // console.log('1');
+                            // console.log('1');
                             boxDone = true;
                             // do stuff
                             box.css("clip-path", "none");
@@ -51,7 +51,7 @@ $(document).ready(function() {
                             $('.nav-sec2').css("opacity", "0");
                         }
                     } else {
-                       // console.log('2');
+                        // console.log('2');
                         boxDone = false;
                         $('.nav-sec2').css("opacity", "1");
                         box.css("clip-path", "url(../#clip_poly2)");
@@ -119,12 +119,12 @@ $(document).ready(function() {
 
     //func. on mobile
     if ($(window).width() <= 768) {
-
+        
         var $slides = $('#slides-2,#slides-3,#slides-4');
-
 
         Hammer($slide[1]).on("swipeleft", function(e) {
             $('#slides-2').data('superslides').animate('next');
+            
         });
 
         Hammer($slide[1]).on("swiperight", function(e) {

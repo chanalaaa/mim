@@ -42,6 +42,8 @@ ob_start('ob_gzhandler');
                 <?php include("views/content.php"); ?>
                     <?php //include("views/footer.php"); ?>
         </div>
+        
+        </script>
         <script type="text/javascript">
         enquire.register("screen and (max-width: 768px)", {
             match: function() {
