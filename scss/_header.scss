@@ -41,6 +41,8 @@
  
  .nav-sec1 {
      float: left;
+     display: -webkit-inline-flex;
+     display: -ms-inline-flexbox;
      display: inline-flex;
      margin: 15px 20px;
      @media #{$md} {
