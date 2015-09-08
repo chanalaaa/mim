@@ -867,6 +867,7 @@ section:nth-child(5) {
 @media screen and (max-width: 768px) {
   .box1 {
     left: 0;
+    top: 0;
     margin-top: 35vmax;
     width: 90%;
   }

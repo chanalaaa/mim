@@ -43,7 +43,7 @@ $(document).ready(function() {
                     //visibility nav
                     if (box.hasClass('skrollable-after')) {
                         if (!boxDone) {
-                            console.log('1');
+                          // console.log('1');
                             boxDone = true;
                             // do stuff
                             box.css("clip-path", "none");
@@ -51,7 +51,7 @@ $(document).ready(function() {
                             $('.entry-header').css("opacity", "0");
                         }
                     } else {
-                        console.log('2');
+                       // console.log('2');
                         boxDone = false;
                         $('.entry-header').css("opacity", "1");
                         box.css("clip-path", "url(../#clip_poly2)");
