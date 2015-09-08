@@ -341,9 +341,13 @@
      @media #{$md} {
          left: 0;
          //margin-top: 200px;
-         top:0;
+         top: 0;
          margin-top: 35vmax;
          width: 90%;
+     }
+     @media #{$md-580} {
+         margin-top: 22vmax;
+         // width: 90%;
      }
  }
  
@@ -357,6 +361,9 @@
          margin-top: 12%;
          width: 100%;
      }
+     @media #{$md-580} {
+         margin-top: 0%;
+     }
  }
  
  .box3 {
@@ -369,6 +376,10 @@
          // margin-top: 150px;
          // margin-top: 20vmax;
          margin-top: 43vmax;
+     }
+     @media #{$md-580} {
+         margin-top: 32vmax;
+         // width: 90%;
      }
  }
  
@@ -472,10 +483,14 @@
  .s2_2 {
      @include s2-content;
      @media #{$md} {
-         //  font-size: 3em;
+         font-size: 3em;
          font-size: 6.5vmax;
          margin-left: .7em;
          margin-top: .5em;
+     }
+     @media #{$md-580} {
+         font-size: 2.5em;
+         font-size: 5.5vmax;
      }
  }
  
@@ -484,7 +499,7 @@
          position: relative;
          @include s2-content;
          width: 2.7em;
-         //font-size: 3.5em;
+         font-size: 3.5em;
          font-size: 9vmax;
          padding: .4em .7em .2em;
          background-color: #ff6600;
@@ -495,6 +510,11 @@
          top: 32vmax;
          text-align: center;
          left: 0;
+     }
+     @media #{$md-580} {
+         top: 22vmax;
+         font-size: 3em;
+         font-size: 7vmax;
      }
  }
  
@@ -515,12 +535,20 @@
          top: 8.5vmax;
          left: 0;
      }
+     @media #{$md-580} {
+         top: 5.5vmax;
+         font-size: 3em;
+         font-size: 7vmax;
+     }
  }
  
  .s4-res_Mtab {
      @media #{$md} {
          position: relative;
          top: 24vmax;
+     }
+      @media #{$md-580} {
+         top:0;
      }
  }
  
@@ -540,6 +568,7 @@
          left: 0;
          text-align: right;
      }
+    
  }
  
  .s2_1,
@@ -624,10 +653,15 @@
      color: #000;
      font-size: 1.2em;
      @media #{$md} {
-         //font-size: 3em;
+         font-size: 3em;
          font-size: 5.5vmax;
          text-align: center;
          margin: 4% 0px 2%;
+     }
+     @media #{$md-580} {
+         font-size: 4.5em;
+         font-size: 4.5vmax;
+        
      }
  }
  
@@ -640,9 +674,14 @@
      margin-bottom: 30px;
      @media #{$md} {
          margin-bottom: 1.5vmax;
-         //font-size: 1.5em;
+         font-size: 1.5em;
          font-size: 3.3vmax;
          text-align: center;
+     }
+     @media #{$md-580} {
+         font-size: .5em;
+         font-size: 2.3vmax;
+        
      }
  }
  
@@ -780,18 +819,12 @@
              font-size: 2em;
              font-size: 5.5vmax;
          }
-         @media #{$md-640} {
-             // font-size: 4.8vmax;
-         }
      }
      .s5-highlight {
          color: #FF6400;
          font-size: 5vmax;
          @media #{$md} {
              font-size: 1em;
-         }
-         @media #{$md-640} {
-             //font-size: 1em;
          }
      }
      ul {
