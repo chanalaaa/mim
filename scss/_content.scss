@@ -439,6 +439,7 @@
      right: 0;
      //font-size: 3vmax;
      //font-size: 2.8em;
+     font-size: 3.1em;
      font-size: 3.7vmax;
  }
  
@@ -628,6 +629,7 @@
  .s4_1 {
      position: absolute;
      //width: 450px;
+     width: 30em;
      width: 35vmax;
      height: 300px;
      //top: 294px;
@@ -907,6 +909,7 @@
          font-stretch: condensed;
          font-family: 'helv_b', 'Arial', 'Helvetica Neue';
          //font-size: 4em;
+         font-size: 3.2em;
          font-size: 4vmax;
          font: #000;
          text-align: right;
@@ -984,6 +987,7 @@
      font-family: 'helv_b', 'Arial', 'Helvetica Neue';
      color: #ffffff;
      text-align: center;
+     font-size: 1.3em;
      font-size: 1.3vmax;
      &:hover {
          background: #e36110;
@@ -1013,6 +1017,7 @@
      font-family: 'helv_b', 'Arial', 'Helvetica Neue';
      color: #ffffff;
      text-align: center;
+     font-size: 1.3em;
      font-size: 1.3vmax;
      &:hover {
          background: #DB8928;
@@ -1116,7 +1121,7 @@
      width: 100%;
      display: inline-block;
      margin-top: 50px;
-     margin-left: 50px;
+     margin-left: 85px;
      color: #B2B2B2;
      li {
          display: inline-block;
