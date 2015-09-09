@@ -148,7 +148,7 @@
  
  .hsContent {
      max-width: 50%;
-     position: absolute;
+     position: relative;
      top: 25%;
      left: 0;
      right: 0;
@@ -156,6 +156,7 @@
      margin-right: auto;
      // background-color: rgba(0, 0, 0, 0.5);
      @media #{$md} {
+         position: absolute;
          max-width: 80%;
          margin-top: 2%;
      }
@@ -410,7 +411,9 @@
      @include background-size(100% 100%);
      width: 90%;
      p {
-         font-family: helv_b;
+         font-weight: bold;
+         font-stretch: condensed;
+         font-family: 'helv_b', 'Arial', 'Helvetica Neue';
          // font-size: 7vmax;
          font-size: 5.5em;
          //font-size: 35vmin;
@@ -428,7 +431,9 @@
  }
  
  @mixin s2-content {
-     font-family: 'helv_b';
+     font-weight: bold;
+     font-stretch: condensed;
+     font-family: 'helv_b', 'Arial', 'Helvetica Neue';
      color: #fff;
      //text-transform: uppercase;
      right: 0;
@@ -456,7 +461,8 @@
  
  // S1 /////////////////////////////////////
  .s1-title {
-     font-family: 'helv_c';
+     font-stretch: condensed;
+     font-family: 'helv_c', 'Arial', 'Helvetica Neue';
      color: #000;
      font-size: 26px;
      font-size: 2vmax;
@@ -467,9 +473,11 @@
  }
  
  .s1-info {
-     font-family: 'helv_b';
+     font-weight: bold;
+     font-stretch: condensed;
+     font-family: 'helv_b', 'Arial', 'Helvetica Neue';
      color: #000;
-     font-size: 40px;
+     font-size: 37px;
      font-size: 3vmax;
      @media #{$md} {
          //font-size: 1.6em;
@@ -706,7 +714,9 @@
  }
  
  .s3-title {
-     font-family: 'helv_b';
+     font-weight: bold;
+     font-stretch: condensed;
+     font-family: 'helv_b', 'Arial', 'Helvetica Neue';
      margin: 20px 0px;
      color: #000;
      font-size: 1.2em;
@@ -726,7 +736,8 @@
  }
  
  .s3-info {
-     font-family: 'helv_c';
+     font-stretch: condensed;
+     font-family: 'helv_c', 'Arial', 'Helvetica Neue';
      font-style: italic;
      font-size: .45em;
      color: #fff;
@@ -751,7 +762,8 @@
  p.s3-btn {
      //width: 15%;
      position: absolute;
-     font-family: 'helv_c';
+     font-stretch: condensed;
+     font-family: 'helv_c', 'Arial', 'Helvetica Neue';
      font-size: .45em;
      color: #fff;
      //padding: 5px 7px;
@@ -782,7 +794,9 @@
  // End S3 /////////////////////////////////////
  // S4 /////////////////////////////////////
  .s4-title {
-     font-family: 'helv_b';
+     font-weight: bold;
+     font-stretch: condensed;
+     font-family: 'helv_b', 'Arial', 'Helvetica Neue';
      // font-size: 2em;
      font-size: 6vmax;
      color: #fff;
@@ -804,7 +818,8 @@
  
  .s4-info {
      color: #fff;
-     font-family: 'helv_c';
+     font-stretch: condensed;
+     font-family: 'helv_c', 'Arial', 'Helvetica Neue';
      font-size: 0.6em;
      // line-height: 35px;
      line-height: 1.2em;
@@ -816,7 +831,7 @@
          // font-size: 4.3vmax;
      }
      @media #{$sm} {
-     	 margin: 0em .7em;
+         margin: 0em .7em;
          font-size: 1.6em;
          margin-top: .4em;
          line-height: 1.1em;
@@ -888,7 +903,9 @@
          margin-top: 0;
      }
      p {
-         font-family: 'helv_b';
+         font-weight: bold;
+         font-stretch: condensed;
+         font-family: 'helv_b', 'Arial', 'Helvetica Neue';
          //font-size: 4em;
          font-size: 4vmax;
          font: #000;
@@ -962,7 +979,9 @@
      background: #ff6600;
      padding: 11px 10px 10px 10px;
      text-decoration: none;
-     font-family: 'helv_b';
+     font-weight: bold;
+     font-stretch: condensed;
+     font-family: 'helv_b', 'Arial', 'Helvetica Neue';
      color: #ffffff;
      text-align: center;
      font-size: 1.3vmax;
@@ -989,7 +1008,9 @@
      background: #F1A63B;
      padding: 11px 15px 10px 15px;
      text-decoration: none;
-     font-family: 'helv_b';
+     font-weight: bold;
+     font-stretch: condensed;
+     font-family: 'helv_b', 'Arial', 'Helvetica Neue';
      color: #ffffff;
      text-align: center;
      font-size: 1.3vmax;
@@ -1039,7 +1060,8 @@
          width: 80px;
          display: inline-block;
          vertical-align: middle;
-         font-family: 'helv_c';
+         font-stretch: condensed;
+         font-family: 'helv_c', 'Arial', 'Helvetica Neue';
          font-size: .9em;
          text-align: center;
          img {
@@ -1120,7 +1142,8 @@
  }
  
  li {
-     font-family: 'helv_c';
+     font-stretch: condensed;
+     font-family: 'helv_c', 'Arial', 'Helvetica Neue';
      font-size: .9em;
      vertical-align: text-top;
      a {
@@ -1130,7 +1153,9 @@
  
  .s5-li1 {
      color: #fff;
-     font-family: 'helv_b';
+     font-weight: bold;
+     font-stretch: condensed;
+     font-family: 'helv_b', 'Arial', 'Helvetica Neue';
      font-size: 1em;
      @media #{$md} {
          font-size: 1.1em;

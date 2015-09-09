@@ -374,7 +374,7 @@
                             </p>
                             <p>WITHIN YOU</p>
                             <p>
-                                <font style="font-family:'helv_l'" ;>JOIN NOW!</font>
+                                <font style="font-family:'helv_l','Arial','Helvetica Neue';font-weight:normal;" ;>JOIN NOW!</font>
                             </p>
                             <div class="s5_btn">
                                 <ul>
@@ -426,7 +426,7 @@
                             <ul class="s5-foot_ul">
                                 <li class="s5-li1">MASTER'S DEGREE PROGRAM IN
                                     <br>MARKETING,
-                                    <font style="font-family:'helv_c'">FACULTY OF COMMERCE AND
+                                    <font style="font-family:'helv_c','Arial','Helvetica Neue';font-weight:normal;" ;>FACULTY OF COMMERCE AND
                                         <br>ACCOUNTANCY</font>
                                 </li>
                                 <li>Thammasat University, Room 114, 2 Prachan Rd.,

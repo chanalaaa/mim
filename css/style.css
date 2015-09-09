@@ -990,7 +990,7 @@ section:nth-child(5) {
 
 .s1-title {
   font-stretch: condensed;
-  font-family: 'helv_c','Arial', 'Helvetica Neue';
+  font-family: 'helv_c', 'Arial', 'Helvetica Neue';
   color: #000;
   font-size: 26px;
   font-size: 2vmax;
@@ -1005,9 +1005,9 @@ section:nth-child(5) {
 .s1-info {
   font-weight: bold;
   font-stretch: condensed;
-  font-family: 'helv_b','Arial', 'Helvetica Neue';
+  font-family: 'helv_b', 'Arial', 'Helvetica Neue';
   color: #000;
-  font-size: 40px;
+  font-size: 37px;
   font-size: 3vmax;
 }
 @media screen and (max-width: 768px) {
@@ -1042,7 +1042,9 @@ section:nth-child(5) {
 .s2_3,
 .s2_4,
 .s2_5 {
-  font-family: 'helv_b';
+  font-weight: bold;
+  font-stretch: condensed;
+  font-family: 'helv_b', 'Arial', 'Helvetica Neue';
   color: #fff;
   right: 0;
   font-size: 3.7vmax;
@@ -1050,7 +1052,9 @@ section:nth-child(5) {
 }
 
 .s2_2 {
-  font-family: 'helv_b';
+  font-weight: bold;
+  font-stretch: condensed;
+  font-family: 'helv_b', 'Arial', 'Helvetica Neue';
   color: #fff;
   right: 0;
   font-size: 3.7vmax;
@@ -1078,7 +1082,9 @@ section:nth-child(5) {
 @media screen and (max-width: 768px) {
   .s2-res_tab {
     position: relative;
-    font-family: 'helv_b';
+    font-weight: bold;
+    font-stretch: condensed;
+    font-family: 'helv_b', 'Arial', 'Helvetica Neue';
     color: #fff;
     right: 0;
     font-size: 3.7vmax;
@@ -1113,7 +1119,9 @@ section:nth-child(5) {
 @media screen and (max-width: 768px) {
   .s3-res_tab {
     position: relative;
-    font-family: 'helv_b';
+    font-weight: bold;
+    font-stretch: condensed;
+    font-family: 'helv_b', 'Arial', 'Helvetica Neue';
     color: #fff;
     right: 0;
     font-size: 3.7vmax;
@@ -1165,7 +1173,9 @@ section:nth-child(5) {
 @media screen and (max-width: 768px) {
   .s4-res_tab {
     position: relative;
-    font-family: 'helv_b';
+    font-weight: bold;
+    font-stretch: condensed;
+    font-family: 'helv_b', 'Arial', 'Helvetica Neue';
     color: #fff;
     right: 0;
     font-size: 3.7vmax;
@@ -1217,7 +1227,9 @@ section:nth-child(5) {
 }
 .s21-tab p,
 .s41-tab p {
-  font-family: helv_b;
+  font-weight: bold;
+  font-stretch: condensed;
+  font-family: 'helv_b', 'Arial', 'Helvetica Neue';
   font-size: 5.5em;
   color: #fff;
   float: right;
@@ -1252,7 +1264,9 @@ section:nth-child(5) {
   width: 90%;
 }
 .s31-tab p {
-  font-family: helv_b;
+  font-weight: bold;
+  font-stretch: condensed;
+  font-family: 'helv_b', 'Arial', 'Helvetica Neue';
   font-size: 5.5em;
   color: #fff;
   float: right;
@@ -1359,7 +1373,9 @@ section:nth-child(5) {
 }
 
 .s3-title {
-  font-family: 'helv_b';
+  font-weight: bold;
+  font-stretch: condensed;
+  font-family: 'helv_b', 'Arial', 'Helvetica Neue';
   margin: 20px 0px;
   color: #000;
   font-size: 1.2em;
@@ -1385,7 +1401,8 @@ section:nth-child(5) {
 }
 
 .s3-info {
-  font-family: 'helv_c';
+  font-stretch: condensed;
+  font-family: 'helv_c', 'Arial', 'Helvetica Neue';
   font-style: italic;
   font-size: .45em;
   color: #fff;
@@ -1415,7 +1432,8 @@ section:nth-child(5) {
 
 p.s3-btn {
   position: absolute;
-  font-family: 'helv_c';
+  font-stretch: condensed;
+  font-family: 'helv_c', 'Arial', 'Helvetica Neue';
   font-size: .45em;
   color: #fff;
   padding: .8% 1% .51% 1%;
@@ -1446,14 +1464,18 @@ p.s3-btn:active {
 }
 
 .s4-title {
-  font-family: 'helv_b';
+  font-weight: bold;
+  font-stretch: condensed;
+  font-family: 'helv_b', 'Arial', 'Helvetica Neue';
   font-size: 6vmax;
   color: #fff;
 }
 @media screen and (max-width: 768px) {
   .s4-title {
     position: absolute;
-    font-family: 'helv_b';
+    font-weight: bold;
+    font-stretch: condensed;
+    font-family: 'helv_b', 'Arial', 'Helvetica Neue';
     color: #fff;
     right: 0;
     font-size: 3.7vmax;
@@ -1473,7 +1495,8 @@ p.s3-btn:active {
 
 .s4-info {
   color: #fff;
-  font-family: 'helv_c';
+  font-stretch: condensed;
+  font-family: 'helv_c', 'Arial', 'Helvetica Neue';
   font-size: 0.6em;
   line-height: 1.2em;
 }
@@ -1552,7 +1575,9 @@ p.s3-btn:active {
   }
 }
 .s5-right p {
-  font-family: 'helv_b';
+  font-weight: bold;
+  font-stretch: condensed;
+  font-family: 'helv_b', 'Arial', 'Helvetica Neue';
   font-size: 4vmax;
   font: #000;
   text-align: right;
@@ -1631,7 +1656,9 @@ p.s51-btn1 {
   background: #ff6600;
   padding: 11px 10px 10px 10px;
   text-decoration: none;
-  font-family: 'helv_b';
+  font-weight: bold;
+  font-stretch: condensed;
+  font-family: 'helv_b', 'Arial', 'Helvetica Neue';
   color: #ffffff;
   text-align: center;
   font-size: 1.3vmax;
@@ -1660,7 +1687,9 @@ p.s52-btn2 {
   background: #F1A63B;
   padding: 11px 15px 10px 15px;
   text-decoration: none;
-  font-family: 'helv_b';
+  font-weight: bold;
+  font-stretch: condensed;
+  font-family: 'helv_b', 'Arial', 'Helvetica Neue';
   color: #ffffff;
   text-align: center;
   font-size: 1.3vmax;
@@ -1703,7 +1732,8 @@ p.s52-btn2:hover {
   width: 80px;
   display: inline-block;
   vertical-align: middle;
-  font-family: 'helv_c';
+  font-stretch: condensed;
+  font-family: 'helv_c', 'Arial', 'Helvetica Neue';
   font-size: .9em;
   text-align: center;
 }
@@ -1786,7 +1816,8 @@ p.s52-btn2:hover {
 }
 
 li {
-  font-family: 'helv_c';
+  font-stretch: condensed;
+  font-family: 'helv_c', 'Arial', 'Helvetica Neue';
   font-size: .9em;
   vertical-align: text-top;
 }
@@ -1796,7 +1827,9 @@ li a {
 
 .s5-li1 {
   color: #fff;
-  font-family: 'helv_b';
+  font-weight: bold;
+  font-stretch: condensed;
+  font-family: 'helv_b', 'Arial', 'Helvetica Neue';
   font-size: 1em;
 }
 @media screen and (max-width: 768px) {
