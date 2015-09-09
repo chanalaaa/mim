@@ -56,8 +56,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 @font-face {
   font-family: 'helv_h';
-  src: url("fonts/HelveticaNeue-HeavyCond.eot");
-  src: url("fonts/HelveticaNeue-HeavyCond.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeue-HeavyCond.woff") format("woff"), url("fonts/HelveticaNeue-HeavyCond.ttf") format("truetype");
+  src: url("HelveticaNeue-HeavyCond.eot");
+  src: url("HelveticaNeue-HeavyCond.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeue-HeavyCond.woff") format("woff"), url("fonts/HelveticaNeue-HeavyCond.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
@@ -483,8 +483,8 @@ main {
 }
 
 .logo {
-  width: 46px;
-  height: 49px;
+  width: 54px;
+  height: 54px;
   margin-right: 20px;
 }
 @media screen and (max-width: 768px) {

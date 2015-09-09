@@ -294,7 +294,7 @@
                                     </li>
                                     <li>
                                         <p class="s4-info">
-                                            <font style="color:#FF6400">Champions</font>of international entrepreneurial
+                                            <font style="color:#FF6400">Champions</font> of international entrepreneurial
                                             <br>investment competitions</p>
                                     </li>
                                 </ul>

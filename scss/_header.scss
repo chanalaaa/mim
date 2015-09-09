@@ -55,7 +55,7 @@
      float: right;
      padding-top: 5px;
      margin: 15px 20px;
-      -webkit-transition: opacity .3s;
+     -webkit-transition: opacity .3s;
      transition: opacity .3s;
      @media #{$md} {
          margin: 0px;
@@ -71,10 +71,9 @@
  
  .logo {
      //float: left;
-     width: 46px;
-     height: 49px;
+     width: 54px;
+     height: 54px;
      margin-right: 20px;
-
      @media #{$md} {
          margin-right: 10px;
          width: 31px;
@@ -119,7 +118,7 @@
          background: #e36110;
          text-decoration: none;
      }
-      &:hover {
+     &:hover {
          background: #e36110;
          text-decoration: none;
      }
@@ -146,7 +145,7 @@
          background: #DB8928;
          text-decoration: none;
      }
-      &:hover {
+     &:hover {
          background: #DB8928;
          text-decoration: none;
      }
