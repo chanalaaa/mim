@@ -56,8 +56,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 @font-face {
   font-family: 'helv_h';
-  src: url("HelveticaNeue-HeavyCond.eot");
-  src: url("HelveticaNeue-HeavyCond.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeue-HeavyCond.woff") format("woff"), url("fonts/HelveticaNeue-HeavyCond.ttf") format("truetype");
+  src: url("fonts/HelveticaNeue-HeavyCond.eot");
+  src: url("fonts/HelveticaNeue-HeavyCond.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeue-HeavyCond.woff") format("woff"), url("fonts/HelveticaNeue-HeavyCond.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
@@ -425,7 +425,9 @@ main {
 }
 
 .inner p {
-  font-family: 'helv_h';
+  font-weight: bold;
+  font-stretch: condensed;
+  font-family: 'helv_h','Arial', "Helvetica Neue";
   font-size: 1em;
   color: #fff;
 }
@@ -526,7 +528,10 @@ p.nav1-btn1 {
   background: #ff6600;
   padding: 11px 10px 10px 10px;
   text-decoration: none;
-  font-family: 'helv_b';
+  font-weight: bold;
+  font-stretch: condensed;
+  font-family: 'helv_b','Arial', 'Helvetica Neue';
+  font-stretch: condensed;
   color: #ffffff;
   text-align: center;
   font-size: 1.3em;
@@ -555,7 +560,9 @@ p.nav1-btn2 {
   background: #F1A63B;
   padding: 11px 15px 10px 15px;
   text-decoration: none;
-  font-family: 'helv_b';
+  font-weight: bold;
+  font-stretch: condensed;
+  font-family: 'helv_b','Arial', 'Helvetica Neue';
   color: #ffffff;
   text-align: center;
   font-size: 1.3em;
@@ -722,7 +729,7 @@ section:nth-child(5) {
 
 .hsContent {
   max-width: 50%;
-  position: absolute;
+  position: relative;
   top: 25%;
   left: 0;
   right: 0;
@@ -731,6 +738,7 @@ section:nth-child(5) {
 }
 @media screen and (max-width: 768px) {
   .hsContent {
+    position: absolute;
     max-width: 80%;
     margin-top: 2%;
   }
@@ -981,7 +989,8 @@ section:nth-child(5) {
 }
 
 .s1-title {
-  font-family: 'helv_c';
+  font-stretch: condensed;
+  font-family: 'helv_c','Arial', 'Helvetica Neue';
   color: #000;
   font-size: 26px;
   font-size: 2vmax;
@@ -994,7 +1003,9 @@ section:nth-child(5) {
 }
 
 .s1-info {
-  font-family: 'helv_b';
+  font-weight: bold;
+  font-stretch: condensed;
+  font-family: 'helv_b','Arial', 'Helvetica Neue';
   color: #000;
   font-size: 40px;
   font-size: 3vmax;

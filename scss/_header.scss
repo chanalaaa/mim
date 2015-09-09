@@ -14,7 +14,9 @@
  
  .inner {
      p {
-         font-family: 'helv_h';
+         font-weight: bold;
+         font-stretch:condensed;
+         font-family: 'helv_h','Arial', "Helvetica Neue";
          font-size: 1em;
          color: #fff;
          @media #{$md} {
@@ -110,7 +112,10 @@
      background: #ff6600;
      padding: 11px 10px 10px 10px;
      text-decoration: none;
-     font-family: 'helv_b';
+     font-weight: bold;
+     font-stretch:condensed;
+     font-family: 'helv_b','Arial', 'Helvetica Neue';
+     font-stretch: condensed;
      color: #ffffff;
      text-align: center;
      font-size: 1.3em;
@@ -137,7 +142,9 @@
      background: #F1A63B;
      padding: 11px 15px 10px 15px;
      text-decoration: none;
-     font-family: 'helv_b';
+     font-weight: bold;
+     font-stretch:condensed;
+     font-family: 'helv_b','Arial', 'Helvetica Neue';
      color: #ffffff;
      text-align: center;
      font-size: 1.3em;
