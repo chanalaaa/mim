@@ -499,7 +499,7 @@ main {
 }
 
 .nav-title {
-  padding-top: 10px;
+  padding-top: 14px;
 }
 @media screen and (max-width: 768px) {
   .nav-title {
