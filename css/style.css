@@ -924,7 +924,7 @@ section:nth-child(5) {
 .box1 {
   position: absolute;
   left: 9em;
-  top: 48%;
+  top: 54%;
 }
 @media screen and (max-width: 768px) {
   .box1 {
@@ -948,7 +948,7 @@ section:nth-child(5) {
 .box2 {
   position: absolute;
   left: 9em;
-  margin-top: 150px;
+  margin-top: 175px;
 }
 @media screen and (max-width: 768px) {
   .box2 {
@@ -971,7 +971,7 @@ section:nth-child(5) {
 .box3 {
   position: absolute;
   left: 9em;
-  top: 46%;
+  top: 52%;
 }
 @media screen and (max-width: 768px) {
   .box3 {
@@ -1233,7 +1233,7 @@ section:nth-child(5) {
   width: 30em;
   width: 35vmax;
   height: 300px;
-  top: 27%;
+  top: 33%;
 }
 
 .s21-tab,
