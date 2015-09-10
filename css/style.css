@@ -434,6 +434,7 @@ main {
 @media screen and (max-width: 768px) {
   .inner p {
     float: left;
+    margin-top: 6px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -517,6 +518,12 @@ ul.nav-ul li {
 
 .nav-btn1 {
   margin-right: .3em;
+  margin-top: -3px;
+  padding-bottom: 3px;
+}
+
+.nav-btn2 {
+  margin-top: -3px;
 }
 
 p.nav1-btn1 {
