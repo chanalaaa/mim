@@ -609,13 +609,18 @@ p.nav1-btn2:hover {
 }
 @media screen and (max-width: 768px) {
   .initp1 {
-    height: 250%;
+    height: 220%;
     position: relative;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .initp1 {
-    height: 300%;
+    height: 260%;
+  }
+}
+@media screen and (device-aspect-ratio: 40 / 71) {
+  .initp1 {
+    height: 240%;
   }
 }
 
@@ -1658,7 +1663,7 @@ p.s3-btn:active {
     margin-top: -10px;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 374px) {
+@media screen and (device-aspect-ratio: 40 / 71) {
   .s5-right {
     margin-top: 10%;
   }
@@ -1683,6 +1688,11 @@ p.s3-btn:active {
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .s5-right p {
     font-size: 2em;
+  }
+}
+@media screen and (device-aspect-ratio: 40 / 71) {
+  .s5-right p {
+    font-size: 2.2em;
   }
 }
 .s5-right .s5-highlight {
@@ -1819,7 +1829,13 @@ p.s52-btn2:hover {
 @media screen and (max-width: 768px) {
   .s5-pre_footer {
     margin: 0 auto;
-    bottom: 43%;
+    bottom: 35%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .s5-pre_footer {
+    margin: 0 auto;
+    bottom: 30%;
   }
 }
 .s5-pre_footer li {
@@ -1859,7 +1875,12 @@ p.s52-btn2:hover {
 @media screen and (max-width: 768px) {
   .s5-footer {
     height: 450px;
-    height: 44%;
+    height: 35%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .s5-footer {
+    height: 30%;
   }
 }
 

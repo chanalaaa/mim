@@ -8,11 +8,15 @@
      background: transparent center no-repeat;
      background-size: cover;
      @media #{$md} {
-         height: 250%;
+         height: 220%;
          position: relative;
      }
+
      @media #{$sm} {
-         height: 300%;
+         height: 260%;
+     }
+@media screen and (device-aspect-ratio: 40/71) {
+     	height: 240%;
      }
  }
  
@@ -921,6 +925,7 @@
      @media #{$sm} {
          width: 19em;
          height: 25em;
+
      }
  }
  
@@ -953,7 +958,11 @@
      }
      @media #{$sm} {
          //font-size: 2.1em;
-         margin-top: 10%;
+         //margin-top: 10%;
+     }
+     @media screen and (device-aspect-ratio: 40/71) {
+
+     	margin-top: 10%;
      }
      p {
          font-weight: bold;
@@ -975,6 +984,10 @@
              //font-size: 2.1em;
              font-size: 2em;
          }
+          @media screen and (device-aspect-ratio: 40/71) {
+
+     	font-size: 2.2em;
+     }
      }
      .s5-highlight {
          color: #FF6400;
@@ -1104,10 +1117,14 @@
          margin: 0 auto;
          //bottom: 0px;
          // bottom: 435px;
-         bottom: 43%;
+         bottom: 35%;
          //top: 5%;
          // top: 15vmax;
          //float: left;
+     }
+     @media #{$sm} {
+         margin: 0 auto;
+         bottom: 30%;
      }
      //background-color: rgba(0, 100, 0, .5);
      ul {
@@ -1154,8 +1171,11 @@
      float: left;
      @media #{$md} {
          height: 450px;
-         height: 44%;
-         //height: 80vmax;
+         height: 35%;
+         //height: 80vmax;    height: 30%;
+     }
+     @media #{$sm} {
+         height: 30%;
      }
  }
  
