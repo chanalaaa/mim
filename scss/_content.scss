@@ -474,7 +474,6 @@
      @media #{$md-2} {
          font-size: 1.5em;
      }
-
  }
  
  .s1-info {
@@ -756,7 +755,7 @@
          text-align: center;
      }
      @media #{$md-2} {
-     	margin-bottom: 3.5vmax;
+         margin-bottom: 3.5vmax;
          font-size: .5em;
          font-size: 2.7vmax;
      }
@@ -868,6 +867,9 @@
          margin-top: 6%;
          margin-bottom: 0;
      }
+     @media #{$md-2} {
+         margin-top: 2%;
+     }
  }
  
  .s5-left_img {
@@ -910,6 +912,9 @@
          margin-left: 0;
          width: 80%;
          margin-top: 0;
+     }
+     @media #{$md-2} {
+         margin-top: -10px;
      }
      p {
          font-weight: bold;
@@ -1130,6 +1135,9 @@
      margin-top: 50px;
      margin-left: 85px;
      color: #B2B2B2;
+     @media #{$md-2} {
+         text-align: center;
+     }
      li {
          display: inline-block;
          width: 32%;
@@ -1138,6 +1146,9 @@
              width: 100%;
              margin-bottom: 2.5em;
              font-size: 1.1em;
+         }
+         @media #{$md-2} {
+             font-size: 1.2em;
          }
          @media #{$sm} {
              font-size: .9em;
