@@ -647,6 +647,15 @@
      @include s-tab('../images/content/s2/tab-orange.png');
  }
  
+ .s41-tab {
+     p {
+         font-size: 6.5em;
+         @media #{$md} {
+             font-size: 5.5em;
+         }
+     }
+ }
+ 
  .s2_2 {
      ul {
          display: block;
@@ -804,7 +813,8 @@
      font-stretch: condensed;
      font-family: 'helv_b', 'Arial', 'Helvetica Neue';
      // font-size: 2em;
-     font-size: 6vmax;
+     font-size: 5vmax;
+     //font-size: 5.5em;
      color: #fff;
      @media #{$md} {
          position: absolute;

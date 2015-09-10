@@ -1270,6 +1270,15 @@ section:nth-child(5) {
   */
 }
 
+.s41-tab p {
+  font-size: 6.5em;
+}
+@media screen and (max-width: 768px) {
+  .s41-tab p {
+    font-size: 5.5em;
+  }
+}
+
 .s2_2 ul {
   display: block;
   list-style: none;
@@ -1496,7 +1505,7 @@ p.s3-btn:active {
   font-weight: bold;
   font-stretch: condensed;
   font-family: 'helv_b', 'Arial', 'Helvetica Neue';
-  font-size: 6vmax;
+  font-size: 5vmax;
   color: #fff;
 }
 @media screen and (max-width: 768px) {
