@@ -8,8 +8,11 @@
      background: transparent center no-repeat;
      background-size: cover;
      @media #{$md} {
-         height: 200%;
+         height: 250%;
          position: relative;
+     }
+     @media #{$sm} {
+         height: 200%;
      }
  }
  
@@ -875,7 +878,8 @@
      @media #{$md} {
          margin-left: 0;
          width: 80%;
-         margin: 4em;
+         margin: 0em;
+         margin-left: 1.2em;
          //margin-top: 3.5em;
          margin-top: 6%;
          margin-bottom: 0;
@@ -900,9 +904,9 @@
          // height: 300px;
          // height: 49vmax;
          width: 12em;
-         width: 37vmax;
+         width: 55vmax;
          height: 14em;
-         height: 46vmax;
+         height: 70vmax;
          float: none;
          padding-right: 0;
      }

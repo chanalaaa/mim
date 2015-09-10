@@ -609,8 +609,13 @@ p.nav1-btn2:hover {
 }
 @media screen and (max-width: 768px) {
   .initp1 {
-    height: 200%;
+    height: 250%;
     position: relative;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .initp1 {
+    height: 200%;
   }
 }
 
@@ -1572,7 +1577,8 @@ p.s3-btn:active {
   .s5-left {
     margin-left: 0;
     width: 80%;
-    margin: 4em;
+    margin: 0em;
+    margin-left: 1.2em;
     margin-top: 6%;
     margin-bottom: 0;
   }
@@ -1596,9 +1602,9 @@ p.s3-btn:active {
 @media screen and (max-width: 768px) {
   .s5-left_img {
     width: 12em;
-    width: 37vmax;
+    width: 55vmax;
     height: 14em;
-    height: 46vmax;
+    height: 70vmax;
     float: none;
     padding-right: 0;
   }
