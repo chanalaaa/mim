@@ -1586,10 +1586,10 @@ p.s3-btn:active {
 .s5-left_img {
   width: 57%;
   width: 340px;
-  width: 25vmax;
+  width: 24vmax;
   height: 58%;
   height: 380px;
-  height: 28vmax;
+  height: 30vmax;
   float: right;
   padding-right: 18%;
 }
