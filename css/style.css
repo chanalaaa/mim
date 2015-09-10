@@ -1588,10 +1588,10 @@ p.s3-btn:active {
   width: 340px;
   width: 24vmax;
   height: 58%;
-  height: 380px;
+  height: 420px;
   height: 30vmax;
   float: right;
-  padding-right: 18%;
+  padding-right: 16%;
 }
 @media screen and (max-width: 768px) {
   .s5-left_img {

@@ -890,10 +890,10 @@
      width: 340px;
      width: 24vmax;
      height: 58%;
-     height: 380px;
+     height: 420px;
      height: 30vmax;
      float: right;
-     padding-right: 18%;
+     padding-right: 16%;
      @media #{$md} {
          //width: 250px;
          // width: 40vmax;
@@ -930,8 +930,8 @@
      margin-right: 14%;
      margin-top: 12.5%;
      @media #{$md} {
-     	 position: relative;
-     	 right: 0;
+         position: relative;
+         right: 0;
          margin-left: 0;
          width: 75%;
          margin-top: 0;
@@ -1031,7 +1031,7 @@
      }
      @media #{$md} {
          //font-size: 1em;
-          width: 9em;
+         width: 9em;
          font-size: 2.2vmax;
      }
      @media #{$sm} {
