@@ -902,7 +902,7 @@
          width: 12em;
          width: 37vmax;
          height: 14em;
-         height: 44vmax;
+         height: 46vmax;
          float: none;
          padding-right: 0;
      }
@@ -915,15 +915,25 @@
  .s5-right {
      // position: absolute;
      //background-color: rgba(34, 200, 23, 0.5);
+     /*
      width: 40%;
      float: right;
      //top: 22%;
      margin-right: 10%;
      //margin-top: 8.5%;
      margin-top: 10.5%;
+     */
+     position: absolute;
+     right: 45px;
+     width: 36%;
+     float: right;
+     margin-right: 14%;
+     margin-top: 12.5%;
      @media #{$md} {
+     	 position: relative;
+     	 right: 0;
          margin-left: 0;
-         width: 80%;
+         width: 75%;
          margin-top: 0;
      }
      @media #{$md-2} {
@@ -942,11 +952,12 @@
          @media #{$md} {
              //font-size: 2.1em;
              font-size: 2em;
-             font-size: 5.5vmax;
+             font-size: 6.5vmax;
+             line-height: .9em;
          }
          @media #{$sm} {
              //font-size: 2.1em;
-             font-size: 1.5em;
+             font-size: 1em;
          }
      }
      .s5-highlight {
@@ -1020,6 +1031,7 @@
      }
      @media #{$md} {
          //font-size: 1em;
+          width: 9em;
          font-size: 2.2vmax;
      }
      @media #{$sm} {
