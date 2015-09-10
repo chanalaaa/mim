@@ -1624,7 +1624,7 @@ p.s3-btn:active {
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .s5-left_img {
     width: 19em;
-    height: 23em;
+    height: 25em;
   }
 }
 
@@ -1660,7 +1660,7 @@ p.s3-btn:active {
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .s5-right {
-    margin-top: 5%;
+    margin-top: 10%;
   }
 }
 .s5-right p {
