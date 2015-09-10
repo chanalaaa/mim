@@ -12,7 +12,7 @@
          position: relative;
      }
      @media #{$sm} {
-         height: 200%;
+         height: 300%;
      }
  }
  
@@ -885,7 +885,11 @@
          margin-bottom: 0;
      }
      @media #{$md-2} {
+         margin-left: 1.2em;
          margin-top: 2%;
+     }
+     @media #{$sm} {
+         margin-left: 0em;
      }
  }
  
@@ -910,9 +914,13 @@
          float: none;
          padding-right: 0;
      }
+     @media #{$md-2} {
+         width: 45vmax;
+         height: 55vmax;
+     }
      @media #{$sm} {
-         width: 9em;
-         height: 10em;
+         width: 19em;
+         height: 23em;
      }
  }
  
@@ -943,6 +951,10 @@
      @media #{$md-2} {
          margin-top: -10px;
      }
+     @media #{$sm} {
+         //font-size: 2.1em;
+         margin-top: 5%;
+     }
      p {
          font-weight: bold;
          font-stretch: condensed;
@@ -961,7 +973,7 @@
          }
          @media #{$sm} {
              //font-size: 2.1em;
-             font-size: 1em;
+             font-size: 2em;
          }
      }
      .s5-highlight {
