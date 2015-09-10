@@ -728,7 +728,7 @@ section:nth-child(5) {
 }
 
 .hsContent {
-  max-width: 50%;
+  max-width: 55%;
   position: relative;
   top: 25%;
   left: 0;
@@ -992,7 +992,7 @@ section:nth-child(5) {
   font-stretch: condensed;
   font-family: 'helv_c', 'Arial', 'Helvetica Neue';
   color: #000;
-  font-size: 26px;
+  font-size: 28px;
   font-size: 2vmax;
   margin-bottom: 2%;
 }
@@ -1007,7 +1007,7 @@ section:nth-child(5) {
   font-stretch: condensed;
   font-family: 'helv_b', 'Arial', 'Helvetica Neue';
   color: #000;
-  font-size: 37px;
+  font-size: 41px;
   font-size: 3vmax;
 }
 @media screen and (max-width: 768px) {
