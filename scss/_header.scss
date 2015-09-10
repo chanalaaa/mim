@@ -15,8 +15,8 @@
  .inner {
      p {
          font-weight: bold;
-         font-stretch:condensed;
-         font-family: 'helv_h','Arial', "Helvetica Neue";
+         font-stretch: condensed;
+         font-family: 'helv_h', 'Arial', "Helvetica Neue";
          font-size: 1em;
          color: #fff;
          @media #{$md} {
@@ -49,7 +49,7 @@
      margin: 15px 20px;
      @media #{$md} {
          width: 100%;
-         margin: 11px 20px;
+         margin: 7px 20px;
      }
  }
  
@@ -78,8 +78,8 @@
      margin-right: 20px;
      @media #{$md} {
          margin-right: 10px;
-         width: 31px;
-         height: 32px;
+         width: 41px;
+         height: 40px;
      }
  }
  
@@ -113,8 +113,8 @@
      padding: 11px 10px 10px 10px;
      text-decoration: none;
      font-weight: bold;
-     font-stretch:condensed;
-     font-family: 'helv_b','Arial', 'Helvetica Neue';
+     font-stretch: condensed;
+     font-family: 'helv_b', 'Arial', 'Helvetica Neue';
      font-stretch: condensed;
      color: #ffffff;
      text-align: center;
@@ -143,8 +143,8 @@
      padding: 11px 15px 10px 15px;
      text-decoration: none;
      font-weight: bold;
-     font-stretch:condensed;
-     font-family: 'helv_b','Arial', 'Helvetica Neue';
+     font-stretch: condensed;
+     font-family: 'helv_b', 'Arial', 'Helvetica Neue';
      color: #ffffff;
      text-align: center;
      font-size: 1.3em;

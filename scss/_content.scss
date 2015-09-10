@@ -471,6 +471,10 @@
      @media #{$md} {
          font-size: 1.1em;
      }
+     @media #{$md-2} {
+         font-size: 1.5em;
+     }
+
  }
  
  .s1-info {
@@ -867,8 +871,10 @@
  
  .s5-left_img {
      width: 57%;
+     width: 340px;
      width: 25vmax;
      height: 58%;
+     height: 380px;
      height: 28vmax;
      float: right;
      padding-right: 18%;
