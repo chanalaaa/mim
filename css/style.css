@@ -971,7 +971,7 @@ section:nth-child(5) {
 .box3 {
   position: absolute;
   left: 9em;
-  top: 52%;
+  top: 53%;
 }
 @media screen and (max-width: 768px) {
   .box3 {
