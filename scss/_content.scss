@@ -733,8 +733,8 @@
          margin: 4% 0px 2%;
      }
      @media #{$md-2} {
-         font-size: 4.5em;
-         font-size: 4.5vmax;
+         font-size: 3.5em;
+         font-size: 5.5vmax;
      }
      @media #{$sm} {
          font-size: 2em;
@@ -756,8 +756,9 @@
          text-align: center;
      }
      @media #{$md-2} {
+     	margin-bottom: 3.5vmax;
          font-size: .5em;
-         font-size: 2.3vmax;
+         font-size: 2.7vmax;
      }
      @media #{$sm} {
          margin-bottom: .7em;

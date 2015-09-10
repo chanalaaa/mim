@@ -46,7 +46,7 @@
      display: -webkit-inline-flex;
      display: -ms-inline-flexbox;
      display: inline-flex;
-     margin: 15px 20px;
+     margin: 8px 20px;
      @media #{$md} {
          width: 100%;
          margin: 7px 20px;
@@ -73,13 +73,13 @@
  
  .logo {
      //float: left;
-     width: 54px;
-     height: 54px;
+     width: 63px;
+     height: 64px;
      margin-right: 20px;
      @media #{$md} {
          margin-right: 10px;
-         width: 41px;
-         height: 40px;
+         width: 44px;
+         height: 45px;
      }
  }
  
