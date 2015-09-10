@@ -925,6 +925,7 @@ section:nth-child(5) {
   position: absolute;
   left: 9em;
   top: 54%;
+  top: 6.7em;
 }
 @media screen and (max-width: 768px) {
   .box1 {
@@ -949,6 +950,7 @@ section:nth-child(5) {
   position: absolute;
   left: 9em;
   margin-top: 175px;
+  margin-top: 3.6em;
 }
 @media screen and (max-width: 768px) {
   .box2 {
@@ -972,6 +974,7 @@ section:nth-child(5) {
   position: absolute;
   left: 9em;
   top: 53%;
+  top: 6.6em;
 }
 @media screen and (max-width: 768px) {
   .box3 {
