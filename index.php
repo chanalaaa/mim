@@ -8,8 +8,8 @@ ob_start('ob_gzhandler');
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <script type="text/javascript" src="js/jquery-1.11.3.min.js?v=1001"></script>
-        <script type="text/javascript" src="js/imagesloaded.js"></script>
-        <script type="text/javascript" src="js/enquire.min.js"></script>
+        <script type="text/javascript" src="js/imagesloaded.js?v=1001"></script>
+        <script type="text/javascript" src="js/enquire.min.js?v=1001"></script>
         <!-- <script type="text/javascript" src="js/javascript.fullPage.min.js"></script>
         <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
         <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
@@ -33,7 +33,7 @@ ob_start('ob_gzhandler');
             head.appendChild(script);
         }
         </script>
-        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css?v=1001">
         <link rel="stylesheet" href="css/style.css">
     </head>
 
@@ -63,9 +63,9 @@ ob_start('ob_gzhandler');
 
         }
         </script> -->
-        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-        <script type="text/javascript" src="js/jquery.animate-enhanced.min.js"></script>
-        <script type="text/javascript" src="js/hammer.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js?v=1001"></script>
+        <script type="text/javascript" src="js/jquery.animate-enhanced.min.js?v=1001"></script>
+        <script type="text/javascript" src="js/hammer.min.js?v=1001"></script>
         <script type="text/javascript" src="js/jquery.superslides.js" charset="utf-8"></script>
         <script type="text/javascript" src="js/main.js"></script>
     </body>
