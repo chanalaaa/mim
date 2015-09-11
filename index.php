@@ -8,8 +8,8 @@ ob_start('ob_gzhandler');
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <script type="text/javascript" src="js/jquery-1.11.3.min.js?v=1001"></script>
-        <script type="text/javascript" src="js/imagesloaded.js?v=1001"></script>
-        <script type="text/javascript" src="js/enquire.min.js?v=1001"></script>
+        <script async type="text/javascript" src="js/imagesloaded.js?v=1001"></script>
+        <script async type="text/javascript" src="js/enquire.min.js?v=1001"></script>
         <!-- <script type="text/javascript" src="js/javascript.fullPage.min.js"></script>
         <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
         <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
@@ -19,7 +19,7 @@ ob_start('ob_gzhandler');
         <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
         <script type="text/javascript" src="js/jquery.pagepiling.min.js">
         <link rel="stylesheet" href="css/jquery.pagepiling.css"></script> -->
-        <script type="text/javascript" src="js/skrollr.min.js"></script>
+        <script async type="text/javascript" src="js/skrollr.min.js"></script>
         <script type="text/javascript">
         // This loads JS files in the head element
         function loadJS(url) {
@@ -34,7 +34,7 @@ ob_start('ob_gzhandler');
         }
         </script>
         <link rel="stylesheet" href="css/font-awesome.min.css?v=1001">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.min.css">
     </head>
 
     <body>
