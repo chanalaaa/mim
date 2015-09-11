@@ -1537,7 +1537,7 @@ p.s3-btn {
   font-family: 'helv_c', 'Arial', 'Helvetica Neue';
   font-size: .45em;
   color: #fff;
-  padding: .8% 1% .51% 1%;
+  padding: .6% 1% .51% 1%;
   -webkit-border-radius: 5;
   -moz-border-radius: 5;
   border-radius: 5px;
@@ -1900,7 +1900,18 @@ p.s52-btn2:hover {
   color: #323232;
   vertical-align: middle;
 }
+.s5-pre_footer ul {
+  opacity: 1;
+}
 .s5-pre_footer ul:hover {
+  opacity: .7;
+}
+@media screen and (max-width: 768px) {
+  .s5-pre_footer ul:hover {
+    opacity: 1;
+  }
+}
+.s5-pre_footer ul:active {
   opacity: .7;
 }
 .s5-pre_footer li {

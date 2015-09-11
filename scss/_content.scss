@@ -710,8 +710,8 @@
  .s3-btn_arrow {
      font-size: 20px;
      padding-left: 10px;
-     @media #{$md}{
-     	padding-left: 5px;
+     @media #{$md} {
+         padding-left: 5px;
      }
  }
  
@@ -826,7 +826,7 @@
      font-size: .45em;
      color: #fff;
      //padding: 5px 7px;
-     padding: .8% 1% .51% 1%;
+     padding: .6% 1% .51% 1%;
      -webkit-border-radius: 5;
      -moz-border-radius: 5;
      border-radius: 5px;
@@ -1172,7 +1172,14 @@
      }
      ul {
          //margin-left: 20px;
+         opacity: 1;
          &:hover {
+             opacity: .7;
+             @media #{$md} {
+                 opacity: 1;
+             }
+         }
+         &:active {
              opacity: .7;
          }
      }
