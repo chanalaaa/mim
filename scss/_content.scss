@@ -11,12 +11,11 @@
          height: 220%;
          position: relative;
      }
-
      @media #{$sm} {
          height: 260%;
      }
-@media screen and (device-aspect-ratio: 40/71) {
-     	height: 240%;
+     @media screen and (device-aspect-ratio: 40/71) {
+         height: 240%;
      }
  }
  
@@ -290,6 +289,9 @@
      z-index: 3;
      top: 46%;
      width: 100%;
+     @media #{$md}{
+     	top: 55%;
+     }
  }
  
  .slides-navigation a {
@@ -340,6 +342,17 @@
  
  .slides-pagination a.current {
      background: #FF6400;
+ }
+ 
+ i {
+     color: #fff;
+ }
+ 
+ .fa {
+     font-size: 50px;
+     @media #{$md} {
+         font-size: 25px;
+     }
  }
  
  // ========== End Silde Res =======================================
@@ -925,7 +938,6 @@
      @media #{$sm} {
          width: 19em;
          height: 25em;
-
      }
  }
  
@@ -961,8 +973,7 @@
          //margin-top: 10%;
      }
      @media screen and (device-aspect-ratio: 40/71) {
-
-     	margin-top: 10%;
+         margin-top: 10%;
      }
      p {
          font-weight: bold;
@@ -984,10 +995,9 @@
              //font-size: 2.1em;
              font-size: 2em;
          }
-          @media screen and (device-aspect-ratio: 40/71) {
-
-     	font-size: 2.2em;
-     }
+         @media screen and (device-aspect-ratio: 40/71) {
+             font-size: 2.2em;
+         }
      }
      .s5-highlight {
          color: #FF6400;

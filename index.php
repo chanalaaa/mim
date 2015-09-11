@@ -33,6 +33,7 @@ ob_start('ob_gzhandler');
             head.appendChild(script);
         }
         </script>
+        <link rel="stylesheet" href="css/font-awesome.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
 

@@ -30,7 +30,7 @@
             </div>
         </section>
         <!-- SLIDE 2 ***************************** -->
-        <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px; " data-0="transform:translate(0,75%);background-color: !url('images/content/s2/bg/bg1.jpg');background-image: !url('images/content/s2/bg/bg1.jpg');" data-100p="transform:translate(0,0%);" data-_box-100p="" data-130p="background-image: !url('images/content/s2/bg/bg2.jpg');" data-150p="background-image: !url('images/content/s2/bg/bg3.jpg');" data-180p="background-image: !url('images/content/s2/bg/bg4.jpg');" >
+        <section id="slide-2" class="initp" data-100p-center="background-position: 50% 0px; " data-0="transform:translate(0,75%);background-color: !url('images/content/s2/bg/bg1.jpg');background-image: !url('images/content/s2/bg/bg1.jpg');" data-100p="transform:translate(0,0%);" data-_box-100p="" data-130p="background-image: !url('images/content/s2/bg/bg2.jpg');" data-150p="background-image: !url('images/content/s2/bg/bg3.jpg');" data-180p="background-image: !url('images/content/s2/bg/bg4.jpg');">
             <div class="bcg" data-anchor-target="#slide-2">
                 <div class="hsContainer">
                     <!-- hsCon-Desk -->
@@ -82,6 +82,10 @@
                                     </div>
                                 </li>
                             </ul>
+                            <nav class="slides-navigation">
+                                <a href="#" class="next"><i class="fa fa-chevron-right"></i></a>
+                                <a href="#" class="prev"><i class="fa fa-chevron-left"></i></a>
+                            </nav>
                             <div class="arrow_white">
                                 <a href="#slide-3"><img class="arrow_white_img" src="images/content/arrow_white.png"></a>
                             </div>
@@ -242,6 +246,10 @@
                                     </div>
                                 </li>
                             </ul>
+                            <nav class="slides-navigation">
+                                <a href="#" class="next"><i class="fa fa-chevron-right"></i></a>
+                                <a href="#" class="prev"><i class="fa fa-chevron-left"></i></a>
+                            </nav>
                             <div class="arrow_white">
                                 <a href="#slide-4"><img class="arrow_white_img" src="images/content/arrow_white.png"></a>
                             </div>
@@ -351,6 +359,10 @@
                                     </div>
                                 </li>
                             </ul>
+                            <nav class="slides-navigation">
+                                <a href="#" class="next"><i class="fa fa-chevron-right"></i></a>
+                                <a href="#" class="prev"><i class="fa fa-chevron-left"></i></a>
+                            </nav>
                             <div class="arrow_white">
                                 <a href="#slide-5"><img class="arrow_white_img" src="images/content/arrow_white.png"></a>
                             </div>
