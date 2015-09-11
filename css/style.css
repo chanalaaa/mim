@@ -862,6 +862,11 @@ section:nth-child(5) {
     top: -100px !important;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #slide-4 .slides-container li {
+    top: -145px !important;
+  }
+}
 @media screen and (max-width: 768px) {
   #slide-4 .slides-container li div {
     position: absolute;
@@ -1043,7 +1048,7 @@ i {
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .box2 {
-    margin-top: 8%;
+    margin-top: 5%;
   }
 }
 
@@ -1055,17 +1060,17 @@ i {
 }
 @media screen and (max-width: 768px) {
   .box3 {
-    margin-top: 24em;
+    margin-top: 90%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .box3 {
-    margin-top: 19em;
+    margin-top: 22em;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .box3 {
-    margin-top: 18em;
+    margin-top: 14em;
   }
 }
 
@@ -1314,7 +1319,7 @@ i {
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .s4-res_tab {
-    top: .5em;
+    top: -.5em;
     font-size: 3.5em;
   }
 }
@@ -1426,6 +1431,11 @@ i {
     font-size: 30px;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .s3-btn_arrow {
+    font-size: 15px;
+  }
+}
 
 .s3-ico {
   width: 198px;
@@ -1459,8 +1469,8 @@ i {
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .s3-ico {
-    width: 10em;
-    height: 9em;
+    width: 8em;
+    height: 7em;
   }
 }
 
@@ -1492,8 +1502,8 @@ i {
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .s3-ico2 {
-    width: 10em;
-    height: 9.2em;
+    width: 7em;
+    height: 6.3em;
     margin-top: 21%;
   }
 }
@@ -1531,8 +1541,8 @@ i {
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .s3-ico3 {
-    width: 12em;
-    height: 7em;
+    width: 10em;
+    height: 5em;
     margin-top: 15%;
   }
 }
@@ -1560,7 +1570,7 @@ i {
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .s3-title {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 }
 
@@ -1589,8 +1599,8 @@ i {
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .s3-info {
-    margin-bottom: .7em;
-    font-size: 1.5em;
+    margin-bottom: .4em;
+    font-size: 1.2em;
   }
 }
 
@@ -1629,7 +1639,7 @@ p.s3-btn:active {
 @media screen and (min-width: 320px) and (max-width: 374px) {
   p.s3-btn {
     padding: 3px;
-    font-size: 1.3em;
+    font-size: 1em;
   }
 }
 
@@ -1666,7 +1676,7 @@ p.s3-btn:active {
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .s4-title {
     font-size: 2.5em;
-    top: 3em;
+    top: 1.5em;
   }
 }
 

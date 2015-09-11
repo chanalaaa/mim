@@ -247,6 +247,9 @@
              @media #{$md} {
                  top: -100px !important;
              }
+             @media #{$md-2} {
+                 top: -145px !important;
+             }
              div {
                  @media #{$md} {
                      position: absolute;
@@ -434,7 +437,7 @@
          margin-top: 8%;
      }
      @media #{$sm} {
-         margin-top: 8%;
+         margin-top: 5%;
      }
  }
  
@@ -448,14 +451,14 @@
      @media #{$md} {
          // margin-top: 150px;
          // margin-top: 20vmax;
-         margin-top: 24em;
+         margin-top: 90%;
      }
      @media #{$md-2} {
-         margin-top: 19em;
+         margin-top: 22em;
          // width: 90%;
      }
      @media #{$sm} {
-         margin-top: 18em;
+         margin-top: 14em;
          // width: 90%;
      }
  }
@@ -686,7 +689,7 @@
          font-size: 5.5em;
      }
      @media #{$sm} {
-         top: .5em;
+         top: -.5em;
          font-size: 3.5em;
      }
  }
@@ -744,6 +747,9 @@
      @media #{$md-2} {
          font-size: 30px;
      }
+     @media #{$sm} {
+         font-size: 15px;
+     }
  }
  
  .s3-ico {
@@ -764,8 +770,8 @@
          height: 18em;
      }
      @media #{$sm} {
-         width: 10em;
-         height: 9em;
+         width: 8em;
+         height: 7em;
      }
  }
  
@@ -785,8 +791,8 @@
          margin-top: 15%;
      }
      @media #{$sm} {
-         width: 10em;
-         height: 9.2em;
+         width: 7em;
+         height: 6.3em;
          margin-top: 21%;
      }
  }
@@ -810,8 +816,8 @@
          margin-top: 15%;
      }
      @media #{$sm} {
-         width: 12em;
-         height: 7em;
+         width: 10em;
+         height: 5em;
          margin-top: 15%;
      }
  }
@@ -834,7 +840,7 @@
          // font-size: 5.5vmax;
      }
      @media #{$sm} {
-         font-size: 2.5em;
+         font-size: 2em;
      }
  }
  
@@ -858,8 +864,8 @@
          //font-size: 2.7vmax;
      }
      @media #{$sm} {
-         margin-bottom: .7em;
-         font-size: 1.5em;
+         margin-bottom: .4em;
+         font-size: 1.2em;
      }
  }
  
@@ -895,7 +901,7 @@
      }
      @media #{$sm} {
          padding: 3px;
-         font-size: 1.3em;
+         font-size: 1em;
      }
  }
  
@@ -925,7 +931,7 @@
      }
      @media #{$sm} {
          font-size: 2.5em;
-         top: 3em;
+         top: 1.5em;
      }
  }
  
