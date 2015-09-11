@@ -1372,6 +1372,16 @@ i {
   color: #000;
 }
 
+.s3-btn_arrow {
+  font-size: 20px;
+  padding-left: 10px;
+}
+@media screen and (max-width: 768px) {
+  .s3-btn_arrow {
+    padding-left: 5px;
+  }
+}
+
 .s3-ico {
   width: 198px;
   height: 177px;

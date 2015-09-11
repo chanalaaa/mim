@@ -118,7 +118,7 @@
                                     </li>
                                     <li>
                                         <a href="http://mim.tbs.tu.ac.th/academic.php">
-                                            <p class="s3-btn">CURRICULUM ></p>
+                                            <p class="s3-btn">CURRICULUM <i class="fa fa-angle-right s3-btn_arrow"></i></p>
                                         </a>
                                     </li>
                                 </ul>
@@ -135,7 +135,7 @@
                                     </li>
                                     <li>
                                         <a href="http://mim.tbs.tu.ac.th/faculty.php">
-                                            <p class="s3-btn">FACULTY ></p>
+                                            <p class="s3-btn">FACULTY <i class="fa fa-angle-right s3-btn_arrow"></i></p>
                                         </a>
                                     </li>
                                 </ul>
@@ -152,7 +152,7 @@
                                     </li>
                                     <li>
                                         <a href="http://mim.tbs.tu.ac.th/global_exposure.php">
-                                            <p class="s3-btn">GLOBAL EXPOSURE ></p>
+                                            <p class="s3-btn">GLOBAL EXPOSURE <i class="fa fa-angle-right s3-btn_arrow"></i></p>
                                         </a>
                                     </li>
                                 </ul>
@@ -182,7 +182,7 @@
                                                     <li>
                                                         <div style="position: absolute; left: 50%;">
                                                             <a href="http://mim.tbs.tu.ac.th/academic.php">
-                                                                <p class="s3-btn">CURRICULUM ></p>
+                                                                <p class="s3-btn">CURRICULUM <i class="fa fa-angle-right s3-btn_arrow"></i></p>
                                                             </a>
                                                         </div>
                                                     </li>
@@ -209,7 +209,7 @@
                                                     <li>
                                                         <div style="position: absolute; left: 50%;">
                                                             <a href="http://mim.tbs.tu.ac.th/faculty.php">
-                                                                <p class="s3-btn">FACULTY ></p>
+                                                                <p class="s3-btn">FACULTY <i class="fa fa-angle-right s3-btn_arrow"></i></p>
                                                             </a>
                                                         </div>
                                                     </li>
@@ -236,7 +236,7 @@
                                                     <li>
                                                         <div style="position: absolute; left: 50%;">
                                                             <a href="http://mim.tbs.tu.ac.th/global_exposure.php">
-                                                                <p class="s3-btn">GLOBAL EXPOSURE ></p>
+                                                                <p class="s3-btn">GLOBAL EXPOSURE <i class="fa fa-angle-right s3-btn_arrow"></i></p>
                                                             </a>
                                                         </div>
                                                     </li>
