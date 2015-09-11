@@ -700,7 +700,7 @@ section:nth-child(2) {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   section:nth-child(2) {
-    margin-top: -1em;
+    margin-top: -12em;
     -webkit-clip-path: none;
     clip-path: none;
   }
@@ -786,6 +786,11 @@ section:nth-child(5) {
     margin-top: 2%;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .hsContent {
+    margin-top: -1%;
+  }
+}
 
 /* ==========================================================================
       Slide
@@ -812,7 +817,7 @@ section:nth-child(5) {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   #slide-2 .slides-pagination {
-    bottom: 20%;
+    bottom: 10%;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -982,6 +987,11 @@ i {
     font-size: 25px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .fa {
+    font-size: 40px;
+  }
+}
 
 .box1 {
   position: absolute;
@@ -999,7 +1009,7 @@ i {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .box1 {
-    margin-top: 10em;
+    margin-top: 25em;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -1023,7 +1033,7 @@ i {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .box2 {
-    margin-top: 0%;
+    margin-top: 8%;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -1085,7 +1095,7 @@ i {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .s1-title {
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
 }
 
@@ -1104,7 +1114,7 @@ i {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .s1-info {
-    font-size: 1.5em;
+    font-size: 3.5em;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -1163,7 +1173,7 @@ i {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .s2_2 {
-    font-size: 2.5em;
+    font-size: 4.5em;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -1197,8 +1207,8 @@ i {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .s2-res_tab {
-    top: 70px;
-    font-size: 1em;
+    top: 4em;
+    font-size: 5em;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -1235,8 +1245,8 @@ i {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .s3-res_tab {
-    top: .8em;
-    font-size: 3em;
+    top: 1em;
+    font-size: 5em;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -1428,8 +1438,8 @@ i {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .s3-ico {
-    width: 8em;
-    height: 7em;
+    width: 20em;
+    height: 18em;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -1460,9 +1470,9 @@ i {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .s3-ico2 {
-    width: 8em;
-    height: 7em;
-    margin-top: 21%;
+    width: 22em;
+    height: 20em;
+    margin-top: 15%;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -1499,8 +1509,8 @@ i {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .s3-ico3 {
-    width: 10em;
-    height: 5em;
+    width: 29em;
+    height: 14em;
     margin-top: 15%;
   }
 }
@@ -1530,7 +1540,7 @@ i {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .s3-title {
-    font-size: 3.5em;
+    font-size: 5em;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -1559,7 +1569,7 @@ i {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .s3-info {
     margin-bottom: .7em;
-    font-size: .5em;
+    font-size: 2.5em;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -1575,7 +1585,7 @@ p.s3-btn {
   font-family: 'helv_c', 'Arial', 'Helvetica Neue';
   font-size: .45em;
   color: #fff;
-  padding: .6% 1% .51% 1%;
+  padding: .7% 1% .51% 1%;
   -webkit-border-radius: 5;
   -moz-border-radius: 5;
   border-radius: 5px;
@@ -1598,7 +1608,7 @@ p.s3-btn:active {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   p.s3-btn {
-    font-size: 1em;
+    font-size: 2em;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
@@ -2024,6 +2034,11 @@ p.s52-btn2:hover {
   .s5-footer {
     height: 450px;
     height: 35%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .s5-footer {
+    height: 30%;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {

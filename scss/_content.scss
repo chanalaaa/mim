@@ -74,7 +74,7 @@
          // clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
      }
      @media #{$md-2} {
-         margin-top: -1em;
+         margin-top: -12em;
          -webkit-clip-path: none;
          clip-path: none;
      }
@@ -171,6 +171,9 @@
          max-width: 80%;
          margin-top: 2%;
      }
+     @media #{$md-2} {
+         margin-top: -1%;
+     }
  }
  
  // End Content area ////////////////////////////////////
@@ -198,7 +201,7 @@
              bottom: 10vmax;
          }
          @media #{$md-2} {
-             bottom: 20%;
+             bottom: 10%;
              //bottom: 10vmax;
          }
          @media #{$sm} {
@@ -375,6 +378,9 @@
      @media #{$md} {
          font-size: 25px;
      }
+     @media #{$md-2} {
+         font-size: 40px;
+     }
  }
  
  // ========== End Silde Res =======================================
@@ -401,7 +407,7 @@
          width: 90%;
      }
      @media #{$md-2} {
-         margin-top: 10em;
+         margin-top: 25em;
          // width: 90%;
      }
      @media #{$sm} {
@@ -422,7 +428,7 @@
          width: 100%;
      }
      @media #{$md-2} {
-         margin-top: 0%;
+         margin-top: 8%;
      }
      @media #{$sm} {
          margin-top: 2%;
@@ -517,7 +523,7 @@
          font-size: 1.1em;
      }
      @media #{$md-2} {
-         font-size: 1.5em;
+         font-size: 2.5em;
      }
  }
  
@@ -533,7 +539,7 @@
          font-size: 4.6vmax;
      }
      @media #{$md-2} {
-         font-size: 1.5em;
+         font-size: 3.5em;
      }
      @media #{$sm} {
          font-size: 1.5em;
@@ -575,7 +581,7 @@
          margin-top: .5em;
      }
      @media #{$md-2} {
-         font-size: 2.5em;
+         font-size: 4.5em;
          //font-size: 5.5vmax;
      }
      @media #{$sm} {
@@ -601,9 +607,9 @@
          left: 0;
      }
      @media #{$md-2} {
-         top: 70px;
-         font-size: 1em;
-        // font-size: 7vmax;
+         top: 4em;
+         font-size: 5em;
+         // font-size: 7vmax;
      }
      @media #{$sm} {
          position: absolute;
@@ -630,9 +636,9 @@
          left: 0;
      }
      @media #{$md-2} {
-        top: .8em;
-         font-size: 3em;
-        // font-size: 7vmax;
+         top: 1em;
+         font-size: 5em;
+         // font-size: 7vmax;
      }
      @media #{$sm} {
          top: .8em;
@@ -745,8 +751,8 @@
          margin-top: 10%;
      }
      @media #{$md-2} {
-         width: 8em;
-         height: 7em;
+         width: 20em;
+         height: 18em;
      }
      @media #{$sm} {
          width: 8em;
@@ -764,10 +770,10 @@
          height: 20.5vmax;
          margin-top: 10%;
      }
-      @media #{$md-2} {
-         width: 8em;
-         height: 7em;
-         margin-top: 21%;
+     @media #{$md-2} {
+         width: 22em;
+         height: 20em;
+         margin-top: 15%;
      }
      @media #{$sm} {
          width: 8em;
@@ -789,9 +795,9 @@
          height: 11.5vmax;
          margin-top: 10%;
      }
-      @media #{$md-2} {
-         width: 10em;
-         height: 5em;
+     @media #{$md-2} {
+         width: 29em;
+         height: 14em;
          margin-top: 15%;
      }
      @media #{$sm} {
@@ -815,8 +821,8 @@
          margin: 4% 0px 2%;
      }
      @media #{$md-2} {
-         font-size: 3.5em;
-        // font-size: 5.5vmax;
+         font-size: 5em;
+         // font-size: 5.5vmax;
      }
      @media #{$sm} {
          font-size: 2em;
@@ -838,8 +844,8 @@
          text-align: center;
      }
      @media #{$md-2} {
-          margin-bottom: .7em;
-         font-size: .5em;
+         margin-bottom: .7em;
+         font-size: 2.5em;
          //font-size: 2.7vmax;
      }
      @media #{$sm} {
@@ -856,7 +862,7 @@
      font-size: .45em;
      color: #fff;
      //padding: 5px 7px;
-     padding: .6% 1% .51% 1%;
+     padding: .7% 1% .51% 1%;
      -webkit-border-radius: 5;
      -moz-border-radius: 5;
      border-radius: 5px;
@@ -876,7 +882,7 @@
          left: -50%;
      }
      @media #{$md-2} {
-         font-size: 1em;
+         font-size: 2em;
      }
      @media #{$sm} {
          font-size: 1em;
@@ -927,7 +933,7 @@
          // line-height: 5vmax;
          // font-size: 4.3vmax;
      }
-      @media #{$md-2} {
+     @media #{$md-2} {
          margin: 0em .7em;
          font-size: 1.6em;
          margin-top: .4em;
@@ -996,7 +1002,7 @@
          padding-right: 0;
      }
      @media #{$md-2} {
-        width: 19em;
+         width: 19em;
          height: 25em;
      }
      @media #{$sm} {
@@ -1288,6 +1294,9 @@
          height: 450px;
          height: 35%;
          //height: 80vmax;    height: 30%;
+     }
+     @media #{$md-2} {
+         height: 30%;
      }
      @media #{$sm} {
          height: 30%;
