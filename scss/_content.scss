@@ -12,10 +12,10 @@
          position: relative;
      }
      @media #{$sm} {
-         height: 260%;
+         height: 250%;
      }
      @media screen and (device-aspect-ratio: 40/71) {
-         height: 240%;
+         height: 230%;
      }
  }
  
@@ -131,6 +131,7 @@
          // -webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
          // clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
      }
+
  }
  
  section:nth-child(5) {
@@ -205,7 +206,7 @@
              //bottom: 10vmax;
          }
          @media #{$sm} {
-             bottom: 20%;
+             bottom: 15%;
              //bottom: 10vmax;
          }
      }
@@ -431,7 +432,7 @@
          margin-top: 8%;
      }
      @media #{$sm} {
-         margin-top: 2%;
+         margin-top: 8%;
      }
  }
  
@@ -525,6 +526,9 @@
      @media #{$md-2} {
          font-size: 2.5em;
      }
+     @media #{$sm} {
+         font-size: 1.2em;
+     }
  }
  
  .s1-info {
@@ -542,7 +546,7 @@
          font-size: 3.5em;
      }
      @media #{$sm} {
-         font-size: 1.5em;
+         font-size: 1.7em;
      }
  }
  
@@ -585,7 +589,7 @@
          //font-size: 5.5vmax;
      }
      @media #{$sm} {
-         font-size: 2em;
+         font-size: 3em;
      }
  }
  
@@ -614,7 +618,7 @@
      @media #{$sm} {
          position: absolute;
          top: 70px;
-         font-size: 2.5em;
+         font-size: 3em;
      }
  }
  
@@ -642,7 +646,7 @@
      }
      @media #{$sm} {
          top: .8em;
-         font-size: 2.5em;
+         font-size: 3em;
      }
  }
  
@@ -681,7 +685,7 @@
      }
      @media #{$sm} {
          top: .5em;
-         font-size: 2.5em;
+         font-size: 3.5em;
      }
  }
  
@@ -758,8 +762,8 @@
          height: 18em;
      }
      @media #{$sm} {
-         width: 8em;
-         height: 7em;
+         width: 10em;
+         height: 9em;
      }
  }
  
@@ -779,8 +783,8 @@
          margin-top: 15%;
      }
      @media #{$sm} {
-         width: 8em;
-         height: 7em;
+         width: 10em;
+         height: 9.2em;
          margin-top: 21%;
      }
  }
@@ -804,8 +808,8 @@
          margin-top: 15%;
      }
      @media #{$sm} {
-         width: 10em;
-         height: 5em;
+         width: 12em;
+         height: 7em;
          margin-top: 15%;
      }
  }
@@ -828,7 +832,7 @@
          // font-size: 5.5vmax;
      }
      @media #{$sm} {
-         font-size: 2em;
+         font-size: 2.5em;
      }
  }
  
@@ -853,7 +857,7 @@
      }
      @media #{$sm} {
          margin-bottom: .7em;
-         font-size: 1em;
+         font-size: 1.5em;
      }
  }
  
@@ -889,7 +893,7 @@
      }
      @media #{$sm} {
          padding: 3px;
-         font-size: 1em;
+         font-size: 1.3em;
      }
  }
  
@@ -918,8 +922,8 @@
          top: 7em;
      }
      @media #{$sm} {
-         font-size: 1.9em;
-         top: 2.9em;
+         font-size: 2.5em;
+         top: 3em;
      }
  }
  
@@ -945,8 +949,8 @@
      }
      @media #{$sm} {
          margin: 0em .7em;
-         font-size: 1.6em;
-         margin-top: .4em;
+         font-size: 2em;
+         margin-top: 1.4em;
          line-height: 1.1em;
      }
  }
