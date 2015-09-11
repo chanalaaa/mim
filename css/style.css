@@ -783,7 +783,7 @@ section:nth-child(5) {
   .hsContent {
     position: absolute;
     max-width: 80%;
-    margin-top: 2%;
+    margin-top: 4%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -1048,7 +1048,7 @@ i {
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .box2 {
-    margin-top: 5%;
+    margin-top: 2%;
   }
 }
 
@@ -1134,7 +1134,7 @@ i {
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .s1-info {
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
 }
 
@@ -1267,7 +1267,7 @@ i {
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .s3-res_tab {
     top: .8em;
-    font-size: 3em;
+    font-size: 2.8em;
   }
 }
 
@@ -1771,8 +1771,8 @@ p.s3-btn:active {
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .s5-left_img {
-    width: 19em;
-    height: 25em;
+    width: 18em;
+    height: 23em;
   }
 }
 
