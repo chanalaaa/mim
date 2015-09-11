@@ -140,7 +140,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="box2 s2_5" data-387p="transform:translate(0%,8%);opacity:0;visibility: hidden;" data-400p="transform:translate(0%,-20%);opacity:1;visibility: visible;pointer-events:visible;" data-400p="transform:translate(0%,-20%);opacity:1;" data-475p="transform:translate(0%,-60%);opacity:0;visibility: hidden;pointer-events:none;">
+                            <div class="box2 s2_5" data-348p="visibility: hidden;" data-387p="transform:translate(0%,8%);opacity:0;" data-400p="transform:translate(0%,-20%);opacity:1;visibility: visible;pointer-events:visible;" data-400p="transform:translate(0%,-20%);opacity:1;" data-475p="transform:translate(0%,-60%);opacity:0;visibility: hidden;pointer-events:none;">
                                 <ul>
                                     <li><img class="s3-ico3" src="images/content/s3/s33.png" alt=""></li>
                                     <li>
