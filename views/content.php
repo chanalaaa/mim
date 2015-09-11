@@ -420,6 +420,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- 
                     <div class="s5-pre_footer">
                         <div class="table">
                             <ul>
@@ -431,6 +432,25 @@
                                 </li>
                                 <li>MORE</li>
                             </ul>
+                        </div>
+                    </div>-->
+                    <div class="s5-pre_footer">
+                        <div class="table">
+                            <a href="http://mim.tbs.tu.ac.th">
+                                <ul>
+                                    <li>
+                                        <div>
+                                            <img src="images/content/s5/s5-ico_dome2.png" alt="dome">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        GO TO MIM HOME PAGE </i>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-chevron-right"></i>
+                                    </li>
+                                </ul>
+                            </a>
                         </div>
                     </div>
                     <div class="s5-footer" data-center="opacity: 1">
