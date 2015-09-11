@@ -73,6 +73,11 @@
          //-webkit-clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
          // clip-path: polygon(100% 10%, 100% 100%, 50% 100%, 0 100%, 0 0);
      }
+     @media #{$md-2} {
+         margin-top: -1em;
+         -webkit-clip-path: none;
+         clip-path: none;
+     }
      @media #{$sm} {
          margin-top: -1em;
          -webkit-clip-path: none;
@@ -191,6 +196,10 @@
          @media #{$md} {
              bottom: 15%;
              bottom: 10vmax;
+         }
+         @media #{$md-2} {
+             bottom: 20%;
+             //bottom: 10vmax;
          }
          @media #{$sm} {
              bottom: 20%;
@@ -392,7 +401,7 @@
          width: 90%;
      }
      @media #{$md-2} {
-         margin-top: 22vmax;
+         margin-top: 10em;
          // width: 90%;
      }
      @media #{$sm} {
@@ -433,7 +442,7 @@
          margin-top: 43vmax;
      }
      @media #{$md-2} {
-         margin-top: 32vmax;
+         margin-top: 12em;
          // width: 90%;
      }
      @media #{$sm} {
@@ -523,6 +532,9 @@
          //font-size: 1.6em;
          font-size: 4.6vmax;
      }
+     @media #{$md-2} {
+         font-size: 1.5em;
+     }
      @media #{$sm} {
          font-size: 1.5em;
      }
@@ -564,7 +576,7 @@
      }
      @media #{$md-2} {
          font-size: 2.5em;
-         font-size: 5.5vmax;
+         //font-size: 5.5vmax;
      }
      @media #{$sm} {
          font-size: 2em;
@@ -589,9 +601,9 @@
          left: 0;
      }
      @media #{$md-2} {
-         top: 22vmax;
-         font-size: 3em;
-         font-size: 7vmax;
+         top: 70px;
+         font-size: 1em;
+        // font-size: 7vmax;
      }
      @media #{$sm} {
          position: absolute;
@@ -618,9 +630,9 @@
          left: 0;
      }
      @media #{$md-2} {
-         top: 5.5vmax;
+        top: .8em;
          font-size: 3em;
-         font-size: 7vmax;
+        // font-size: 7vmax;
      }
      @media #{$sm} {
          top: .8em;
@@ -656,6 +668,10 @@
          top: 10vmax;
          left: 0;
          text-align: right;
+     }
+     @media #{$md-2} {
+         top: .5em;
+         font-size: 2.5em;
      }
      @media #{$sm} {
          top: .5em;
@@ -728,6 +744,10 @@
          height: 19vmax;
          margin-top: 10%;
      }
+     @media #{$md-2} {
+         width: 8em;
+         height: 7em;
+     }
      @media #{$sm} {
          width: 8em;
          height: 7em;
@@ -743,6 +763,11 @@
          height: 123px;
          height: 20.5vmax;
          margin-top: 10%;
+     }
+      @media #{$md-2} {
+         width: 8em;
+         height: 7em;
+         margin-top: 21%;
      }
      @media #{$sm} {
          width: 8em;
@@ -763,6 +788,11 @@
          height: 76px;
          height: 11.5vmax;
          margin-top: 10%;
+     }
+      @media #{$md-2} {
+         width: 10em;
+         height: 5em;
+         margin-top: 15%;
      }
      @media #{$sm} {
          width: 10em;
@@ -786,7 +816,7 @@
      }
      @media #{$md-2} {
          font-size: 3.5em;
-         font-size: 5.5vmax;
+        // font-size: 5.5vmax;
      }
      @media #{$sm} {
          font-size: 2em;
@@ -808,9 +838,9 @@
          text-align: center;
      }
      @media #{$md-2} {
-         margin-bottom: 3.5vmax;
+          margin-bottom: .7em;
          font-size: .5em;
-         font-size: 2.7vmax;
+         //font-size: 2.7vmax;
      }
      @media #{$sm} {
          margin-bottom: .7em;
@@ -845,6 +875,9 @@
          position: relative;
          left: -50%;
      }
+     @media #{$md-2} {
+         font-size: 1em;
+     }
      @media #{$sm} {
          font-size: 1em;
      }
@@ -870,6 +903,10 @@
          top: 25vmax;
          left: 0;
      }
+     @media #{$md-2} {
+         font-size: 1.9em;
+         top: 2.9em;
+     }
      @media #{$sm} {
          font-size: 1.9em;
          top: 2.9em;
@@ -889,6 +926,12 @@
          font-size: 4.2vmax;
          // line-height: 5vmax;
          // font-size: 4.3vmax;
+     }
+      @media #{$md-2} {
+         margin: 0em .7em;
+         font-size: 1.6em;
+         margin-top: .4em;
+         line-height: 1.1em;
      }
      @media #{$sm} {
          margin: 0em .7em;
@@ -953,8 +996,8 @@
          padding-right: 0;
      }
      @media #{$md-2} {
-         width: 45vmax;
-         height: 55vmax;
+        width: 19em;
+         height: 25em;
      }
      @media #{$sm} {
          width: 19em;
@@ -1011,6 +1054,10 @@
              font-size: 2em;
              font-size: 6.5vmax;
              line-height: .9em;
+         }
+         @media #{$md-2} {
+             //font-size: 2.1em;
+             font-size: 2em;
          }
          @media #{$sm} {
              //font-size: 2.1em;
@@ -1094,6 +1141,10 @@
          width: 9em;
          font-size: 2.2vmax;
      }
+     @media #{$md-2} {
+         //font-size: 1em;
+         font-size: .8em;
+     }
      @media #{$sm} {
          //font-size: 1em;
          font-size: .8em;
@@ -1123,6 +1174,10 @@
      @media #{$md} {
          // font-size: 1em;
          font-size: 2.2vmax;
+     }
+     @media #{$md-2} {
+         //font-size: 1em;
+         font-size: .8em;
      }
      @media #{$sm} {
          //font-size: 1em;
@@ -1159,6 +1214,10 @@
          //top: 5%;
          // top: 15vmax;
          //float: left;
+     }
+     @media #{$md-2} {
+         margin: 0 auto;
+         bottom: 30%;
      }
      @media #{$sm} {
          margin: 0 auto;

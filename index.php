@@ -4,7 +4,7 @@ ob_start('ob_gzhandler');
     <html>
 
     <head>
-        <title>MIM (demo)</title>
+        <title>MIM ADMISSTION</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <script type="text/javascript" src="js/min/jquery-1.11.3.min.js?v=1001"></script>
@@ -35,7 +35,7 @@ ob_start('ob_gzhandler');
         </script>
         <link rel="stylesheet" href="css/font-awesome.min.css?v=1001">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-        <link rel="stylesheet" href="css/style.min.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
