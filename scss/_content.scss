@@ -735,6 +735,9 @@
      @media #{$md} {
          padding-left: 5px;
      }
+     @media #{$md-2} {
+         font-size: 30px;
+     }
  }
  
  .s3-ico {
@@ -875,7 +878,7 @@
          opacity: .7;
      }
      @media #{$md} {
-         padding: 3px;
+         padding: 6px 6px 3px 6px;
          //font-size: 1.5em;
          font-size: 3vmax;
          position: relative;
@@ -885,6 +888,7 @@
          font-size: 2em;
      }
      @media #{$sm} {
+         padding: 3px;
          font-size: 1em;
      }
  }
@@ -1312,6 +1316,9 @@
          margin-top: 2em;
          width: 90%;
      }
+     @media #{$md-2} {
+         width: 48%;
+     }
  }
  
  .s5-foot_ul {
@@ -1321,7 +1328,7 @@
      margin-left: 85px;
      color: #B2B2B2;
      @media #{$md-2} {
-         text-align: center;
+         text-align: left;
      }
      li {
          display: inline-block;

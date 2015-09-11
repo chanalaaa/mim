@@ -318,7 +318,7 @@
                             </div>
                             <ul class="slides-container">
                                 <li>
-                                    <div style="background: url(images/content/s4/bg/bg1.jpg) no-repeat "></div>
+                                    <div style="background: url(images/content/s4/bg/res/bg1.jpg) no-repeat "></div>
                                     <div class="container">
                                         <div class="box3">
                                             <ul>
@@ -332,7 +332,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div style="background: url(images/content/s4/bg/bg2.jpg) no-repeat "></div>
+                                    <div style="background: url(images/content/s4/bg/res/bg2.jpg) no-repeat "></div>
                                     <div class="container">
                                         <div class="box3">
                                             <ul>
@@ -346,7 +346,7 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <div style="background: url(images/content/s4/bg/bg3.jpg) no-repeat "></div>
+                                    <div style="background: url(images/content/s4/bg/res/bg3.jpg) no-repeat "></div>
                                     <div class="container">
                                         <div class="box3">
                                             <ul>

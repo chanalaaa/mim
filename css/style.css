@@ -1411,6 +1411,11 @@ i {
     padding-left: 5px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .s3-btn_arrow {
+    font-size: 30px;
+  }
+}
 
 .s3-ico {
   width: 198px;
@@ -1600,7 +1605,7 @@ p.s3-btn:active {
 }
 @media screen and (max-width: 768px) {
   p.s3-btn {
-    padding: 3px;
+    padding: 6px 6px 3px 6px;
     font-size: 3vmax;
     position: relative;
     left: -50%;
@@ -1613,6 +1618,7 @@ p.s3-btn:active {
 }
 @media screen and (min-width: 320px) and (max-width: 374px) {
   p.s3-btn {
+    padding: 3px;
     font-size: 1em;
   }
 }
@@ -2058,6 +2064,11 @@ p.s52-btn2:hover {
     width: 90%;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .s5-foot_info {
+    width: 48%;
+  }
+}
 
 .s5-foot_ul {
   width: 100%;
@@ -2068,7 +2079,7 @@ p.s52-btn2:hover {
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .s5-foot_ul {
-    text-align: center;
+    text-align: left;
   }
 }
 .s5-foot_ul li {
